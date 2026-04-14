@@ -66,5 +66,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_7_Fruchtwechsel|GLÖZ 7 Fruchtwechsel]]: Mais-Mischkultur zählt als Hauptkultur Mais (Änderung 2026)
 - [[GAB_7_8_Pflanzenschutz|GAB 7/8 Pflanzenschutz]]: Gemengepartner können PSM-Bedarf reduzieren
 
+## Antragstellung
+
+→ [[Antragstellung_Ackerbau|Checkliste & Praxishinweise Ackerbau]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

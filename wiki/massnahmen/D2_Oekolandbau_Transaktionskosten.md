@@ -44,5 +44,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 
 - [[Konditionalitaet|Konditionalität]]: Administrativer Ausgleich – keine direkten GLÖZ/GAB-Bezüge; allgemeine Konditionalität gilt
 
+## Antragstellung
+
+→ [[Antragstellung_Oekolandbau|Checkliste & Praxishinweise Ökolandbau]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

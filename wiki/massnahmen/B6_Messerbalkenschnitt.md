@@ -61,5 +61,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 
 - [[GLOEZ_1_Dauergruenland|GLÖZ 1 Dauergrünland]]: Begleitmaßnahme zu GL-Maßnahmen auf Dauergrünland
 
+## Antragstellung
+
+→ [[Antragstellung_Gruenland|Checkliste & Praxishinweise Grünland]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

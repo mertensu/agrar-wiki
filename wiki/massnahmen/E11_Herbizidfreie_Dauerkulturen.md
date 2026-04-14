@@ -61,5 +61,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GAB_7_8_Pflanzenschutz|GAB 7/8 Pflanzenschutz]]: Herbizidfreie Bewirtschaftung in Dauerkulturen geht über GAB 7/8 hinaus
 - [[GLOEZ_5_Erosionsschutz|GLÖZ 5 Erosionsschutz]]: Mechanische Beikrautregulierung statt Herbizid beeinflusst Erosionsschutz in Dauerkulturen
 
+## Antragstellung
+
+→ [[Antragstellung_Sonderkulturen|Checkliste & Praxishinweise Sonderkulturen]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

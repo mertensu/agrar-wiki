@@ -88,5 +88,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_8_Landschaftselemente|GLÖZ 8 Landschaftselemente]]: Streuobstbäume können als Landschaftselemente unter GLÖZ-8-Schutz stehen
 - [[GAB_3_4_Naturschutz|GAB 3/4 Naturschutz]]: Streuobstwiesen als Vogelhabitat – Bewirtschaftung geht über Erhaltungspflicht hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Betriebsbezogen|Checkliste & Praxishinweise Betriebsbezogen]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

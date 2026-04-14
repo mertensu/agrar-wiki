@@ -68,5 +68,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GAB_2_Nitratrichtlinie|GAB 2 Nitratrichtlinie]]: Verzicht auf mineralischen N-Dünger geht über GAB-2-Obergrenzen hinaus
 - [[GAB_7_8_Pflanzenschutz|GAB 7/8 Pflanzenschutz]]: Vollständiger PSM-Verzicht geht deutlich über GAB 7/8 hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Gruenland|Checkliste & Praxishinweise Grünland]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

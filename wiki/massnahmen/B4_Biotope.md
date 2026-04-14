@@ -72,5 +72,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_1_Dauergruenland|GLÖZ 1 Dauergrünland]]: § 30-Biotope sind häufig Dauergrünland
 - [[GAB_3_4_Naturschutz|GAB 3/4 Naturschutz]]: Extensive Nutzung geschützter Biotope geht über das Verschlechterungsverbot hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Gruenland|Checkliste & Praxishinweise Grünland]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

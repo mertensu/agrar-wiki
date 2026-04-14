@@ -74,7 +74,13 @@ type: index
 ## Antragstellung
 
 - [[FAKT_Codes|FAKT II – Maßnahmen und FAKT-Codes 2026]]
+- [[Antragstellung_Ackerbau|Antragstellung Ackerbau (E1.2, E3, E9, E10, E12, E13, F3, F4)]]
+- [[Antragstellung_Bluehflaechen|Antragstellung Blühflächen & Biomasse (E7, E8, E14, E15)]]
 - [[Antragstellung_Tierwohl|Antragstellung Tierwohl (G-Maßnahmen) – FAQ & Fallstricke]]
+- [[Antragstellung_Gruenland|Antragstellung Grünland (B1.2, B3.2, B4, B5, B6, B7)]]
+- [[Antragstellung_Oekolandbau|Antragstellung Ökolandbau (D2)]]
+- [[Antragstellung_Betriebsbezogen|Antragstellung Betriebsbezogen (A2, A3, C1, C2, C3)]]
+- [[Antragstellung_Sonderkulturen|Antragstellung Sonderkulturen & Biologischer Pflanzenschutz (E4, E5, E6, E11)]]
 
 ## Strategien
 
@@ -115,4 +121,5 @@ type: index
 
 ---
 *Letzte Aktualisierung: 2026-04-14*
+
 

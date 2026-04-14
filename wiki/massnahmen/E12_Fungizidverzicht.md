@@ -69,5 +69,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 
 - [[GAB_7_8_Pflanzenschutz|GAB 7/8 Pflanzenschutz]]: Fungizidverzicht im Getreide geht über GAB-7/8-Grundregeln hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Ackerbau|Checkliste & Praxishinweise Ackerbau]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

@@ -1,5 +1,82 @@
 # Wiki-Log
 
+## [2026-04-14] erstellt | Restliche Antragstellung-Seiten (Plan B, Schritt 7)
+
+**Quelle:** Bestehende Wiki-Seiten (keine neuen Quellen)
+
+**Was & Warum:**
+4 neue Antragstellung-Seiten aus vorhandenem Wiki-Material erstellt. Damit hat jede Maßnahme eine Antragstellung-Seite mit Checkliste und häufigen Fehlern.
+
+**Neue Dateien:**
+- `wiki/Antragstellung/Antragstellung_Gruenland.md` – betrifft B1.2, B3.2, B4, B5, B6, B7
+- `wiki/Antragstellung/Antragstellung_Oekolandbau.md` – betrifft D2 (Einführung, Beibehaltung, Transaktionskosten)
+- `wiki/Antragstellung/Antragstellung_Betriebsbezogen.md` – betrifft A2, A3, C1, C2, C3
+- `wiki/Antragstellung/Antragstellung_Sonderkulturen.md` – betrifft E4, E5, E6, E11
+
+**Verlinkte Maßnahmen-Seiten (18 Stück):**
+B1.2, B3.2, B4, B5, B6, B7 → Antragstellung_Gruenland
+A2, A3, C1, C2, C3 → Antragstellung_Betriebsbezogen
+D2 Beibehaltung, D2 Einführung, D2 Transaktionskosten → Antragstellung_Oekolandbau
+E4, E5, E6, E11 → Antragstellung_Sonderkulturen
+
+**index.md** um 4 Einträge erweitert.
+
+## [2026-04-14] scope-check | LPR-Broschüre (Plan B, Schritt 6)
+
+**Quelle:** `downloads/formulare_2026/Broschüre_LPR-Grünlandmaßnahmen_in_Kombination_mit_Öko-Regelungen.pdf` (7 S., Umweltministerium BW, Stand 12/2025)
+
+**Entscheidung: Nicht in Scope.** LPR ist ein eigenständiges Förderprogramm (Vertragsnaturschutz). Einzige FAKT-II-relevante Info: LPR Teil A und FAKT II sind auf derselben Fläche nicht kombinierbar (Ausnahme G1). Dieser Hinweis wurde in `wiki/Konzepte/Oeko-Regelungen.md` ergänzt. Die LPR-spezifischen Leistungssätze und Beispielrechnungen gehören nicht ins FAKT-II-Wiki.
+
+## [2026-04-14] ingest | ÖR-Ergänzungen (Plan B, Schritt 5)
+
+**Quelle:** `downloads/formulare_2026/Ergänzende_Informationen_zu_ÖR1b_ÖR1c_ÖR2_und_ÖR5.pdf` (15 S., MLR BW, Stand 12.03.2026)
+
+**Was & Warum:**
+Oeko-Regelungen.md von reiner Übersichtstabelle zu detaillierter Konzeptseite erweitert. Die Quelle enthält konkrete Umsetzungsregeln, die für FAKT-II-Antragsteller relevant sind (Hauptfruchtarten-Gruppierung bei ÖR 2, Kennartenliste bei ÖR 5, Artenlisten für Blühmischungen bei ÖR 1b/1c).
+
+**Änderungen mit Quellennachweis:**
+
+*Oeko-Regelungen.md – erweitert:*
+- ÖR 1b/1c: Artenlisten-Zusammenfassung Gruppe A (einjährig, mind. 10 Arten) und Gruppe B (mehrjährig, mind. 5+5 Arten), Hinweis auf Streichungen ab 2026 (Quelle: Kap. 3, S. 10–15)
+- ÖR 2: Hauptfruchtarten-Zusammenfassungen (Weizen, Mais, Kartoffeln etc.), 40%-beetweiser-Anbau-Variante seit 2025, Leguminosen-/Getreideanteil-Regeln, Bracheflächen-Ausschluss (Quelle: Kap. 1, S. 1–6)
+- ÖR 4: Kombinations-Abzüge mit D2 ergänzt
+- ÖR 5: Vollständige Kennartenliste (33 Einträge), Dokumentationspflicht via profil(bw)-App mit Flora Incognita, Querverweis zu B3.2 (Quelle: Kap. 2, S. 7–9)
+
+## [2026-04-14] ingest | Ackerbau-Empfehlungen + E8 Merkblatt (Plan B, Schritt 4)
+
+**Quellen:**
+- `downloads/formulare_2026/Empfehlungen_für_ackerbauliche_FAKT_II-Maßnahmen_E1.2_E7-E9_E13_E14_E15_F3_F4.pdf` (48 S., LTZ Augustenberg 03/2026) – Praxishandreichung mit Umsetzungstipps
+- `downloads/formulare_2026/Merkblatt_Pflege_mehrjähriger_Blühmischungen_E8.pdf` (3 S., LTZ Augustenberg) – Pflegehinweise bei Problemvegetation
+
+**Was & Warum:**
+Zwei neue Antragstellung-Seiten erstellt, die thematisch verwandte Ackerbau- bzw. Blühflächen-Maßnahmen bündeln. Praxishinweise aus LTZ-Quelle eingearbeitet, da sie für Antragssteller beratungsrelevant sind (Mischungswahl, Fristen, häufige Fehler). Detaillierte Mischungstabellen (Anhang) bewusst nicht 1:1 übernommen – Verweis auf Originalquelle.
+
+**Änderungen mit Quellennachweis:**
+
+*Antragstellung_Ackerbau.md (neu):*
+- Checklisten + Praxistipps für E1.2, E3, E9, E10, E12, E13.1, E13.2, F3, F4
+- E1.2: Neue Nachweispflicht ab Verschlussdatum 1.1.2027 (Quelle: Empfehlungen Kap. 2.2–2.3, S. 6–8)
+- E9: Mischungsverhältnis 60–67 % Mais / 33–40 % Bohne; PSM nur Vorauflauf (Quelle: Empfehlungen Kap. 4, S. 16–17)
+- E13.2: Seit 2025 einheitliche Untersaat-Mischung (Quelle: Empfehlungen Kap. 5.2, Tab. 4, S. 19)
+- F3: Förderfähige Verfahren (Satellit, Drohne, Sensor, Ertragskarten); mind. 60 % N teilflächenspezifisch (Quelle: Empfehlungen Kap. 7, S. 24–27)
+
+*Antragstellung_Bluehflaechen.md (neu):*
+- Checklisten + Praxistipps für E7, E8, E14, E15
+- E7: Mischung M3+ Detailinfos (30+ Arten), Öko-Betriebe dürfen 5 Arten weglassen (Quelle: Empfehlungen Kap. 3.2, Tab. 3, S. 11–12)
+- E8: 7 zugelassene Mischungen mit regionaler Zertifizierung (VWW/RegioZert); Öko-Sonderregel 40/60-Mischung (Quelle: Empfehlungen Kap. 3.3, S. 13–15)
+- E8 Pflege: Konkrete Maßnahmen bei Verunkrautung/Vergrasung/Disteln; max. 50 % gleichzeitig; Mulchen nie geeignet (Quelle: Merkblatt E8, S. 1–3)
+- E14/E15: 7+ zugelassene Biomasse-Mischungen; Hanf-BLE-Regelung (Quelle: Empfehlungen Kap. 6, S. 21–23)
+
+*13 Maßnahmen-Seiten – `## Antragstellung`-Links:*
+- E1.2, E3, E9, E10, E12, E13.1, E13.2, F3, F4 → [[Antragstellung_Ackerbau]]
+- E7, E8, E14, E15 → [[Antragstellung_Bluehflaechen]]
+
+**Strukturelle Änderungen:**
+- `wiki/Antragstellung/Antragstellung_Ackerbau.md` neu
+- `wiki/Antragstellung/Antragstellung_Bluehflaechen.md` neu
+- `scripts/split_empfehlungen_ackerbau.sh` neu – Split-Skript für 48-S.-PDF (8 Teile in `downloads/formulare_2026/splits/`)
+- `wiki/index.md` – Antragstellung-Sektion um 2 Einträge ergänzt
+
 ## [2026-04-14] scope-update + ingest | Antragstellung: FAKT-Codes + G-FAQ
 
 **Quellen:**

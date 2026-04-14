@@ -57,5 +57,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 
 - [[GAB_7_8_Pflanzenschutz|GAB 7/8 Pflanzenschutz]]: Pheromonfallen statt Insektizide im Obstbau – geht über GAB 7/8 hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Sonderkulturen|Checkliste & Praxishinweise Sonderkulturen]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

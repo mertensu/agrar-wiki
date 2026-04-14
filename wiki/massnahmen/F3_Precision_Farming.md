@@ -76,5 +76,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GAB_1_Wasserrahmenrichtlinie|GAB 1 Wasserrahmenrichtlinie]]: Teilflächenspezifische Düngung reduziert P-Überschüsse über GAB-1-Vorgaben hinaus
 - [[GAB_2_Nitratrichtlinie|GAB 2 Nitratrichtlinie]]: Teilflächenspezifische N-Düngung reduziert Auswaschung über GAB-2-Vorgaben hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Ackerbau|Checkliste & Praxishinweise Ackerbau]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

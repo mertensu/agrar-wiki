@@ -58,5 +58,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_5_Erosionsschutz|GLÖZ 5 Erosionsschutz]]: Steillagen sind erosionsgefährdet – Bewirtschaftung sichert Erosionsschutz
 - [[GAB_7_8_Pflanzenschutz|GAB 7/8 Pflanzenschutz]]: Baseline: zugelassene PSM regelkonform anwenden
 
+## Antragstellung
+
+→ [[Antragstellung_Betriebsbezogen|Checkliste & Praxishinweise Betriebsbezogen]]
+
 ---
 *Quellen: FAKT II-Broschüre Baden-Württemberg (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (Stand Februar 2026)*

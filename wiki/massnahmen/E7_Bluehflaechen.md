@@ -73,5 +73,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_8_Landschaftselemente|GLÖZ 8 Landschaftselemente]]: Blühflächen schaffen zusätzliche Habitatstrukturen über GLÖZ 8 hinaus
 - [[GAB_3_4_Naturschutz|GAB 3/4 Naturschutz]]: Brut- und Rückzugsflächen für Vogelarten
 
+## Antragstellung
+
+→ [[Antragstellung_Bluehflaechen|Checkliste & Praxishinweise Blühflächen]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

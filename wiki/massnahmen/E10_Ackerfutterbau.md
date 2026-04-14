@@ -74,5 +74,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_7_Fruchtwechsel|GLÖZ 7 Fruchtwechsel]]: Mehrjähriger Ackerfutterbau beeinflusst Fruchtfolgegestaltung
 - [[GAB_2_Nitratrichtlinie|GAB 2 Nitratrichtlinie]]: Leguminosenbetont – reduziert mineralische N-Düngung über GAB-2-Anforderungen hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Ackerbau|Checkliste & Praxishinweise Ackerbau]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

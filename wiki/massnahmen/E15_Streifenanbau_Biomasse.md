@@ -73,5 +73,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_6_Bodenbedeckung|GLÖZ 6 Bodenbedeckung]]: Streifenanbau mit Dauerkulturen übertrifft GLÖZ-6-Bodenbedeckung
 - [[GLOEZ_8_Landschaftselemente|GLÖZ 8 Landschaftselemente]]: Streifen als Strukturelemente in der Landschaft
 
+## Antragstellung
+
+→ [[Antragstellung_Bluehflaechen|Checkliste & Praxishinweise Blühflächen]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

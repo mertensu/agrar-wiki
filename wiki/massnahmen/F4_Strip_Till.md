@@ -68,5 +68,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_5_Erosionsschutz|GLÖZ 5 Erosionsschutz]]: Strip Till als erosionsminderndes Verfahren über GLÖZ-5-Mindestpraktiken hinaus
 - [[GLOEZ_6_Bodenbedeckung|GLÖZ 6 Bodenbedeckung]]: Reduzierte Bodenbearbeitung erhält Bodenbedeckung
 
+## Antragstellung
+
+→ [[Antragstellung_Ackerbau|Checkliste & Praxishinweise Ackerbau]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

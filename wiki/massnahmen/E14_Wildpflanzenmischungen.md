@@ -74,5 +74,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_6_Bodenbedeckung|GLÖZ 6 Bodenbedeckung]]: Mehrjährige Wildpflanzenmischungen übertreffen GLÖZ-6-Mindestbodenbedeckung
 - [[GLOEZ_8_Landschaftselemente|GLÖZ 8 Landschaftselemente]]: Dauerhafte Strukturen über GLÖZ-8-Mindestschutz hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Bluehflaechen|Checkliste & Praxishinweise Blühflächen]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

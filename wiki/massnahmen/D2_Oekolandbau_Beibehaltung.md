@@ -98,5 +98,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GAB_2_Nitratrichtlinie|GAB 2 Nitratrichtlinie]]: Öko-Düngungsbeschränkungen gehen über GAB 2 hinaus
 - [[GAB_7_8_Pflanzenschutz|GAB 7/8 Pflanzenschutz]]: Grundsätzlicher Verzicht auf chem.-synth. PSM geht weit über GAB 7/8 hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Oekolandbau|Checkliste & Praxishinweise Ökolandbau]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

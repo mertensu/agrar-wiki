@@ -70,5 +70,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_9_Natura2000_Dauergruenland|GLÖZ 9 Natura 2000 DGL]]: FFH-Mähwiesen in Natura-2000-Gebieten unterliegen GLÖZ 9
 - [[GAB_3_4_Naturschutz|GAB 3/4 Naturschutz]]: Extensive Nutzung geht über das FFH-Verschlechterungsverbot hinaus
 
+## Antragstellung
+
+→ [[Antragstellung_Gruenland|Checkliste & Praxishinweise Grünland]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

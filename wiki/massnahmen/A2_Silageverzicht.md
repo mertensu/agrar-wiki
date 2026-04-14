@@ -70,5 +70,9 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_1_Dauergruenland|GLÖZ 1 Dauergrünland]]: Silageverzicht setzt Grünlandbewirtschaftung voraus – GLÖZ 1 sichert Erhalt des DGL
 - [[GAB_5_Lebensmittelsicherheit|GAB 5 Lebensmittelsicherheit]]: Heumilch-Erzeugung unterliegt denselben Hygieneanforderungen
 
+## Antragstellung
+
+→ [[Antragstellung_Betriebsbezogen|Checkliste & Praxishinweise Betriebsbezogen]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*
