@@ -48,6 +48,12 @@ Die Konditionalität umfasst zwei Säulen:
 | GAB 10 | Schutz von Schweinen | [[GAB_9_10_11_Tierschutz]] |
 | GAB 11 | Schutz landwirtschaftlicher Nutztiere | [[GAB_9_10_11_Tierschutz]] |
 
+### 3. Soziale Konditionalität
+
+Seit 2025 sind auch arbeitsrechtliche Verpflichtungen Teil der Konditionalität. Betriebe mit Arbeitnehmern müssen Vorschriften zu Arbeitsverträgen, Arbeitsschutz und Arbeitsmittelsicherheit einhalten. Verstöße führen zu **zusätzlichen** Kürzungen neben den GLÖZ/GAB-Sanktionen. Details siehe [[Soziale_Konditionalitaet]].
+
+(Quelle: Soz_Kond_Infobroschuere_2026.pdf, S. 1, 3)
+
 ## Gesamtbetrieblicher Ansatz
 
 Die Konditionalität gilt gesamtbetrieblich: Wer relevante Zahlungen erhält, muss in **allen** Produktionsbereichen (Ackerbau, Viehhaltung, Gewächshäuser, Sonderkulturen) und allen Betriebsstätten die Verpflichtungen einhalten – unabhängig davon, welche Flächen oder Betriebszweige bei der Berechnung der Zahlungen berücksichtigt wurden. (Quelle: Kond_Infobroschuere_2026.pdf, S. 4)

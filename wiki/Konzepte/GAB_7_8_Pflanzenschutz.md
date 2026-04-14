@@ -59,20 +59,46 @@ Bienengefährliche PSM: Behandlung im Umkreis von **60 m** zu Bienenständen nur
 
 ## Aufzeichnungspflicht
 
-Elektronische oder schriftliche Aufzeichnungen mit mindestens:
+Ab 01.01.2026 gelten erweiterte Dokumentationspflichten (DVO (EU) 2023/564 i.V.m. § 11 PflSchG und Art. 67 VO (EG) 1107/2009). Folgende Angaben sind pro Anwendung zu dokumentieren:
 
-- Name der Anwenderin/des Anwenders
-- Art der Anwendung (Freiland/geschlossene Räume/Saatgut)
-- Lage der Fläche (InVeKoS-Betriebsnr., Schlagnr., ggf. Teilschlagnr. oder FLIK-Nr.)
-- Größe der behandelten Fläche
-- Bezeichnung des PSM
-- Aufwandmenge (kg oder l/ha)
-- Kulturpflanze inkl. EPPO-Code und BBCH-Stadium
-- **Zeitpunkt** der Anwendung
+### Pflichtangaben
 
-(Quelle: Kond_Infobroschuere_2026.pdf, S. 46)
+| Angabe | Details |
+|--------|---------|
+| **Name des Anwenders** | |
+| **Kulturbezeichnung** | z.B. Winterweizen, Sommergerste, Reben |
+| **EPPO-Code der Kultur** | 5-stelliger Code, europaweit einheitlich. Beispiele: TRZAW (Winterweizen), HORVS (Sommergerste), VITVI (Reben). Abrufbar unter https://gd.eppo.int oder BVL-Kulturenliste |
+| **Entwicklungsstadium (BBCH)** | Nur nötig, wenn PSM nur für bestimmte Stadien zugelassen ist (z.B. Wachstumsregler) |
+| **Lage der behandelten Fläche** | Siehe Abschnitt unten |
+| **Behandelte Einheit** | Umfang der behandelten Fläche, Volumen oder Menge |
+| **Art der Verwendung** | Oberflächen (Agrarfläche, Nichtkulturland, Gleise), geschlossene Räume (Gewächshäuser, Läger) oder Saat-/Pflanzgutbehandlung |
+| **Zeitpunkt** | Datum; Uhrzeit des Behandlungsbeginns nur bei PSM mit zeitlicher Einschränkung (z.B. B2-Einstufung: „nur nach Ende des Bienenflugs bis 23 Uhr", Clomazone NT126/NT127: „nur 18–9 Uhr"). Uhrzeit nur bei Freiland-Anwendungen. |
+| **Bezeichnung des PSM** | Handelsbezeichnung laut Lieferschein |
+| **Aufwandmenge** | Bezogen auf behandelte Einheit (ml/ha, l/ha, g/ha, kg/ha, ml/dt, l/m³ etc.) |
+| **Zulassungsnummer** | Schema 012345-00 oder 012345-00/001, dem Etikett zu entnehmen |
 
-> **Änderung 2026:** Aufzeichnungen müssen **unverzüglich** geführt werden (nicht mehr „zeitnah"). Erweiterte Angaben (EPPO-Code, BBCH-Stadium) sind neu. Ab **01.01.2027**: Aufzeichnungen verpflichtend in **elektronischer und maschinenlesbarer Form**. (Quelle: Kond_Infobroschuere_2026.pdf, S. 6, 46–47)
+(Quelle: Merkblatt_Pflanzenschutzdokumentation.pdf, S. 1–3)
+
+### Lage der behandelten Fläche
+
+- **Fläche im Gemeinsamen Antrag:** UD-Nr. (Unternehmens-Nr.) + Schlagnr. + ggf. Teilschlag-Bezeichnung gemäß FIONA-Flächenverzeichnis. Alternativ: FLIK-Nr. des Schlags (DEBWLI…, nicht die Einzel-FLIKs der Flurstücke – abrufbar in FIONA unter Schlaginformationen)
+- **Fläche nicht im GA:** GPS-Koordinaten der Schlagmitte (z.B. über Online-Kartendienste)
+- **Gewächshäuser / Vorratsschutz:** Eindeutige Haus-/Silo-/Zellennummer
+
+(Quelle: Merkblatt_Pflanzenschutzdokumentation.pdf, S. 2)
+
+### Zeitpunkt und Form
+
+- Dokumentation **unverzüglich** nach der Anwendung – „ohne schuldhafte Verzögerung", nicht erst zum 31.01. des Folgejahres (Quelle: Merkblatt_Pflanzenschutzdokumentation.pdf, S. 3)
+- **2026:** Handschriftliche Dokumentation weiterhin zulässig; individuelle Excel-Lösungen ebenfalls noch möglich
+- **Ab 2027 (voraussichtlich):** Elektronisches, maschinenlesbares Format verpflichtend
+
+(Quelle: Kond_Infobroschuere_2026.pdf, S. 6, 46–47; Merkblatt_Pflanzenschutzdokumentation.pdf, S. 3)
+
+### Umsetzungshilfen (BW)
+
+- **PSM-DOK** (www.psmdok.de): Kostenfreie Online-Eingabemaske für Betriebe mit Sitz in BW. Nach einmaliger Registrierung werden Betriebs- und Schlagdaten in einer lokalen Zertifikatsdatei gespeichert. Daten bleiben auf dem eigenen Rechner (keine zentrale Serverspeicherung). Verknüpfung mit Zulassungsdaten und EPPO-Codes erleichtert die Dokumentation. (Quelle: Merkblatt_Pflanzenschutzdokumentation.pdf, S. 3–4)
+- Kommerzielle Schlagkarteien / FMIS-Systeme (Hersteller haben die Systeme an die neuen Vorgaben angepasst)
 
 Aufbewahrungsfrist: mindestens **3 Kalenderjahre** nach dem Anwendungsjahr. (Quelle: Kond_Infobroschuere_2026.pdf, S. 46)
 

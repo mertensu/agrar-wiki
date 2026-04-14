@@ -1,5 +1,57 @@
 # Wiki-Log
 
+## [2026-04-14] ingest | 4 weitere Konditionalitäts-PDFs
+
+**Quellen:**
+- `raw/konditionalitaet/Soz_Kond_Infobroschuere_2026.pdf` (16 S.) – Soziale Konditionalität
+- `raw/konditionalitaet/Merkblatt_Pflanzenschutzdokumentation.pdf` (4 S.) – PSM-Dokumentation ab 01.01.2026
+- `raw/konditionalitaet/Info_Mindestpraktiken_Bodenbewirtschaftung_zur_Begrenzung_von_Erosion_(GLÖZ_5).pdf` (8 S.) – Erosionsschutz BW-Detail
+- `raw/konditionalitaet/Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf` (10 S.) – Gewässerrandstreifen BW
+
+**Was & Warum:**
+Vier ergänzende Konditionalitäts-Dokumente integriert. Die soziale Konditionalität ist ein komplett neues Thema (seit 2025), das viele Landwirte mit Angestellten nicht kennen. PSM-Dokumentation konkretisiert die ab 2026 geltenden erweiterten Aufzeichnungspflichten. GLÖZ-5-Detail liefert die BW-spezifische Einstufungs-Methodik und gleichwertigen Maßnahmen. Gewässerrandstreifen-Merkblatt enthält die Praxisdetails für die häufigste Frage: "Was darf ich am Bach noch machen?"
+
+**Änderungen mit Quellennachweis:**
+
+*GAB_7_8_Pflanzenschutz.md – Abschnitt Aufzeichnungspflicht erweitert:*
+- Pflichtangaben-Tabelle mit EPPO-Codes, BBCH, Zulassungsnummer etc. (Merkblatt_Pflanzenschutzdokumentation.pdf, S. 1–3)
+- Lage-Angaben differenziert: GA-Fläche (UD-Nr./Schlagnr./FLIK) vs. Nicht-GA (GPS) (Merkblatt_Pflanzenschutzdokumentation.pdf, S. 2)
+- Uhrzeit-Pflicht nur bei zeitbeschränkter Zulassung, nur Freiland (Merkblatt_Pflanzenschutzdokumentation.pdf, S. 2)
+- PSM-DOK (www.psmdok.de) als kostenfreies BW-Dokumentationstool (Merkblatt_Pflanzenschutzdokumentation.pdf, S. 3–4)
+
+*GLOEZ_5_Erosionsschutz.md – grundlegend erweitert:*
+- K/S/R-Faktor-Berechnung und Datengrundlagen (Info_GLÖZ_5.pdf, S. 1–2)
+- Flächenanteil-Berechnung mit Formel und Schwellenwerten (Info_GLÖZ_5.pdf, S. 2–3)
+- FIONA-GIS-Layer für Wasser- und Winderosion (Info_GLÖZ_5.pdf, S. 2, 4)
+- Gleichwertige Maßnahmen detailliert mit Definitionen (Info_GLÖZ_5.pdf, S. 5–8)
+- Frühe-Sommerkulturen-Liste nach Anlage 5 GAPKondV (Info_GLÖZ_5.pdf, S. 8)
+- Begriffserläuterungen: Reihenkultur, raue Winterfurche (Info_GLÖZ_5.pdf, S. 8)
+
+**Korrekturen:**
+- GLOEZ_5: KWasser2 gleichwertige Maßnahmen – "1. Dezember bis 15. Januar" war falsch, korrigiert zu "1. Dezember bis 15. Februar" (belegt durch Info_GLÖZ_5.pdf, S. 5 und Kond_Infobroschuere_2026.pdf, S. 12)
+
+**Strukturelle Änderungen:**
+- `wiki/Konzepte/Soziale_Konditionalitaet.md` neu erstellt
+- `wiki/Konzepte/Gewaesserrandstreifen_BW.md` neu erstellt
+- `wiki/Konzepte/Konditionalitaet.md` um Abschnitt "Soziale Konditionalität" ergänzt
+- `wiki/Konzepte/GLOEZ_4_Pufferstreifen.md` um Querverweis auf Gewässerrandstreifen erweitert
+- `wiki/index.md` um neue Konzeptseiten ergänzt
+
+## [2026-04-14] health-check | Visueller PDF-Abgleich (Stichprobe)
+
+**Geprüfte Maßnahmen:** B1.2, C1, E6 (zufällige Auswahl aus verschiedenen Kategorien)
+
+**Methodik:** PDF-Seiten aus `raw/fakt_broschuere_3.pdf` als Bilder gerendert (pdftoppm, 200 dpi) und visuell gegen Wiki-Seiten abgeglichen.
+
+**Ergebnis:**
+- **B1.2 Extensive Grünland** (PDF S. 1–2): Alle Angaben korrekt – Fördersatz (150 €/ha), Voraussetzungen (0,3 RGV/ha), alle 6 Auflagen vollständig
+- **C1 Streuobst** (PDF S. 5): Alle Angaben korrekt – Fördersatz (5,00 €/Baum), Grenzen (100/200/250 Bäume), Stammhöhe, Ersatzpflicht, abgestorbene Bäume
+- **E6 Pheromoneinsatz** (PDF S. 12): Alle Angaben korrekt – Fördersatz (100 €/ha), Erwerbsobstanlagen, Wicklerart, Kaufbelege, Teilzeitraum-Regelung
+
+**Befunde:** Keine Abweichungen festgestellt. Wiki gibt die PDF-Inhalte korrekt wieder.
+
+**Nicht geprüft:** Kombinations-Links (Quelle: Excel), Öko-Regelungen (Quelle: Broschüre 1/2), Konditionalitäts-Verknüpfungen.
+
 ## [2026-04-14] ingest | Konditionalität – Kond_Infobroschuere_2026.pdf
 
 **Quelle:** `raw/konditionalitaet/Kond_Infobroschuere_2026.pdf` (76 S.), gesplittet in 6 Kapitel-PDFs via `scripts/split_kond_info.sh`
