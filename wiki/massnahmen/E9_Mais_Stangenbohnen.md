@@ -5,6 +5,7 @@ kategorie: "E – Umweltschonende Pflanzenerzeugung"
 foerdersatz: "130 €/ha"
 einheit: "ha"
 verpflichtung: "mehrjährig"
+fakt_code: "70"
 type: massnahme
 ---
 

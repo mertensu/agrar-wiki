@@ -48,5 +48,8 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 
 - [[GAB_9_10_11_Tierschutz|GAB 10 Schweine]]: Freie Abferkelung, Deckzentrum, Wartestall – geht über GAB-10-Kastenstandregelungen hinaus
 
+## Antragstellung
+→ [[Antragstellung_Tierwohl|Checkliste & Fallstricke]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

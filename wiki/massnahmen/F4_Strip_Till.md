@@ -5,6 +5,7 @@ kategorie: "F – Freiwillige Maßnahmen zum Gewässer- und Erosionsschutz"
 foerdersatz: "100 €/ha"
 einheit: "ha"
 verpflichtung: "mehrjährig"
+fakt_code: "53"
 type: massnahme
 ---
 

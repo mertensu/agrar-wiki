@@ -1,5 +1,47 @@
 # Wiki-Log
 
+## [2026-04-14] scope-update + ingest | Antragstellung: FAKT-Codes + G-FAQ
+
+**Quellen:**
+- `raw/FAKT_Codes_2026.pdf` (2 S.) – Übersicht aller Maßnahmen mit FAKT-Codes
+- `raw/FAKT_G_Haeufige_Fragen.pdf` (2 S.) – FAQ zu G-Maßnahmen (MLR, Stand 21.12.2023)
+
+**Was & Warum:**
+Wiki-Scope um Antragstellungsebene erweitert (Entscheidung 2026-04-14). Bisher nur Beratung ("Soll ich?"), jetzt auch "Wie beantrage ich korrekt?". Zwei kleinste Quellen als erste Antragstellung-Seiten verarbeitet: FAKT-Code-Zuordnung (für Schlag-Codierung in FIONA) und Tierwohl-FAQ (Praxisfragen zu Auflagen).
+
+**Änderungen mit Quellennachweis:**
+
+*CLAUDE.md – Scope-Update:*
+- Überschrift: "Beratungs- und Antragstellungsebene" (vorher: "Beratungsebene, nicht Formularebene")
+- Ausschlussliste dreigeteilt: "Jetzt aufgenommen" (FAKT-Codes, Nachweisfristen), "Teilweise aufgenommen" (Platzangebote G), "Weiterhin ausgeschlossen" (Formular-Details, FIONA, Rückgabe)
+- Faustregel erweitert um "ODER dabei, den Antrag korrekt und vollständig einzureichen"
+- Verzeichnisstruktur: `Antragstellung/` ergänzt
+- Neuer Abschnitt: Antragstellung-Seiten (Format, YAML, Verlinkungskonvention)
+- YAML-Template: `fakt_code` als optionales Feld ergänzt
+- Maßnahmen-Seitenformat: `## Antragstellung`-Abschnitt dokumentiert
+
+*FAKT_Codes.md (neu):*
+- Mapping-Tabelle aller 42 Maßnahmen → FAKT-Codes (raw/FAKT_Codes_2026.pdf, S. 1–2)
+- 23 Maßnahmen haben FAKT-Codes (B1.2=21, B3.2=23, B4=24, B5=25, B6=62, C2=30, E1.2=41, E3=44, E4=45, E5=46, E6=47, E7=48, E8=49, E9=70, E10=71, E11=72, E12=73, E13.1=74, E13.2=75, E14=76, E15=77, F3=52, F4=53)
+- 19 Maßnahmen ohne FAKT-Code (A2, A3, B7, C1, C3, D2, G1–G7) – betriebsbezogen/tierbezogen beantragt
+
+*23 Maßnahmen-Seiten – `fakt_code` in YAML-Frontmatter:*
+- Alle 23 Maßnahmen mit FAKT-Code über `scripts/add_fakt_codes.py` aktualisiert
+
+*Antragstellung_Tierwohl.md (neu):*
+- FAQ zu Tränke, Ausläufe, Raufutter, Einstreu, Beschäftigungsmaterial (raw/FAKT_G_Haeufige_Fragen.pdf, S. 1–2)
+- Fallstricke-Abschnitt: Einstreu Premiumstufe >5cm, Raufutter≠Stroh, Auslauf-Definition, Beschäftigungsautomat G2.1
+
+*11 G-Maßnahmen-Seiten:*
+- `## Antragstellung` → Link auf [[Antragstellung_Tierwohl]] in G1–G7 ergänzt
+
+**Strukturelle Änderungen:**
+- `wiki/Antragstellung/` Verzeichnis erstellt
+- `wiki/Antragstellung/FAKT_Codes.md` neu
+- `wiki/Antragstellung/Antragstellung_Tierwohl.md` neu
+- `scripts/add_fakt_codes.py` neu – trägt fakt_code in Maßnahmen-YAMLs ein
+- `wiki/index.md` – Antragstellung-Sektion ergänzt
+
 ## [2026-04-14] ingest | GA-Wichtige Hinweise + GA-Erläuterungen 2026 (FAKT-II-Kapitel)
 
 **Quellen:**

@@ -5,6 +5,7 @@ kategorie: "C – Sicherung besonders landschaftspflegender gefährdeter Nutzung
 foerdersatz: "1.000 €/ha"
 einheit: "ha"
 verpflichtung: "mehrjährig"
+fakt_code: "30"
 type: massnahme
 ---
 

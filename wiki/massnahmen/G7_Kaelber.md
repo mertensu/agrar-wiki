@@ -49,5 +49,8 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 
 - [[GAB_9_10_11_Tierschutz|GAB 9 Kälber]]: Mehr Platz, früherer Weidegang, Gruppenhaltung ab Geburt – über GAB-9-Mindestanforderungen hinaus
 
+## Antragstellung
+→ [[Antragstellung_Tierwohl|Checkliste & Fallstricke]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

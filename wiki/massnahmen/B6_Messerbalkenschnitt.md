@@ -5,6 +5,7 @@ kategorie: "B – Erhaltung und Pflege der Kulturlandschaft"
 foerdersatz: "50 €/ha"
 einheit: "ha"
 verpflichtung: "mehrjährig"
+fakt_code: "62"
 type: massnahme
 ---
 

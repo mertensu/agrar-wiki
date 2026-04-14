@@ -46,5 +46,8 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 
 - [[GAB_9_10_11_Tierschutz|GAB 10 Schweine]]: Mehr Platz und Beschäftigung in der Aufzucht über GAB-10-Mindestflächen hinaus
 
+## Antragstellung
+→ [[Antragstellung_Tierwohl|Checkliste & Fallstricke]]
+
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*

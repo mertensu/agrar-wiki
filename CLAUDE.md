@@ -19,6 +19,7 @@ wiki/                         # LLM-generiertes Wiki – Obsidian-Vault
   massnahmen/                 # Eine Seite pro Maßnahme (~42 Dateien)
   Kategorien/                 # Eine Seite pro Kategorie (A–G)
   Konzepte/                   # Schlüsselbegriffe (RGV, Konditionalität, …)
+  Antragstellung/             # Checklisten, FAKT-Codes, Fallstricke
 
 scripts/                      # Reproduzierbare Skripte
   extract_raw.py              # PDFs + Excel → JSON
@@ -40,6 +41,7 @@ kategorie: "B – Erhaltung und Pflege der Kulturlandschaft"
 foerdersatz: "150 €/ha"
 einheit: "ha"
 verpflichtung: "mehrjährig"
+fakt_code: "21"
 type: massnahme
 ---
 
@@ -74,6 +76,9 @@ type: massnahme
 Siehe auch [[Oeko-Regelungen]].
 - ÖR 4 Extensivierung Dauergrünland (x/a – 190 €/ha statt 240 €/ha)
 - ÖR 7 Natura 2000
+
+## Antragstellung
+→ [[Antragstellung_Tierwohl|Checkliste & Fallstricke]]
 
 ---
 *Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*
@@ -118,6 +123,19 @@ YAML: `type: kategorie`. Kurzbeschreibung der Kategorie + Links zu allen zugehö
 ### Konzept-Seiten (`wiki/Konzepte/`)
 
 YAML: `type: konzept`. Erklärung eines Schlüsselbegriffs mit Rücklinks zu relevanten Maßnahmen.
+
+### Antragstellung-Seiten (`wiki/Antragstellung/`)
+
+Dateiname: `Antragstellung_{Thema}.md` oder `FAKT_Codes.md`
+
+YAML: `type: antragstellung`, `betrifft: ["B1.2", "B3.2", ...]`
+
+Inhalt: Checkliste (Nachweise, Fristen), FAKT-Code-Zuordnung, häufige Fehler.
+Antragstellung-Seiten bündeln thematisch verwandte Maßnahmen –
+nicht 1:1 pro Maßnahme, sondern nach Antragskontext gruppiert.
+
+Jede Maßnahmen-Seite verlinkt auf ihre Antragstellung-Seite:
+`## Antragstellung` → `[[Antragstellung_Tierwohl|Checkliste & Fallstricke]]`
 
 ## Quellenangaben und Widersprüche
 
@@ -280,18 +298,22 @@ Bei PDFs mit mehr als 20 Seiten **vor der Extraktion splitten**, damit pdfplumbe
 
 ## Scope-Entscheidungen
 
-### Beratungsebene, nicht Formularebene (Entscheidung 2026-04-14)
+### Beratungs- und Antragstellungsebene (Entscheidung 2026-04-14)
 
-Das Wiki fokussiert auf die **Beratungsebene**: Welche Maßnahmen gibt es, was bringen sie, welche Kombinationen sind möglich, was hat sich geändert? Zielgruppe ist ein Landwirt, der entscheiden will, ob eine Maßnahme für ihn sinnvoll ist.
+Das Wiki hilft bei zwei Fragen: **"Soll ich diese Maßnahme beantragen?"** (Beratung) und **"Wie beantrage ich korrekt?"** (Antragstellung). Zielgruppe ist ein Landwirt, der Maßnahmen bewerten und den Antrag vollständig einreichen will.
 
-**Bewusst NICHT ins Wiki aufgenommen:**
-- FIONA-Codes (z.B. A-Code 42, FT1.1, FAKT II-Code 45)
-- Nachweisfristen (welches Dokument bis wann einzureichen – Tabelle 8 in den GA-Erläuterungen)
+**Jetzt aufgenommen:**
+- FAKT-Codes → zentrale Mapping-Tabelle in `wiki/Antragstellung/FAKT_Codes.md` + `fakt_code` in jedem Maßnahmen-YAML
+- Nachweisfristen → als Checklisten in Antragstellung-Seiten
+
+**Teilweise aufgenommen:**
+- Platzangebote G-Maßnahmen → nur im FAQ-Kontext ("Schaffe ich die Auflagen?")
+
+**Weiterhin ausgeschlossen:**
 - Bestandsverzeichnis-Pflichten und Formular-Details
-- Rückgabe-/Übertragungsregeln für Verpflichtungen
-- Platzangebote in m² für G-Maßnahmen (Tierhaltung)
 - FIONA-Formularfeld-Hinweise
+- Rückgabe-/Übertragungsregeln für Verpflichtungen
 
-**Begründung:** Diese Infos sind prozedural – man braucht sie erst, wenn man vor FIONA sitzt. Sie haben keinen Beratungswert für die Frage "Soll ich diese Maßnahme beantragen?" und würden die Maßnahmen-Seiten aufblähen. Für diese Details verweist das Wiki auf die Originalquelle: `raw/GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf`.
+**Begründung Ausschlüsse:** Diese Infos sind rein prozedural – man braucht sie erst, wenn man vor FIONA sitzt. Für diese Details verweist das Wiki auf die Originalquelle: `raw/GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf`.
 
-**Faustregel bei Ingest:** "Hilft diese Info bei der Entscheidung, ob eine Maßnahme beantragt werden soll?" – wenn nein, gehört sie nicht ins Wiki.
+**Faustregel bei Ingest:** "Hilft diese Info bei der Entscheidung ODER dabei, den Antrag korrekt und vollständig einzureichen?" – wenn nein, gehört sie nicht ins Wiki.

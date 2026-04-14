@@ -71,6 +71,11 @@ type: index
 | G6 | [[G6_Ferkelaufzucht\|Tiergerechte Ferkelaufzucht – Premiumstufe]] | 8 €/erzeugtes Tier |
 | G7 | [[G7_Kaelber\|Tiergerechte Haltung von Kälbern]] | 35 €/Aufzuchtkalb |
 
+## Antragstellung
+
+- [[FAKT_Codes|FAKT II – Maßnahmen und FAKT-Codes 2026]]
+- [[Antragstellung_Tierwohl|Antragstellung Tierwohl (G-Maßnahmen) – FAQ & Fallstricke]]
+
 ## Strategien
 
 - [[strategie/Erosions_Gewinner|Erosions-Gewinner: Abschüssiges Ackerland rentabel machen]]
