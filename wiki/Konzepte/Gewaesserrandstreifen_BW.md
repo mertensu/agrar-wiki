@@ -101,6 +101,7 @@ Vielfältige Optionen, alle mit **Dünge-/PSM-Verbot** und **umbruchlosem Erhalt
 | **FAKT II E10** Leguminosenbetonter Ackerfutterbau | FC 71 | Ja | Nein | Ja |
 | **FAKT II E14** Extensive Wildpflanzenmischungen | FC 76 | Ja | Nein | Ja |
 | **FAKT II E15** Streifenanbau Biomasse/Wildpflanzen | FC 77 | Nein | Nein | Nein |
+| Rot-, Weiß-, Schwedenklee, Hornklee, Hornschotenklee, Kleemischung | 421/422/429/432 | Ja | – | Nein |
 | Kleegras, Luzerne-Gras-Gemenge | 434 | Ja | Ja (5 J.) | Ja |
 | Luzerne, Klee-Luzerne-Gemisch | 423/425 | Ja | Nein | Ja |
 | Durchwachsene Silphie | 802 | Ja | Nein | Ja |

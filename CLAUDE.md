@@ -194,6 +194,23 @@ Periodisch prüfen:
 - `<!-- TODO: Quelle prüfen -->`-Markierungen auflösen
 - Inkonsistente Kombinations-Angaben (A sagt kombinierbar mit B, aber B erwähnt A nicht)
 
+### Health Check (visueller PDF-Abgleich)
+
+Stichprobenartige Prüfung, ob Wiki-Inhalte mit den Original-PDFs übereinstimmen:
+
+1. 3–5 zufällige Maßnahmen auswählen (verschiedene Kategorien)
+2. Zugehörige PDF-Seiten finden: `uv run --with pdfplumber python3 -c "..."` mit Stichwortsuche nach Maßnahmencode
+3. PDF-Seiten als Bild rendern: `pdftoppm -png -f {seite} -l {seite} -r 200 raw/{datei}.pdf /tmp/pdf_check/{prefix}`
+4. Bilder mit Read-Tool visuell lesen und gegen Wiki-Seite abgleichen
+5. Prüfpunkte pro Maßnahme:
+   - Fördersatz (€-Betrag und Einheit)
+   - Fördervoraussetzungen
+   - Auflagen/Verpflichtungen (vollständig?)
+   - Sonstiges (korrekt wiedergegeben?)
+6. Ergebnis in `wiki/log.md` dokumentieren (Datum, geprüfte Maßnahmen, Befunde)
+
+**Voraussetzung:** `poppler` muss installiert sein (`brew install poppler`).
+
 ### Update (bei neuem Maßnahmenkatalog, z.B. FAKT II → FAKT III)
 
 1. **Vorher-Snapshot erstellen:** `python3 scripts/snapshot_wiki.py > wiki_snapshot_vor_update.json`
@@ -260,3 +277,21 @@ Bei PDFs mit mehr als 20 Seiten **vor der Extraktion splitten**, damit pdfplumbe
 - **Wiki gehört dem LLM:** Der Mensch liest, das LLM schreibt und pflegt.
 - **Jedes Detail zählt:** Fördersätze, Abzüge, Symbole – alles explizit und mit Euro-Beträgen. Landwirte brauchen exakte Zahlen.
 - **Links sind Wissen:** Die Vernetzung zwischen Seiten ist genauso wertvoll wie der Seiteninhalt selbst.
+
+## Scope-Entscheidungen
+
+### Beratungsebene, nicht Formularebene (Entscheidung 2026-04-14)
+
+Das Wiki fokussiert auf die **Beratungsebene**: Welche Maßnahmen gibt es, was bringen sie, welche Kombinationen sind möglich, was hat sich geändert? Zielgruppe ist ein Landwirt, der entscheiden will, ob eine Maßnahme für ihn sinnvoll ist.
+
+**Bewusst NICHT ins Wiki aufgenommen:**
+- FIONA-Codes (z.B. A-Code 42, FT1.1, FAKT II-Code 45)
+- Nachweisfristen (welches Dokument bis wann einzureichen – Tabelle 8 in den GA-Erläuterungen)
+- Bestandsverzeichnis-Pflichten und Formular-Details
+- Rückgabe-/Übertragungsregeln für Verpflichtungen
+- Platzangebote in m² für G-Maßnahmen (Tierhaltung)
+- FIONA-Formularfeld-Hinweise
+
+**Begründung:** Diese Infos sind prozedural – man braucht sie erst, wenn man vor FIONA sitzt. Sie haben keinen Beratungswert für die Frage "Soll ich diese Maßnahme beantragen?" und würden die Maßnahmen-Seiten aufblähen. Für diese Details verweist das Wiki auf die Originalquelle: `raw/GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf`.
+
+**Faustregel bei Ingest:** "Hilft diese Info bei der Entscheidung, ob eine Maßnahme beantragt werden soll?" – wenn nein, gehört sie nicht ins Wiki.

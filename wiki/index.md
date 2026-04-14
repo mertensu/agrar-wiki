@@ -77,6 +77,7 @@ type: index
 
 ## Konzepte
 
+- [[Neuerungen_2026|Neuerungen im Antragsjahr 2026]]
 - [[RGV|RGV – Rauhfutterverzehrende Großvieheinheit]]
 - [[Konditionalitaet|Konditionalität]]
 - [[Soziale_Konditionalitaet|Soziale Konditionalität]]

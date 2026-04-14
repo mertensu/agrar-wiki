@@ -1,5 +1,60 @@
 # Wiki-Log
 
+## [2026-04-14] ingest | GA-Wichtige Hinweise + GA-Erläuterungen 2026 (FAKT-II-Kapitel)
+
+**Quellen:**
+- `raw/GA - Wichtige Hinweise zum GA 2026.pdf` (2 S.) – Neuerungen-Überblick
+- `raw/GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf` (102 S.) – Kapitel 7.1 FAKT II (S. 49–78) ausgewertet
+
+**Was & Warum:**
+Zwei neue GA-Dokumente aufbereitet. Die "Wichtigen Hinweise" sind das kompakte Neuerungen-Blatt für 2026, die "Erläuterungen" das ausführliche Ausfüllhandbuch. Fokus auf beratungsrelevante Inhalte – FIONA-Codes, Nachweisfristen und Formulardetails bewusst nicht ins Wiki aufgenommen (siehe Scope-Entscheidung in CLAUDE.md).
+
+**Strukturelle Änderungen:**
+- `wiki/Konzepte/Neuerungen_2026.md` neu erstellt – zentrale Übersichtsseite für alle Änderungen 2026
+- `scripts/split_ga_erlaeuterungen.sh` erstellt – splittet 102-S.-PDF in 8 Kapitel-PDFs (qpdf)
+- `raw/ga_erlaeuterungen/` – 8 Teil-PDFs für kapitelweisen Zugriff
+- `CLAUDE.md` – Abschnitt "Scope-Entscheidungen" ergänzt
+
+**Änderungen mit Quellennachweis:**
+
+*A3_Kleine_Strukturen.md:*
+- Hinweis "Neu ab Antragsjahr 2026" ergänzt (GA - Wichtige Hinweise, S. 2)
+- ÖR-3-Ausschluss explizit dokumentiert (GA - Erlaeuterungen, S. 52)
+
+*C2_Weinbausteillagen.md:*
+- Hinweis "Neu ab Antragsjahr 2026" ergänzt (GA - Wichtige Hinweise, S. 2)
+
+*C3_Nutztierrassen.md – komplett überarbeitet:*
+- Alle Rassen-Varianten mit Einzelpreisen statt Spanne "90–600 €/Tier" (GA - Erlaeuterungen, S. 55–60):
+  - Vorderwälder: Milchkuh 380 €, Mutterkuh 200 €, Bulle 300 €
+  - Hinterwälder: Milchkuh 600 €, Mutterkuh 160 €, Bulle 200 €
+  - Limpurger: Milchkuh 580 €, Mutterkuh 160 €, Bulle 360 €
+  - Braunvieh a.Z.: Milchkuh 550 €, Mutterkuh 160 €, Bulle 360 €
+  - Altwürttemberger Pferd: Stute 120 €, Hengst 250 €
+  - Schwarzwälder Fuchs: Stute 120 €, Hengst 250 €
+  - Schwäb. Hällisches: Sau 180 €, Eber 160 €
+  - Dt. Edelschwein: Sau 100 €, Eber 100 €
+  - Dt. Landrasse: Sau 100 €, Eber 100 €
+
+*Verpflichtungszeitraum.md – erweitert:*
+- Neuverpflichtungen ab 2026: 3 Jahre Verpflichtungsdauer (GA - Wichtige Hinweise, S. 2)
+- Beginn des Verpflichtungszeitraums je Maßnahmentyp (GA - Erlaeuterungen, S. 50)
+- Konsequenzen bei vorzeitiger Kündigung (GA - Erlaeuterungen, S. 50–51)
+
+*Gemeinsamer_Antrag.md – aktualisiert:*
+- Fristen 2026: FIONA ab 9. März, Antrag bis 15. Mai (GA - Wichtige Hinweise, S. 1)
+- Vorgelagerter Förderantrag entfällt ab 2026 (GA - Wichtige Hinweise, S. 2)
+- Kontrollen über App "profil (bw)" (GA - Wichtige Hinweise, S. 1)
+
+*index.md:*
+- Neuerungen_2026 als Konzeptseite aufgenommen
+
+**Noch offen:**
+- Kapitel 5.5 Öko-Regelungen (S. 38–47) – Detailinfos zu ÖR1–ÖR7
+- Kapitel 7.2–7.4 AZL, LPR-A, UZW – aktuell nicht im Wiki-Scope
+- Kapitel 17–19 Fristen/Sanktionen/Konditionalität – teilweise Überschneidung mit bestehenden Konditionalitäts-Seiten
+- GLÖZ-2 und GLÖZ-6 Änderungen 2026 in die bestehenden Konzeptseiten eintragen
+
 ## [2026-04-14] ingest | 4 weitere Konditionalitäts-PDFs
 
 **Quellen:**

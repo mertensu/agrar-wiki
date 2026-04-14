@@ -14,6 +14,8 @@ type: massnahme
 **Fördersatz:** 70 €/ha
 **Verpflichtungszeitraum:** mehrjährig
 
+**Neu ab Antragsjahr 2026.** Siehe [[Neuerungen_2026]].
+
 ## Ziele
 
 - Förderung der besonderen Bedingungen der relativ kleinstrukturierten landwirtschaftlichen Flächen in Baden-Württemberg
@@ -70,7 +72,7 @@ Siehe auch [[Oeko-Regelungen]].
 - ÖR 1b Blühstreifen Ackerland
 - ÖR 1c Blühstreifen Dauerkulturen
 - ÖR 2 Vielfältige Kulturen
-- ÖR 3 Agroforst
+- ÖR 3 Agroforst – **gleichzeitige Förderung von ÖR 3 und FAKT II A3 auf derselben Fläche nicht möglich** (Quelle: GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, S. 52)
 - ÖR 6 Verzicht chem.-synth. PSM
 - ÖR 7 Natura 2000
 
@@ -82,4 +84,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GLOEZ_8_Landschaftselemente|GLÖZ 8 Landschaftselemente]]: Fördert Strukturen, die teils unter GLÖZ-8-Schutz stehen – geht über Beseitigungsverbot hinaus
 
 ---
-*Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*
+*Quellen: FAKT II-Broschüre Baden-Württemberg (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (Stand Februar 2026)*

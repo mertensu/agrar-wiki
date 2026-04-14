@@ -14,6 +14,8 @@ type: massnahme
 **Fördersatz:** 1.000 €/ha
 **Verpflichtungszeitraum:** mehrjährig
 
+**Neu ab Antragsjahr 2026.** Siehe [[Neuerungen_2026]].
+
 ## Ziele
 
 - Langfristige Sicherung der wertvollen Weinbausteillagen
@@ -56,4 +58,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 - [[GAB_7_8_Pflanzenschutz|GAB 7/8 Pflanzenschutz]]: Baseline: zugelassene PSM regelkonform anwenden
 
 ---
-*Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*
+*Quellen: FAKT II-Broschüre Baden-Württemberg (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (Stand Februar 2026)*
