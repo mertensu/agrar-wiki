@@ -1,0 +1,2565 @@
+{
+  "version": "FAKT II",
+  "stand": "2025-10",
+  "massnahmen_count": 42,
+  "massnahmen": [
+    {
+      "datei": "A2_Silageverzicht.md",
+      "code": "A2",
+      "titel": "Silageverzicht im gesamten Betrieb (Heumilch)",
+      "foerdersatz": "80 €/ha",
+      "einheit": "ha",
+      "kategorie": "A – Umweltbewusstes Betriebsmanagement",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "B1.2_Extensive_Gruenland",
+          "label": "B1.2 Extensive Grünlandbewirtschaftung",
+          "annotation": null
+        },
+        {
+          "target": "B3.2_Artenreiches_Gruenland",
+          "label": "B3.2 Artenreiches Grünland",
+          "annotation": null
+        },
+        {
+          "target": "B4_Biotope",
+          "label": "B4 §30/§33 Biotope",
+          "annotation": null
+        },
+        {
+          "target": "B5_FFH_Maehwiesen",
+          "label": "B5 FFH-Mähwiesen",
+          "annotation": null
+        },
+        {
+          "target": "B6_Messerbalkenschnitt",
+          "label": "B6 Messerbalkenschnitt",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "B7_Verzicht_Chemie_Gruenland",
+          "label": "B7 Verzicht chem.-synth. Produktionsmittel",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E10_Ackerfutterbau",
+          "label": "E10 Ackerfutterbau",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_1_Dauergruenland",
+          "label": "GLÖZ 1 Dauergrünland",
+          "beschreibung": "Silageverzicht setzt Grünlandbewirtschaftung voraus – GLÖZ 1 sichert Erhalt des DGL"
+        },
+        {
+          "target": "GAB_5_Lebensmittelsicherheit",
+          "label": "GAB 5 Lebensmittelsicherheit",
+          "beschreibung": "Heumilch-Erzeugung unterliegt denselben Hygieneanforderungen"
+        }
+      ]
+    },
+    {
+      "datei": "A3_Kleine_Strukturen.md",
+      "code": "A3",
+      "titel": "Förderung kleiner Strukturen",
+      "foerdersatz": "70 €/ha",
+      "einheit": "ha",
+      "kategorie": "A – Umweltbewusstes Betriebsmanagement",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "C2_Weinbausteillagen",
+          "label": "C2 Weinbausteillagen",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E10_Ackerfutterbau",
+          "label": "E10 Ackerfutterbau",
+          "annotation": null
+        },
+        {
+          "target": "E11_Herbizidfreie_Dauerkulturen",
+          "label": "E11 Herbizidfreie Dauerkulturen",
+          "annotation": null
+        },
+        {
+          "target": "E12_Fungizidverzicht",
+          "label": "E12 Fungizidverzicht",
+          "annotation": null
+        },
+        {
+          "target": "E13.1_Drillreihenabstand",
+          "label": "E13.1 Drillreihenabstand",
+          "annotation": null
+        },
+        {
+          "target": "E13.2_Drillreihenabstand_Untersaat",
+          "label": "E13.2 Drillreihenabstand mit Untersaat",
+          "annotation": null
+        },
+        {
+          "target": "E14_Wildpflanzenmischungen",
+          "label": "E14 Wildpflanzenmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E15_Streifenanbau_Biomasse",
+          "label": "E15 Streifenanbau Biomasse",
+          "annotation": null
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": null
+        },
+        {
+          "target": "E4_Trichogramma",
+          "label": "E4 Trichogramma",
+          "annotation": null
+        },
+        {
+          "target": "E6_Pheromoneinsatz",
+          "label": "E6 Pheromoneinsatz",
+          "annotation": null
+        },
+        {
+          "target": "E7_Bluehflaechen",
+          "label": "E7 Blühflächen",
+          "annotation": null
+        },
+        {
+          "target": "E8_Brachebegruenung",
+          "label": "E8 Brachebegrünung",
+          "annotation": null
+        },
+        {
+          "target": "E9_Mais_Stangenbohnen",
+          "label": "E9 Mais mit Stangenbohnen",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        },
+        {
+          "target": "F4_Strip_Till",
+          "label": "F4 Strip Till",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "E5_Nuetzlingseinsatz",
+          "label": "E5 Nützlingseinsatz",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_8_Landschaftselemente",
+          "label": "GLÖZ 8 Landschaftselemente",
+          "beschreibung": "Fördert Strukturen, die teils unter GLÖZ-8-Schutz stehen – geht über Beseitigungsverbot hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "B1.2_Extensive_Gruenland.md",
+      "code": "B1.2",
+      "titel": "Extensive Bewirtschaftung bestimmter Grünlandflächen ohne Stickstoffdüngung",
+      "foerdersatz": "150 €/ha",
+      "einheit": "ha",
+      "kategorie": "B – Erhaltung und Pflege der Kulturlandschaft",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "B3.2_Artenreiches_Gruenland",
+          "label": "B3.2 Artenreiches Grünland",
+          "annotation": null
+        },
+        {
+          "target": "B4_Biotope",
+          "label": "B4 §30/§33 Biotope",
+          "annotation": null
+        },
+        {
+          "target": "B5_FFH_Maehwiesen",
+          "label": "B5 FFH-Mähwiesen",
+          "annotation": null
+        },
+        {
+          "target": "B6_Messerbalkenschnitt",
+          "label": "B6 Messerbalkenschnitt",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(x/a – 100 €/ha (statt 150 €/ha))"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(x/a – 100 €/ha (statt 150 €/ha))"
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "B7_Verzicht_Chemie_Gruenland",
+          "label": "B7 Verzicht chem.-synth. Produktionsmittel",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_1_Dauergruenland",
+          "label": "GLÖZ 1 Dauergrünland",
+          "beschreibung": "Extensive Bewirtschaftung erhält DGL – GLÖZ 1 sichert den Flächenstatus"
+        },
+        {
+          "target": "GAB_2_Nitratrichtlinie",
+          "label": "GAB 2 Nitratrichtlinie",
+          "beschreibung": "Verzicht auf N-Düngung geht deutlich über GAB-2-Obergrenzen hinaus"
+        },
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Baseline: zugelassene PSM regelkonform anwenden"
+        }
+      ]
+    },
+    {
+      "datei": "B3.2_Artenreiches_Gruenland.md",
+      "code": "B3.2",
+      "titel": "Bewirtschaftung von artenreichem Dauergrünland mit mind. 6 Kennarten",
+      "foerdersatz": "260 €/ha",
+      "einheit": "ha",
+      "kategorie": "B – Erhaltung und Pflege der Kulturlandschaft",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "B1.2_Extensive_Gruenland",
+          "label": "B1.2 Extensive Grünlandbewirtschaftung",
+          "annotation": null
+        },
+        {
+          "target": "B6_Messerbalkenschnitt",
+          "label": "B6 Messerbalkenschnitt",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "B7_Verzicht_Chemie_Gruenland",
+          "label": "B7 Verzicht chem.-synth. Produktionsmittel",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "B4_Biotope",
+          "label": "B4 §30/§33 Biotope",
+          "annotation": "(–)"
+        },
+        {
+          "target": "B5_FFH_Maehwiesen",
+          "label": "B5 FFH-Mähwiesen",
+          "annotation": "(–)"
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(–)"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_1_Dauergruenland",
+          "label": "GLÖZ 1 Dauergrünland",
+          "beschreibung": "Artenreiches DGL erhält den Grünlandstatus"
+        },
+        {
+          "target": "GLOEZ_8_Landschaftselemente",
+          "label": "GLÖZ 8 Landschaftselemente",
+          "beschreibung": "Artenreiches Grünland fördert Biodiversität über GLÖZ-8-Mindestschutz hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "B4_Biotope.md",
+      "code": "B4",
+      "titel": "Extensive Nutzung von § 30 BNatSchG/§ 33 NatSchG Biotopen",
+      "foerdersatz": "300 €/ha",
+      "einheit": "ha",
+      "kategorie": "B – Erhaltung und Pflege der Kulturlandschaft",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "B1.2_Extensive_Gruenland",
+          "label": "B1.2 Extensive Grünlandbewirtschaftung",
+          "annotation": null
+        },
+        {
+          "target": "B6_Messerbalkenschnitt",
+          "label": "B6 Messerbalkenschnitt",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "B7_Verzicht_Chemie_Gruenland",
+          "label": "B7 Verzicht chem.-synth. Produktionsmittel",
+          "annotation": "(x/a – 220 €/ha (statt 300 €/ha))"
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "B3.2_Artenreiches_Gruenland",
+          "label": "B3.2 Artenreiches Grünland",
+          "annotation": "(–)"
+        },
+        {
+          "target": "B5_FFH_Maehwiesen",
+          "label": "B5 FFH-Mähwiesen",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_1_Dauergruenland",
+          "label": "GLÖZ 1 Dauergrünland",
+          "beschreibung": "§ 30-Biotope sind häufig Dauergrünland"
+        },
+        {
+          "target": "GAB_3_4_Naturschutz",
+          "label": "GAB 3/4 Naturschutz",
+          "beschreibung": "Extensive Nutzung geschützter Biotope geht über das Verschlechterungsverbot hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "B5_FFH_Maehwiesen.md",
+      "code": "B5",
+      "titel": "Extensive Nutzung der FFH-Lebensraumtypen Flachland- und Bergmähwiesen",
+      "foerdersatz": "300 €/ha",
+      "einheit": "ha",
+      "kategorie": "B – Erhaltung und Pflege der Kulturlandschaft",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "B1.2_Extensive_Gruenland",
+          "label": "B1.2 Extensive Grünlandbewirtschaftung",
+          "annotation": null
+        },
+        {
+          "target": "B6_Messerbalkenschnitt",
+          "label": "B6 Messerbalkenschnitt",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "B7_Verzicht_Chemie_Gruenland",
+          "label": "B7 Verzicht chem.-synth. Produktionsmittel",
+          "annotation": "(x/a – 220 €/ha (statt 300 €/ha))"
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "B3.2_Artenreiches_Gruenland",
+          "label": "B3.2 Artenreiches Grünland",
+          "annotation": "(–)"
+        },
+        {
+          "target": "B4_Biotope",
+          "label": "B4 §30/§33 Biotope",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_1_Dauergruenland",
+          "label": "GLÖZ 1 Dauergrünland",
+          "beschreibung": "FFH-Mähwiesen sind Dauergrünland"
+        },
+        {
+          "target": "GLOEZ_9_Natura2000_Dauergruenland",
+          "label": "GLÖZ 9 Natura 2000 DGL",
+          "beschreibung": "FFH-Mähwiesen in Natura-2000-Gebieten unterliegen GLÖZ 9"
+        },
+        {
+          "target": "GAB_3_4_Naturschutz",
+          "label": "GAB 3/4 Naturschutz",
+          "beschreibung": "Extensive Nutzung geht über das FFH-Verschlechterungsverbot hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "B6_Messerbalkenschnitt.md",
+      "code": "B6",
+      "titel": "Messerbalkenschnitt in Kombination mit allen FAKT II Grünlandflächen",
+      "foerdersatz": "50 €/ha",
+      "einheit": "ha",
+      "kategorie": "B – Erhaltung und Pflege der Kulturlandschaft",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "B1.2_Extensive_Gruenland",
+          "label": "B1.2 Extensive Grünlandbewirtschaftung",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "B3.2_Artenreiches_Gruenland",
+          "label": "B3.2 Artenreiches Grünland",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "B4_Biotope",
+          "label": "B4 §30/§33 Biotope",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "B5_FFH_Maehwiesen",
+          "label": "B5 FFH-Mähwiesen",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "B7_Verzicht_Chemie_Gruenland",
+          "label": "B7 Verzicht chem.-synth. Produktionsmittel",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": "((o) – nur wenn zusätzlich GL-Maßnahme beantragt)"
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        }
+      ],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_1_Dauergruenland",
+          "label": "GLÖZ 1 Dauergrünland",
+          "beschreibung": "Begleitmaßnahme zu GL-Maßnahmen auf Dauergrünland"
+        }
+      ]
+    },
+    {
+      "datei": "B7_Verzicht_Chemie_Gruenland.md",
+      "code": "B7",
+      "titel": "Verzicht auf chemisch-synthetische Produktionsmittel auf Grünland",
+      "foerdersatz": "80 €/ha",
+      "einheit": "ha",
+      "kategorie": "B – Erhaltung und Pflege der Kulturlandschaft",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "B3.2_Artenreiches_Gruenland",
+          "label": "B3.2 Artenreiches Grünland",
+          "annotation": null
+        },
+        {
+          "target": "B4_Biotope",
+          "label": "B4 §30/§33 Biotope",
+          "annotation": "(x/a – B4: 220 €/ha (statt 300 €/ha))"
+        },
+        {
+          "target": "B5_FFH_Maehwiesen",
+          "label": "B5 FFH-Mähwiesen",
+          "annotation": "(x/a – B5: 220 €/ha (statt 300 €/ha))"
+        },
+        {
+          "target": "B6_Messerbalkenschnitt",
+          "label": "B6 Messerbalkenschnitt",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "B1.2_Extensive_Gruenland",
+          "label": "B1.2 Extensive Grünlandbewirtschaftung",
+          "annotation": "(–)"
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(–)"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_1_Dauergruenland",
+          "label": "GLÖZ 1 Dauergrünland",
+          "beschreibung": "Grünland-Maßnahme – GLÖZ 1 sichert DGL-Status"
+        },
+        {
+          "target": "GAB_2_Nitratrichtlinie",
+          "label": "GAB 2 Nitratrichtlinie",
+          "beschreibung": "Verzicht auf mineralischen N-Dünger geht über GAB-2-Obergrenzen hinaus"
+        },
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Vollständiger PSM-Verzicht geht deutlich über GAB 7/8 hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "C1_Streuobst.md",
+      "code": "C1",
+      "titel": "Bewirtschaftung von Streuobstflächen",
+      "foerdersatz": "5,00 €/Baum",
+      "einheit": "Baum",
+      "kategorie": "C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und Tierrassen",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "B1.2_Extensive_Gruenland",
+          "label": "B1.2 Extensive Grünlandbewirtschaftung",
+          "annotation": null
+        },
+        {
+          "target": "B3.2_Artenreiches_Gruenland",
+          "label": "B3.2 Artenreiches Grünland",
+          "annotation": null
+        },
+        {
+          "target": "B4_Biotope",
+          "label": "B4 §30/§33 Biotope",
+          "annotation": null
+        },
+        {
+          "target": "B5_FFH_Maehwiesen",
+          "label": "B5 FFH-Mähwiesen",
+          "annotation": null
+        },
+        {
+          "target": "B6_Messerbalkenschnitt",
+          "label": "B6 Messerbalkenschnitt",
+          "annotation": "((o) – nur wenn zusätzlich GL-Maßnahme beantragt)"
+        },
+        {
+          "target": "B7_Verzicht_Chemie_Gruenland",
+          "label": "B7 Verzicht chem.-synth. Produktionsmittel",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E10_Ackerfutterbau",
+          "label": "E10 Ackerfutterbau",
+          "annotation": null
+        },
+        {
+          "target": "E12_Fungizidverzicht",
+          "label": "E12 Fungizidverzicht",
+          "annotation": null
+        },
+        {
+          "target": "E13.1_Drillreihenabstand",
+          "label": "E13.1 Drillreihenabstand",
+          "annotation": null
+        },
+        {
+          "target": "E13.2_Drillreihenabstand_Untersaat",
+          "label": "E13.2 Drillreihenabstand mit Untersaat",
+          "annotation": null
+        },
+        {
+          "target": "E14_Wildpflanzenmischungen",
+          "label": "E14 Wildpflanzenmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E15_Streifenanbau_Biomasse",
+          "label": "E15 Streifenanbau Biomasse",
+          "annotation": null
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": null
+        },
+        {
+          "target": "E4_Trichogramma",
+          "label": "E4 Trichogramma",
+          "annotation": null
+        },
+        {
+          "target": "E7_Bluehflaechen",
+          "label": "E7 Blühflächen",
+          "annotation": null
+        },
+        {
+          "target": "E9_Mais_Stangenbohnen",
+          "label": "E9 Mais mit Stangenbohnen",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        },
+        {
+          "target": "F4_Strip_Till",
+          "label": "F4 Strip Till",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "E8_Brachebegruenung",
+          "label": "E8 Brachebegrünung",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_8_Landschaftselemente",
+          "label": "GLÖZ 8 Landschaftselemente",
+          "beschreibung": "Streuobstbäume können als Landschaftselemente unter GLÖZ-8-Schutz stehen"
+        },
+        {
+          "target": "GAB_3_4_Naturschutz",
+          "label": "GAB 3/4 Naturschutz",
+          "beschreibung": "Streuobstwiesen als Vogelhabitat – Bewirtschaftung geht über Erhaltungspflicht hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "C2_Weinbausteillagen.md",
+      "code": "C2",
+      "titel": "Bewirtschaftung von Weinbausteillagen",
+      "foerdersatz": "1.000 €/ha",
+      "einheit": "ha",
+      "kategorie": "C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und Tierrassen",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E11_Herbizidfreie_Dauerkulturen",
+          "label": "E11 Herbizidfreie Dauerkulturen",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_5_Erosionsschutz",
+          "label": "GLÖZ 5 Erosionsschutz",
+          "beschreibung": "Steillagen sind erosionsgefährdet – Bewirtschaftung sichert Erosionsschutz"
+        },
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Baseline: zugelassene PSM regelkonform anwenden"
+        }
+      ]
+    },
+    {
+      "datei": "C3_Nutztierrassen.md",
+      "code": "C3",
+      "titel": "Erhaltung gefährdeter Nutztierrassen",
+      "foerdersatz": "Rasseabhängig (90–600 €/Tier)",
+      "einheit": "Tier",
+      "kategorie": "C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und Tierrassen",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 11 Tierschutz",
+          "beschreibung": "Haltung gefährdeter Nutztierrassen unterliegt allgemeinen Tierschutzanforderungen"
+        }
+      ]
+    },
+    {
+      "datei": "D2_Oekolandbau_Beibehaltung.md",
+      "code": "D2",
+      "titel": "Ökolandbau – Beibehaltung",
+      "foerdersatz": "240 €/ha (Acker/GL), 680 €/ha (Gartenbau), 1.000 €/ha (Dauerkulturen)",
+      "einheit": "ha",
+      "kategorie": "D – Ökologischer Landbau",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "B1.2_Extensive_Gruenland",
+          "label": "B1.2 Extensive Grünlandbewirtschaftung",
+          "annotation": "(x/a – B1.2 wird auf 100 €/ha gekürzt)"
+        },
+        {
+          "target": "B4_Biotope",
+          "label": "B4 §30/§33 Biotope",
+          "annotation": null
+        },
+        {
+          "target": "B5_FFH_Maehwiesen",
+          "label": "B5 FFH-Mähwiesen",
+          "annotation": null
+        },
+        {
+          "target": "B6_Messerbalkenschnitt",
+          "label": "B6 Messerbalkenschnitt",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "C2_Weinbausteillagen",
+          "label": "C2 Weinbausteillagen",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Transaktionskosten",
+          "label": "D2 Transaktionskosten",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E10_Ackerfutterbau",
+          "label": "E10 Ackerfutterbau",
+          "annotation": "(x/a – E10 wird auf 40 €/ha gekürzt)"
+        },
+        {
+          "target": "E13.1_Drillreihenabstand",
+          "label": "E13.1 Drillreihenabstand",
+          "annotation": null
+        },
+        {
+          "target": "E13.2_Drillreihenabstand_Untersaat",
+          "label": "E13.2 Drillreihenabstand mit Untersaat",
+          "annotation": null
+        },
+        {
+          "target": "E14_Wildpflanzenmischungen",
+          "label": "E14 Wildpflanzenmischungen",
+          "annotation": "(x/a – E14 wird auf 420 €/ha gekürzt)"
+        },
+        {
+          "target": "E15_Streifenanbau_Biomasse",
+          "label": "E15 Streifenanbau Biomasse",
+          "annotation": "(x/a – E15 wird auf 180 €/ha gekürzt)"
+        },
+        {
+          "target": "E4_Trichogramma",
+          "label": "E4 Trichogramma",
+          "annotation": null
+        },
+        {
+          "target": "E5_Nuetzlingseinsatz",
+          "label": "E5 Nützlingseinsatz",
+          "annotation": "(x/a – E5 wird auf 2.500 €/ha gekürzt)"
+        },
+        {
+          "target": "E6_Pheromoneinsatz",
+          "label": "E6 Pheromoneinsatz",
+          "annotation": null
+        },
+        {
+          "target": "E9_Mais_Stangenbohnen",
+          "label": "E9 Mais mit Stangenbohnen",
+          "annotation": null
+        },
+        {
+          "target": "F4_Strip_Till",
+          "label": "F4 Strip Till",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "B3.2_Artenreiches_Gruenland",
+          "label": "B3.2 Artenreiches Grünland",
+          "annotation": "(–)"
+        },
+        {
+          "target": "B7_Verzicht_Chemie_Gruenland",
+          "label": "B7 Verzicht chem.-synth. Produktionsmittel",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E11_Herbizidfreie_Dauerkulturen",
+          "label": "E11 Herbizidfreie Dauerkulturen",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E12_Fungizidverzicht",
+          "label": "E12 Fungizidverzicht",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E7_Bluehflaechen",
+          "label": "E7 Blühflächen",
+          "annotation": "(kR – keine zusätzliche D2-Förderung)"
+        },
+        {
+          "target": "E8_Brachebegruenung",
+          "label": "E8 Brachebegrünung",
+          "annotation": "(kR – keine zusätzliche D2-Förderung)"
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_1_Dauergruenland",
+          "label": "GLÖZ 1 Dauergrünland",
+          "beschreibung": "Öko-DGL unterliegt GLÖZ 1; Omnibus III könnte Öko-Betriebe von GLÖZ 1 befreien"
+        },
+        {
+          "target": "GLOEZ_7_Fruchtwechsel",
+          "label": "GLÖZ 7 Fruchtwechsel",
+          "beschreibung": "Öko-Fruchtfolge erfüllt GLÖZ 7 automatisch; Omnibus-III-Befreiung möglich"
+        },
+        {
+          "target": "GAB_2_Nitratrichtlinie",
+          "label": "GAB 2 Nitratrichtlinie",
+          "beschreibung": "Öko-Düngungsbeschränkungen gehen über GAB 2 hinaus"
+        },
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Grundsätzlicher Verzicht auf chem.-synth. PSM geht weit über GAB 7/8 hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "D2_Oekolandbau_Einfuehrung.md",
+      "code": "D2",
+      "titel": "Ökolandbau – Einführung",
+      "foerdersatz": "430 €/ha (Acker/GL), 950 €/ha (Gartenbau), 1.450 €/ha (Dauerkulturen)",
+      "einheit": "ha",
+      "kategorie": "D – Ökologischer Landbau",
+      "verpflichtung": "mehrjährig (max. 2 Jahre)",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "B1.2_Extensive_Gruenland",
+          "label": "B1.2 Extensive Grünlandbewirtschaftung",
+          "annotation": "(x/a – B1.2 wird auf 100 €/ha gekürzt)"
+        },
+        {
+          "target": "B4_Biotope",
+          "label": "B4 §30/§33 Biotope",
+          "annotation": null
+        },
+        {
+          "target": "B5_FFH_Maehwiesen",
+          "label": "B5 FFH-Mähwiesen",
+          "annotation": null
+        },
+        {
+          "target": "B6_Messerbalkenschnitt",
+          "label": "B6 Messerbalkenschnitt",
+          "annotation": "(o – nur mit GL-Maßnahme)"
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "C2_Weinbausteillagen",
+          "label": "C2 Weinbausteillagen",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Transaktionskosten",
+          "label": "D2 Transaktionskosten",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E10_Ackerfutterbau",
+          "label": "E10 Ackerfutterbau",
+          "annotation": "(x/a – E10 wird auf 40 €/ha gekürzt)"
+        },
+        {
+          "target": "E13.1_Drillreihenabstand",
+          "label": "E13.1 Drillreihenabstand",
+          "annotation": null
+        },
+        {
+          "target": "E13.2_Drillreihenabstand_Untersaat",
+          "label": "E13.2 Drillreihenabstand mit Untersaat",
+          "annotation": null
+        },
+        {
+          "target": "E14_Wildpflanzenmischungen",
+          "label": "E14 Wildpflanzenmischungen",
+          "annotation": "(x/a – E14 wird auf 420 €/ha gekürzt)"
+        },
+        {
+          "target": "E15_Streifenanbau_Biomasse",
+          "label": "E15 Streifenanbau Biomasse",
+          "annotation": "(x/a – E15 wird auf 180 €/ha gekürzt)"
+        },
+        {
+          "target": "E4_Trichogramma",
+          "label": "E4 Trichogramma",
+          "annotation": null
+        },
+        {
+          "target": "E5_Nuetzlingseinsatz",
+          "label": "E5 Nützlingseinsatz",
+          "annotation": "(x/a – E5 wird auf 2.500 €/ha gekürzt)"
+        },
+        {
+          "target": "E6_Pheromoneinsatz",
+          "label": "E6 Pheromoneinsatz",
+          "annotation": null
+        },
+        {
+          "target": "E9_Mais_Stangenbohnen",
+          "label": "E9 Mais mit Stangenbohnen",
+          "annotation": null
+        },
+        {
+          "target": "F4_Strip_Till",
+          "label": "F4 Strip Till",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "B3.2_Artenreiches_Gruenland",
+          "label": "B3.2 Artenreiches Grünland",
+          "annotation": "(–)"
+        },
+        {
+          "target": "B7_Verzicht_Chemie_Gruenland",
+          "label": "B7 Verzicht chem.-synth. Produktionsmittel",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E11_Herbizidfreie_Dauerkulturen",
+          "label": "E11 Herbizidfreie Dauerkulturen",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E12_Fungizidverzicht",
+          "label": "E12 Fungizidverzicht",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E7_Bluehflaechen",
+          "label": "E7 Blühflächen",
+          "annotation": "(kR – keine zusätzliche D2-Förderung)"
+        },
+        {
+          "target": "E8_Brachebegruenung",
+          "label": "E8 Brachebegrünung",
+          "annotation": "(kR – keine zusätzliche D2-Förderung)"
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_1_Dauergruenland",
+          "label": "GLÖZ 1 Dauergrünland",
+          "beschreibung": "Öko-DGL unterliegt GLÖZ 1; Omnibus III könnte Öko-Betriebe von GLÖZ 1 befreien"
+        },
+        {
+          "target": "GLOEZ_7_Fruchtwechsel",
+          "label": "GLÖZ 7 Fruchtwechsel",
+          "beschreibung": "Öko-Fruchtfolge erfüllt GLÖZ 7 automatisch; Omnibus-III-Befreiung möglich"
+        },
+        {
+          "target": "GAB_2_Nitratrichtlinie",
+          "label": "GAB 2 Nitratrichtlinie",
+          "beschreibung": "Öko-Düngungsbeschränkungen gehen über GAB 2 hinaus"
+        },
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Grundsätzlicher Verzicht auf chem.-synth. PSM geht weit über GAB 7/8 hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "D2_Oekolandbau_Transaktionskosten.md",
+      "code": "D2",
+      "titel": "Ökolandbau – Ausgleich Transaktionskosten",
+      "foerdersatz": "40 €/ha, max. 600 €/Betrieb/Jahr",
+      "einheit": "ha",
+      "kategorie": "D – Ökologischer Landbau",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "Konditionalitaet",
+          "label": "Konditionalität",
+          "beschreibung": "Administrativer Ausgleich – keine direkten GLÖZ/GAB-Bezüge; allgemeine Konditionalität gilt"
+        }
+      ]
+    },
+    {
+      "datei": "E1.2_Begruenungsmischungen.md",
+      "code": "E1.2",
+      "titel": "Begrünungsmischungen im Acker-/Gartenbau",
+      "foerdersatz": "100 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E12_Fungizidverzicht",
+          "label": "E12 Fungizidverzicht",
+          "annotation": null
+        },
+        {
+          "target": "E13.1_Drillreihenabstand",
+          "label": "E13.1 Drillreihenabstand",
+          "annotation": null
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": null
+        },
+        {
+          "target": "E4_Trichogramma",
+          "label": "E4 Trichogramma",
+          "annotation": null
+        },
+        {
+          "target": "E9_Mais_Stangenbohnen",
+          "label": "E9 Mais mit Stangenbohnen",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        },
+        {
+          "target": "F4_Strip_Till",
+          "label": "F4 Strip Till",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "E10_Ackerfutterbau",
+          "label": "E10 Ackerfutterbau",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E13.2_Drillreihenabstand_Untersaat",
+          "label": "E13.2 Drillreihenabstand mit Untersaat",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_6_Bodenbedeckung",
+          "label": "GLÖZ 6 Bodenbedeckung",
+          "beschreibung": "Begrünungsmischungen gehen über 80%-Mindestbodenbedeckung hinaus"
+        },
+        {
+          "target": "GLOEZ_7_Fruchtwechsel",
+          "label": "GLÖZ 7 Fruchtwechsel",
+          "beschreibung": "Zwischenfrüchte zählen nicht als Hauptkultur, unterstützen aber Fruchtfolge"
+        },
+        {
+          "target": "GAB_2_Nitratrichtlinie",
+          "label": "GAB 2 Nitratrichtlinie",
+          "beschreibung": "Begrünung bindet Reststickstoff und reduziert Auswaschung"
+        }
+      ]
+    },
+    {
+      "datei": "E10_Ackerfutterbau.md",
+      "code": "E10",
+      "titel": "Mehrjähriger leguminosenbetonter Ackerfutterbau",
+      "foerdersatz": "100 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A2_Silageverzicht",
+          "label": "A2 Silageverzicht",
+          "annotation": null
+        },
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(x/a – 40 €/ha (statt 100 €/ha))"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(x/a – 40 €/ha (statt 100 €/ha))"
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": "(–)"
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_7_Fruchtwechsel",
+          "label": "GLÖZ 7 Fruchtwechsel",
+          "beschreibung": "Mehrjähriger Ackerfutterbau beeinflusst Fruchtfolgegestaltung"
+        },
+        {
+          "target": "GAB_2_Nitratrichtlinie",
+          "label": "GAB 2 Nitratrichtlinie",
+          "beschreibung": "Leguminosenbetont – reduziert mineralische N-Düngung über GAB-2-Anforderungen hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "E11_Herbizidfreie_Dauerkulturen.md",
+      "code": "E11",
+      "titel": "Herbizidfreie Bewirtschaftungssysteme in Dauerkulturen",
+      "foerdersatz": "300 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C2_Weinbausteillagen",
+          "label": "C2 Weinbausteillagen",
+          "annotation": null
+        },
+        {
+          "target": "E6_Pheromoneinsatz",
+          "label": "E6 Pheromoneinsatz",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(–)"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Herbizidfreie Bewirtschaftung in Dauerkulturen geht über GAB 7/8 hinaus"
+        },
+        {
+          "target": "GLOEZ_5_Erosionsschutz",
+          "label": "GLÖZ 5 Erosionsschutz",
+          "beschreibung": "Mechanische Beikrautregulierung statt Herbizid beeinflusst Erosionsschutz in Dauerkulturen"
+        }
+      ]
+    },
+    {
+      "datei": "E12_Fungizidverzicht.md",
+      "code": "E12",
+      "titel": "Fungizidverzicht im Winterweizen-, -dinkel, -triticaleanbau bis zum Ährenschieben (EC 49)",
+      "foerdersatz": "50 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E13.1_Drillreihenabstand",
+          "label": "E13.1 Drillreihenabstand",
+          "annotation": null
+        },
+        {
+          "target": "E13.2_Drillreihenabstand_Untersaat",
+          "label": "E13.2 Drillreihenabstand mit Untersaat",
+          "annotation": null
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(–)"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Fungizidverzicht im Getreide geht über GAB-7/8-Grundregeln hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "E13.1_Drillreihenabstand.md",
+      "code": "E13.1",
+      "titel": "Erweiterter Drillreihenabstand in Getreide (Lichtäcker)",
+      "foerdersatz": "150 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E12_Fungizidverzicht",
+          "label": "E12 Fungizidverzicht",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "E13.2_Drillreihenabstand_Untersaat",
+          "label": "E13.2 Drillreihenabstand mit Untersaat",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_7_Fruchtwechsel",
+          "label": "GLÖZ 7 Fruchtwechsel",
+          "beschreibung": "Erweiterter Reihenabstand in Getreide – Fruchtfolge bleibt Baseline"
+        }
+      ]
+    },
+    {
+      "datei": "E13.2_Drillreihenabstand_Untersaat.md",
+      "code": "E13.2",
+      "titel": "Erweiterter Drillreihenabstand mit blühender Untersaat in Getreide",
+      "foerdersatz": "230 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E12_Fungizidverzicht",
+          "label": "E12 Fungizidverzicht",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E13.1_Drillreihenabstand",
+          "label": "E13.1 Drillreihenabstand",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_6_Bodenbedeckung",
+          "label": "GLÖZ 6 Bodenbedeckung",
+          "beschreibung": "Blühende Untersaat verbessert Bodenbedeckung über GLÖZ 6 hinaus"
+        },
+        {
+          "target": "GLOEZ_7_Fruchtwechsel",
+          "label": "GLÖZ 7 Fruchtwechsel",
+          "beschreibung": "Erweiterter Reihenabstand in Getreide – Fruchtfolge bleibt Baseline"
+        }
+      ]
+    },
+    {
+      "datei": "E14_Wildpflanzenmischungen.md",
+      "code": "E14",
+      "titel": "Extensive Biomassepflanzen: Mehrjährige artenreiche Wildpflanzenmischungen",
+      "foerdersatz": "500 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig (5 Jahre)",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(x/a – 420 €/ha (statt 500 €/ha))"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(x/a – 420 €/ha (statt 500 €/ha))"
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "E15_Streifenanbau_Biomasse",
+          "label": "E15 Streifenanbau Biomasse",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_6_Bodenbedeckung",
+          "label": "GLÖZ 6 Bodenbedeckung",
+          "beschreibung": "Mehrjährige Wildpflanzenmischungen übertreffen GLÖZ-6-Mindestbodenbedeckung"
+        },
+        {
+          "target": "GLOEZ_8_Landschaftselemente",
+          "label": "GLÖZ 8 Landschaftselemente",
+          "beschreibung": "Dauerhafte Strukturen über GLÖZ-8-Mindestschutz hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "E15_Streifenanbau_Biomasse.md",
+      "code": "E15",
+      "titel": "Extensive Biomassepflanzen: Streifenanbau aus mehrjährigen Biomassepflanzen und Wildpflanzenmischungen",
+      "foerdersatz": "260 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(x/a – 180 €/ha (statt 260 €/ha))"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(x/a – 180 €/ha (statt 260 €/ha))"
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "E14_Wildpflanzenmischungen",
+          "label": "E14 Wildpflanzenmischungen",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_6_Bodenbedeckung",
+          "label": "GLÖZ 6 Bodenbedeckung",
+          "beschreibung": "Streifenanbau mit Dauerkulturen übertrifft GLÖZ-6-Bodenbedeckung"
+        },
+        {
+          "target": "GLOEZ_8_Landschaftselemente",
+          "label": "GLÖZ 8 Landschaftselemente",
+          "beschreibung": "Streifen als Strukturelemente in der Landschaft"
+        }
+      ]
+    },
+    {
+      "datei": "E3_Herbizidverzicht.md",
+      "code": "E3",
+      "titel": "Herbizidverzicht im Ackerbau",
+      "foerdersatz": "80 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E12_Fungizidverzicht",
+          "label": "E12 Fungizidverzicht",
+          "annotation": null
+        },
+        {
+          "target": "E4_Trichogramma",
+          "label": "E4 Trichogramma",
+          "annotation": null
+        },
+        {
+          "target": "E9_Mais_Stangenbohnen",
+          "label": "E9 Mais mit Stangenbohnen",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        },
+        {
+          "target": "F4_Strip_Till",
+          "label": "F4 Strip Till",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(–)"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E10_Ackerfutterbau",
+          "label": "E10 Ackerfutterbau",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E13.1_Drillreihenabstand",
+          "label": "E13.1 Drillreihenabstand",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E13.2_Drillreihenabstand_Untersaat",
+          "label": "E13.2 Drillreihenabstand mit Untersaat",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E14_Wildpflanzenmischungen",
+          "label": "E14 Wildpflanzenmischungen",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E15_Streifenanbau_Biomasse",
+          "label": "E15 Streifenanbau Biomasse",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Herbizidverzicht geht über GAB-7/8-Grundregeln hinaus"
+        },
+        {
+          "target": "GLOEZ_6_Bodenbedeckung",
+          "label": "GLÖZ 6 Bodenbedeckung",
+          "beschreibung": "Mechanische Unkrautbekämpfung statt Herbizid beeinflusst Bodenbedeckung"
+        }
+      ]
+    },
+    {
+      "datei": "E4_Trichogramma.md",
+      "code": "E4",
+      "titel": "Ausbringung von Trichogramma bei Mais",
+      "foerdersatz": "60 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": null
+        },
+        {
+          "target": "E9_Mais_Stangenbohnen",
+          "label": "E9 Mais mit Stangenbohnen",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        },
+        {
+          "target": "F4_Strip_Till",
+          "label": "F4 Strip Till",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Biologischer Pflanzenschutz ersetzt Insektizideinsatz – geht über GAB 7/8 hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "E5_Nuetzlingseinsatz.md",
+      "code": "E5",
+      "titel": "Nützlingseinsatz im Gewächshaus oder Folientunnel",
+      "foerdersatz": "2.700 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(x/a – 2.500 €/ha (statt 2.700 €/ha))"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(x/a – 2.500 €/ha (statt 2.700 €/ha))"
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Nützlingseinsatz statt chem. PSM im Gewächshaus – geht über GAB 7/8 hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "E6_Pheromoneinsatz.md",
+      "code": "E6",
+      "titel": "Pheromoneinsatz im Obstbau",
+      "foerdersatz": "100 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E11_Herbizidfreie_Dauerkulturen",
+          "label": "E11 Herbizidfreie Dauerkulturen",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Pheromonfallen statt Insektizide im Obstbau – geht über GAB 7/8 hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "E7_Bluehflaechen.md",
+      "code": "E7",
+      "titel": "Anlage von Blüh-, Brut- und Rückzugsflächen (Lebensräume für Niederwild)",
+      "foerdersatz": "650 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(kR – keine zusätzliche D2-Förderung)"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(kR – keine zusätzliche D2-Förderung)"
+        },
+        {
+          "target": "E8_Brachebegruenung",
+          "label": "E8 Brachebegrünung",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_6_Bodenbedeckung",
+          "label": "GLÖZ 6 Bodenbedeckung",
+          "beschreibung": "Blühflächen erfüllen und übertreffen GLÖZ-6-Mindestbodenbedeckung"
+        },
+        {
+          "target": "GLOEZ_8_Landschaftselemente",
+          "label": "GLÖZ 8 Landschaftselemente",
+          "beschreibung": "Blühflächen schaffen zusätzliche Habitatstrukturen über GLÖZ 8 hinaus"
+        },
+        {
+          "target": "GAB_3_4_Naturschutz",
+          "label": "GAB 3/4 Naturschutz",
+          "beschreibung": "Brut- und Rückzugsflächen für Vogelarten"
+        }
+      ]
+    },
+    {
+      "datei": "E8_Brachebegruenung.md",
+      "code": "E8",
+      "titel": "Brachebegrünung mit mehrjährigen Blühmischungen",
+      "foerdersatz": "730 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig (mind. 5 Jahre)",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": "(–)"
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(kR – keine zusätzliche D2-Förderung)"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(kR – keine zusätzliche D2-Förderung)"
+        },
+        {
+          "target": "E7_Bluehflaechen",
+          "label": "E7 Blühflächen",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_6_Bodenbedeckung",
+          "label": "GLÖZ 6 Bodenbedeckung",
+          "beschreibung": "Mehrjährige Blühmischungen übertreffen GLÖZ-6-Mindestbodenbedeckung"
+        },
+        {
+          "target": "GLOEZ_8_Landschaftselemente",
+          "label": "GLÖZ 8 Landschaftselemente",
+          "beschreibung": "Brachebegrünung als Strukturelement"
+        }
+      ]
+    },
+    {
+      "datei": "E9_Mais_Stangenbohnen.md",
+      "code": "E9",
+      "titel": "Anbau von Mais mit Gemengepartnern (Stangenbohnen)",
+      "foerdersatz": "130 €/ha",
+      "einheit": "ha",
+      "kategorie": "E – Umweltschonende Pflanzenerzeugung",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": null
+        },
+        {
+          "target": "E4_Trichogramma",
+          "label": "E4 Trichogramma",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        },
+        {
+          "target": "F4_Strip_Till",
+          "label": "F4 Strip Till",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_7_Fruchtwechsel",
+          "label": "GLÖZ 7 Fruchtwechsel",
+          "beschreibung": "Mais-Mischkultur zählt als Hauptkultur Mais (Änderung 2026)"
+        },
+        {
+          "target": "GAB_7_8_Pflanzenschutz",
+          "label": "GAB 7/8 Pflanzenschutz",
+          "beschreibung": "Gemengepartner können PSM-Bedarf reduzieren"
+        }
+      ]
+    },
+    {
+      "datei": "F3_Precision_Farming.md",
+      "code": "F3",
+      "titel": "Precision Farming (teilflächenspezifische N-Düngung)",
+      "foerdersatz": "50 €/ha",
+      "einheit": "ha",
+      "kategorie": "F – Freiwillige Maßnahmen zum Gewässer- und Erosionsschutz",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E12_Fungizidverzicht",
+          "label": "E12 Fungizidverzicht",
+          "annotation": null
+        },
+        {
+          "target": "E13.1_Drillreihenabstand",
+          "label": "E13.1 Drillreihenabstand",
+          "annotation": null
+        },
+        {
+          "target": "E13.2_Drillreihenabstand_Untersaat",
+          "label": "E13.2 Drillreihenabstand mit Untersaat",
+          "annotation": null
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": null
+        },
+        {
+          "target": "E4_Trichogramma",
+          "label": "E4 Trichogramma",
+          "annotation": null
+        },
+        {
+          "target": "E9_Mais_Stangenbohnen",
+          "label": "E9 Mais mit Stangenbohnen",
+          "annotation": null
+        },
+        {
+          "target": "F4_Strip_Till",
+          "label": "F4 Strip Till",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": "(–)"
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": "(–)"
+        },
+        {
+          "target": "E10_Ackerfutterbau",
+          "label": "E10 Ackerfutterbau",
+          "annotation": "(–)"
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_1_Wasserrahmenrichtlinie",
+          "label": "GAB 1 Wasserrahmenrichtlinie",
+          "beschreibung": "Teilflächenspezifische Düngung reduziert P-Überschüsse über GAB-1-Vorgaben hinaus"
+        },
+        {
+          "target": "GAB_2_Nitratrichtlinie",
+          "label": "GAB 2 Nitratrichtlinie",
+          "beschreibung": "Teilflächenspezifische N-Düngung reduziert Auswaschung über GAB-2-Vorgaben hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "F4_Strip_Till.md",
+      "code": "F4",
+      "titel": "Reduzierte Bodenbearbeitung mit Strip Till-Verfahren",
+      "foerdersatz": "100 €/ha",
+      "einheit": "ha",
+      "kategorie": "F – Freiwillige Maßnahmen zum Gewässer- und Erosionsschutz",
+      "verpflichtung": "mehrjährig",
+      "kombinierbar_mit": [
+        {
+          "target": "A3_Kleine_Strukturen",
+          "label": "A3 Kleine Strukturen",
+          "annotation": null
+        },
+        {
+          "target": "C1_Streuobst",
+          "label": "C1 Streuobst",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Beibehaltung",
+          "label": "D2 Ökolandbau – Beibehaltung",
+          "annotation": null
+        },
+        {
+          "target": "D2_Oekolandbau_Einfuehrung",
+          "label": "D2 Ökolandbau – Einführung",
+          "annotation": null
+        },
+        {
+          "target": "E1.2_Begruenungsmischungen",
+          "label": "E1.2 Begrünungsmischungen",
+          "annotation": null
+        },
+        {
+          "target": "E3_Herbizidverzicht",
+          "label": "E3 Herbizidverzicht Ackerbau",
+          "annotation": null
+        },
+        {
+          "target": "E4_Trichogramma",
+          "label": "E4 Trichogramma",
+          "annotation": null
+        },
+        {
+          "target": "E9_Mais_Stangenbohnen",
+          "label": "E9 Mais mit Stangenbohnen",
+          "annotation": null
+        },
+        {
+          "target": "F3_Precision_Farming",
+          "label": "F3 Precision Farming",
+          "annotation": null
+        }
+      ],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GLOEZ_5_Erosionsschutz",
+          "label": "GLÖZ 5 Erosionsschutz",
+          "beschreibung": "Strip Till als erosionsminderndes Verfahren über GLÖZ-5-Mindestpraktiken hinaus"
+        },
+        {
+          "target": "GLOEZ_6_Bodenbedeckung",
+          "label": "GLÖZ 6 Bodenbedeckung",
+          "beschreibung": "Reduzierte Bodenbearbeitung erhält Bodenbedeckung"
+        }
+      ]
+    },
+    {
+      "datei": "G1_Sommerweide.md",
+      "code": "G1.1/G1.2",
+      "titel": "Sommerweideprämie",
+      "foerdersatz": "50 €/GV",
+      "einheit": "GV",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 11 Tierschutz",
+          "beschreibung": "Weidegang geht über allgemeine Haltungsanforderungen hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G2.1_Mastschweine_Einstieg.md",
+      "code": "G2.1",
+      "titel": "Tiergerechte Mastschweinehaltung – Einstiegsstufe",
+      "foerdersatz": "14 €/erzeugtes Mastschwein",
+      "einheit": "Tier",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "G2.2_Mastschweine_Premium",
+          "label": "G2.2 Tiergerechte Mastschweinehaltung – Premi",
+          "annotation": null
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 10 Schweine",
+          "beschreibung": "Mehr Platz und Beschäftigung über GAB-10-Mindestflächen hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G2.2_Mastschweine_Premium.md",
+      "code": "G2.2",
+      "titel": "Tiergerechte Mastschweinehaltung – Premiumstufe",
+      "foerdersatz": "23 €/erzeugtes Mastschwein",
+      "einheit": "Tier",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "G2.1_Mastschweine_Einstieg",
+          "label": "G2.1 Tiergerechte Mastschweinehaltung – Einst",
+          "annotation": null
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 10 Schweine",
+          "beschreibung": "Auslauf/Außenklima geht deutlich über GAB-10-Mindestanforderungen hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G3.1_Masthuehner_Einstieg.md",
+      "code": "G3.1",
+      "titel": "Tiergerechte Haltung von Masthühnern – Einstiegsstufe",
+      "foerdersatz": "25 €/100 erzeugte Tiere",
+      "einheit": "100 Tiere",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "G3.2_Masthuehner_Premium",
+          "label": "G3.2 Tiergerechte Haltung von Masthühnern – P",
+          "annotation": null
+        },
+        {
+          "target": "G3.3_Bruderhahn",
+          "label": "G3.3 Tiergerechte Haltung von Masthühnern – P",
+          "annotation": null
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 11 Tierschutz",
+          "beschreibung": "Reduzierte Besatzdichte über allgemeine Tierschutzanforderungen hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G3.2_Masthuehner_Premium.md",
+      "code": "G3.2",
+      "titel": "Tiergerechte Haltung von Masthühnern – Premiumstufe",
+      "foerdersatz": "65 €/100 erzeugte Tiere",
+      "einheit": "100 Tiere",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "G3.1_Masthuehner_Einstieg",
+          "label": "G3.1 Tiergerechte Haltung von Masthühnern – E",
+          "annotation": null
+        },
+        {
+          "target": "G3.3_Bruderhahn",
+          "label": "G3.3 Tiergerechte Haltung von Masthühnern – P",
+          "annotation": null
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 11 Tierschutz",
+          "beschreibung": "Deutlich reduzierte Besatzdichte und Außenklima über GAB 11 hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G3.3_Bruderhahn.md",
+      "code": "G3.3",
+      "titel": "Tiergerechte Haltung von Masthühnern – Premiumstufe Variante Bruderhahn",
+      "foerdersatz": "130 €/100 erzeugte Tiere",
+      "einheit": "100 Tiere",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [
+        {
+          "target": "G3.1_Masthuehner_Einstieg",
+          "label": "G3.1 Tiergerechte Haltung von Masthühnern – E",
+          "annotation": null
+        },
+        {
+          "target": "G3.2_Masthuehner_Premium",
+          "label": "G3.2 Tiergerechte Haltung von Masthühnern – P",
+          "annotation": null
+        }
+      ],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 11 Tierschutz",
+          "beschreibung": "Bruderhahn-Aufzucht statt Kükentöten – über GAB 11 hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G4.1_Junghuhner_Zweinutzung.md",
+      "code": "G4.1",
+      "titel": "Tiergerechte Junghühneraufzucht von Zweinutzungshuhnrassen",
+      "foerdersatz": "130 €/100 erzeugte weibliche Tiere",
+      "einheit": "100 Tiere",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 11 Tierschutz",
+          "beschreibung": "Zweinutzungshuhn-Aufzucht über allgemeine Tierschutzanforderungen hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G4.2_Legehennen_Zweinutzung.md",
+      "code": "G4.2",
+      "titel": "Tiergerechte Haltung von Legehennen von Zweinutzungshuhnrassen",
+      "foerdersatz": "8 €/Tier/Jahr",
+      "einheit": "Tier",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 11 Tierschutz",
+          "beschreibung": "Zweinutzungshuhn-Haltung über allgemeine Tierschutzanforderungen hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G5_Ferkelerzeugung.md",
+      "code": "G5",
+      "titel": "Tiergerechte Ferkelerzeugung – Premiumstufe",
+      "foerdersatz": "Abferkelung: 110 €/Bestandssau, Deckzentrum: 45 €/Bestandssau, Wartestall: 125 €/Bestandssau",
+      "einheit": "Bestandssau",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 10 Schweine",
+          "beschreibung": "Freie Abferkelung, Deckzentrum, Wartestall – geht über GAB-10-Kastenstandregelungen hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G6_Ferkelaufzucht.md",
+      "code": "G6",
+      "titel": "Tiergerechte Ferkelaufzucht – Premiumstufe",
+      "foerdersatz": "8 €/erzeugtes Tier",
+      "einheit": "Tier",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 10 Schweine",
+          "beschreibung": "Mehr Platz und Beschäftigung in der Aufzucht über GAB-10-Mindestflächen hinaus"
+        }
+      ]
+    },
+    {
+      "datei": "G7_Kaelber.md",
+      "code": "G7",
+      "titel": "Tiergerechte Haltung von Kälbern",
+      "foerdersatz": "35 €/Aufzuchtkalb",
+      "einheit": "Tier",
+      "kategorie": "G – Besonders tiergerechte Haltungsverfahren",
+      "verpflichtung": "einjährig",
+      "kombinierbar_mit": [],
+      "nicht_kombinierbar_mit": [],
+      "konditionalitaet": [
+        {
+          "target": "GAB_9_10_11_Tierschutz",
+          "label": "GAB 9 Kälber",
+          "beschreibung": "Mehr Platz, früherer Weidegang, Gruppenhaltung ab Geburt – über GAB-9-Mindestanforderungen hinaus"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Temporäre Dateien
+/tmp/
+*.tmp
+
+# Extrahierte Daten (reproduzierbar via scripts/)
+raw/konditionalitaet/kond_extracted.json
