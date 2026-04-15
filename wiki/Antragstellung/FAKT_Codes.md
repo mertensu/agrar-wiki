@@ -60,4 +60,4 @@ Die FAKT-Codes (FC) werden bei der Antragstellung in FIONA benötigt, um Maßnah
 **Hinweis:** Maßnahmen ohne FAKT-Code (—) werden über andere Kennzeichnungen in FIONA beantragt (betriebsbezogen oder tierbezogen). Die FAKT-Codes sind nur für flächenbezogene Maßnahmen relevant, die über die Nutzcodeliste einem Schlag zugewiesen werden.
 
 ---
-*Quelle: raw/FAKT_Codes_2026.pdf, Stand 17.10.2025*
+*Quelle: FAKT_Codes_2026.pdf, Stand 17.10.2025*

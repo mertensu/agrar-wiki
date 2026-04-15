@@ -1,5 +1,42 @@
 # Wiki-Log
 
+## [2026-04-15] refactor | Quellenverweise vereinheitlichen
+
+**Was & Warum:**
+Alle Quellenverweise im Wiki auf einen einheitlichen Stil konsolidiert: Dateiname ohne Pfad-Prefix, keine beschreibenden Titel. Ziel: konsistente, maschinenlesbare Quellenangaben.
+
+**Konventionen (neu):**
+- Immer Dateiname, nie beschreibender Titel (`Kond_Infobroschuere_2026.pdf` statt `Informationsbroschüre Konditionalität 2026`)
+- Kein `raw/`-Prefix (`FAKT_G_Haeufige_Fragen.pdf` statt `raw/FAKT_G_Haeufige_Fragen.pdf`)
+- Auf Originale verweisen, nicht auf Splits (`FAKT_II_Broschuere.pdf` statt `fakt_broschuere_3.pdf`)
+- `downloads/` wird nie referenziert – nur `raw/` enthält zitierbare Quellen
+
+**Neue Dateien in raw/:**
+- `FAKT_II_Broschuere.pdf` – Original-Broschüre (47 S.), bisher nur als 3 manuelle Splits vorhanden
+- `Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf` – kopiert aus downloads/, normalisierter Name
+- `Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf` – kopiert aus downloads/, normalisierter Name
+- `Merkblatt_Pflege_Bluehmischungen_E8.pdf` – kopiert aus downloads/, normalisierter Name
+
+**Neues Skript:**
+- `scripts/split_fakt_broschuere.sh` – reproduzierbarer Split der Original-Broschüre in die 3 Teile
+
+**Geänderte Dateien (~60):**
+- Alle ~35 Maßnahmen-Seiten: Fußzeile `FAKT II-Broschüre Baden-Württemberg` → `FAKT_II_Broschuere.pdf`
+- 16 Konditionalitäts-Seiten: Fußzeile `Informationsbroschüre Konditionalität 2026` → `Kond_Infobroschuere_2026.pdf`
+- Soziale_Konditionalitaet.md, Gewaesserrandstreifen_BW.md, GLOEZ_5_Erosionsschutz.md: beschreibende Titel → Dateinamen
+- Oeko-Regelungen.md: `Ergänzende Informationen zu ÖR…` → `Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf`
+- Antragstellung_Ackerbau.md, Antragstellung_Bluehflaechen.md: `LTZ-Empfehlungen 2026` → `Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf`
+- Antragstellung_Tierwohl.md, FAKT_Codes.md, Kombinationstabelle.md: `raw/`-Prefix entfernt
+- log.md: `Empfehlungen Kap. X` → `Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf`; `raw/`-Prefixe entfernt
+- CLAUDE.md: Quellenreferenz-Konvention dokumentiert, Verzeichnisstruktur aktualisiert
+
+**Verifizierung:**
+- `grep -r 'raw/' wiki/` → 1 Treffer (Verzeichnispfad in "noch offen"-Notiz, kein Quellenverweis)
+- `grep -r 'Informationsbroschüre Konditionalität' wiki/` → 0 Treffer
+- `grep -r 'FAKT II-Broschüre Baden' wiki/` → 0 Treffer
+- `grep -r 'LTZ-Empfehlungen\|LTZ-Merkblatt\|Empfehlungen Kap\.' wiki/` → 0 Treffer
+- Alle referenzierten Dateinamen existieren in `raw/`
+
 ## [2026-04-14] erstellt | Restliche Antragstellung-Seiten (Plan B, Schritt 7)
 
 **Quelle:** Bestehende Wiki-Seiten (keine neuen Quellen)
@@ -55,17 +92,17 @@ Zwei neue Antragstellung-Seiten erstellt, die thematisch verwandte Ackerbau- bzw
 
 *Antragstellung_Ackerbau.md (neu):*
 - Checklisten + Praxistipps für E1.2, E3, E9, E10, E12, E13.1, E13.2, F3, F4
-- E1.2: Neue Nachweispflicht ab Verschlussdatum 1.1.2027 (Quelle: Empfehlungen Kap. 2.2–2.3, S. 6–8)
-- E9: Mischungsverhältnis 60–67 % Mais / 33–40 % Bohne; PSM nur Vorauflauf (Quelle: Empfehlungen Kap. 4, S. 16–17)
-- E13.2: Seit 2025 einheitliche Untersaat-Mischung (Quelle: Empfehlungen Kap. 5.2, Tab. 4, S. 19)
-- F3: Förderfähige Verfahren (Satellit, Drohne, Sensor, Ertragskarten); mind. 60 % N teilflächenspezifisch (Quelle: Empfehlungen Kap. 7, S. 24–27)
+- E1.2: Neue Nachweispflicht ab Verschlussdatum 1.1.2027 (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, S. 6–8)
+- E9: Mischungsverhältnis 60–67 % Mais / 33–40 % Bohne; PSM nur Vorauflauf (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, S. 16–17)
+- E13.2: Seit 2025 einheitliche Untersaat-Mischung (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, S. 19)
+- F3: Förderfähige Verfahren (Satellit, Drohne, Sensor, Ertragskarten); mind. 60 % N teilflächenspezifisch (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, S. 24–27)
 
 *Antragstellung_Bluehflaechen.md (neu):*
 - Checklisten + Praxistipps für E7, E8, E14, E15
-- E7: Mischung M3+ Detailinfos (30+ Arten), Öko-Betriebe dürfen 5 Arten weglassen (Quelle: Empfehlungen Kap. 3.2, Tab. 3, S. 11–12)
-- E8: 7 zugelassene Mischungen mit regionaler Zertifizierung (VWW/RegioZert); Öko-Sonderregel 40/60-Mischung (Quelle: Empfehlungen Kap. 3.3, S. 13–15)
-- E8 Pflege: Konkrete Maßnahmen bei Verunkrautung/Vergrasung/Disteln; max. 50 % gleichzeitig; Mulchen nie geeignet (Quelle: Merkblatt E8, S. 1–3)
-- E14/E15: 7+ zugelassene Biomasse-Mischungen; Hanf-BLE-Regelung (Quelle: Empfehlungen Kap. 6, S. 21–23)
+- E7: Mischung M3+ Detailinfos (30+ Arten), Öko-Betriebe dürfen 5 Arten weglassen (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, S. 11–12)
+- E8: 7 zugelassene Mischungen mit regionaler Zertifizierung (VWW/RegioZert); Öko-Sonderregel 40/60-Mischung (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, S. 13–15)
+- E8 Pflege: Konkrete Maßnahmen bei Verunkrautung/Vergrasung/Disteln; max. 50 % gleichzeitig; Mulchen nie geeignet (Quelle: Merkblatt_Pflege_Bluehmischungen_E8.pdf, S. 1–3)
+- E14/E15: 7+ zugelassene Biomasse-Mischungen; Hanf-BLE-Regelung (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, S. 21–23)
 
 *13 Maßnahmen-Seiten – `## Antragstellung`-Links:*
 - E1.2, E3, E9, E10, E12, E13.1, E13.2, F3, F4 → [[Antragstellung_Ackerbau]]
@@ -80,8 +117,8 @@ Zwei neue Antragstellung-Seiten erstellt, die thematisch verwandte Ackerbau- bzw
 ## [2026-04-14] scope-update + ingest | Antragstellung: FAKT-Codes + G-FAQ
 
 **Quellen:**
-- `raw/FAKT_Codes_2026.pdf` (2 S.) – Übersicht aller Maßnahmen mit FAKT-Codes
-- `raw/FAKT_G_Haeufige_Fragen.pdf` (2 S.) – FAQ zu G-Maßnahmen (MLR, Stand 21.12.2023)
+- `FAKT_Codes_2026.pdf` (2 S.) – Übersicht aller Maßnahmen mit FAKT-Codes
+- `FAKT_G_Haeufige_Fragen.pdf` (2 S.) – FAQ zu G-Maßnahmen (MLR, Stand 21.12.2023)
 
 **Was & Warum:**
 Wiki-Scope um Antragstellungsebene erweitert (Entscheidung 2026-04-14). Bisher nur Beratung ("Soll ich?"), jetzt auch "Wie beantrage ich korrekt?". Zwei kleinste Quellen als erste Antragstellung-Seiten verarbeitet: FAKT-Code-Zuordnung (für Schlag-Codierung in FIONA) und Tierwohl-FAQ (Praxisfragen zu Auflagen).
@@ -98,7 +135,7 @@ Wiki-Scope um Antragstellungsebene erweitert (Entscheidung 2026-04-14). Bisher n
 - Maßnahmen-Seitenformat: `## Antragstellung`-Abschnitt dokumentiert
 
 *FAKT_Codes.md (neu):*
-- Mapping-Tabelle aller 42 Maßnahmen → FAKT-Codes (raw/FAKT_Codes_2026.pdf, S. 1–2)
+- Mapping-Tabelle aller 42 Maßnahmen → FAKT-Codes (FAKT_Codes_2026.pdf, S. 1–2)
 - 23 Maßnahmen haben FAKT-Codes (B1.2=21, B3.2=23, B4=24, B5=25, B6=62, C2=30, E1.2=41, E3=44, E4=45, E5=46, E6=47, E7=48, E8=49, E9=70, E10=71, E11=72, E12=73, E13.1=74, E13.2=75, E14=76, E15=77, F3=52, F4=53)
 - 19 Maßnahmen ohne FAKT-Code (A2, A3, B7, C1, C3, D2, G1–G7) – betriebsbezogen/tierbezogen beantragt
 
@@ -106,7 +143,7 @@ Wiki-Scope um Antragstellungsebene erweitert (Entscheidung 2026-04-14). Bisher n
 - Alle 23 Maßnahmen mit FAKT-Code über `scripts/add_fakt_codes.py` aktualisiert
 
 *Antragstellung_Tierwohl.md (neu):*
-- FAQ zu Tränke, Ausläufe, Raufutter, Einstreu, Beschäftigungsmaterial (raw/FAKT_G_Haeufige_Fragen.pdf, S. 1–2)
+- FAQ zu Tränke, Ausläufe, Raufutter, Einstreu, Beschäftigungsmaterial (FAKT_G_Haeufige_Fragen.pdf, S. 1–2)
 - Fallstricke-Abschnitt: Einstreu Premiumstufe >5cm, Raufutter≠Stroh, Auslauf-Definition, Beschäftigungsautomat G2.1
 
 *11 G-Maßnahmen-Seiten:*
@@ -122,8 +159,8 @@ Wiki-Scope um Antragstellungsebene erweitert (Entscheidung 2026-04-14). Bisher n
 ## [2026-04-14] ingest | GA-Wichtige Hinweise + GA-Erläuterungen 2026 (FAKT-II-Kapitel)
 
 **Quellen:**
-- `raw/GA - Wichtige Hinweise zum GA 2026.pdf` (2 S.) – Neuerungen-Überblick
-- `raw/GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf` (102 S.) – Kapitel 7.1 FAKT II (S. 49–78) ausgewertet
+- `GA - Wichtige Hinweise zum GA 2026.pdf` (2 S.) – Neuerungen-Überblick
+- `GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf` (102 S.) – Kapitel 7.1 FAKT II (S. 49–78) ausgewertet
 
 **Was & Warum:**
 Zwei neue GA-Dokumente aufbereitet. Die "Wichtigen Hinweise" sind das kompakte Neuerungen-Blatt für 2026, die "Erläuterungen" das ausführliche Ausfüllhandbuch. Fokus auf beratungsrelevante Inhalte – FIONA-Codes, Nachweisfristen und Formulardetails bewusst nicht ins Wiki aufgenommen (siehe Scope-Entscheidung in CLAUDE.md).
@@ -131,7 +168,7 @@ Zwei neue GA-Dokumente aufbereitet. Die "Wichtigen Hinweise" sind das kompakte N
 **Strukturelle Änderungen:**
 - `wiki/Konzepte/Neuerungen_2026.md` neu erstellt – zentrale Übersichtsseite für alle Änderungen 2026
 - `scripts/split_ga_erlaeuterungen.sh` erstellt – splittet 102-S.-PDF in 8 Kapitel-PDFs (qpdf)
-- `raw/ga_erlaeuterungen/` – 8 Teil-PDFs für kapitelweisen Zugriff
+- `ga_erlaeuterungen/` – 8 Teil-PDFs für kapitelweisen Zugriff
 - `CLAUDE.md` – Abschnitt "Scope-Entscheidungen" ergänzt
 
 **Änderungen mit Quellennachweis:**
@@ -177,10 +214,10 @@ Zwei neue GA-Dokumente aufbereitet. Die "Wichtigen Hinweise" sind das kompakte N
 ## [2026-04-14] ingest | 4 weitere Konditionalitäts-PDFs
 
 **Quellen:**
-- `raw/konditionalitaet/Soz_Kond_Infobroschuere_2026.pdf` (16 S.) – Soziale Konditionalität
-- `raw/konditionalitaet/Merkblatt_Pflanzenschutzdokumentation.pdf` (4 S.) – PSM-Dokumentation ab 01.01.2026
-- `raw/konditionalitaet/Info_Mindestpraktiken_Bodenbewirtschaftung_zur_Begrenzung_von_Erosion_(GLÖZ_5).pdf` (8 S.) – Erosionsschutz BW-Detail
-- `raw/konditionalitaet/Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf` (10 S.) – Gewässerrandstreifen BW
+- `Soz_Kond_Infobroschuere_2026.pdf` (16 S.) – Soziale Konditionalität
+- `Merkblatt_Pflanzenschutzdokumentation.pdf` (4 S.) – PSM-Dokumentation ab 01.01.2026
+- `Info_Mindestpraktiken_Bodenbewirtschaftung_zur_Begrenzung_von_Erosion_(GLÖZ_5).pdf` (8 S.) – Erosionsschutz BW-Detail
+- `Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf` (10 S.) – Gewässerrandstreifen BW
 
 **Was & Warum:**
 Vier ergänzende Konditionalitäts-Dokumente integriert. Die soziale Konditionalität ist ein komplett neues Thema (seit 2025), das viele Landwirte mit Angestellten nicht kennen. PSM-Dokumentation konkretisiert die ab 2026 geltenden erweiterten Aufzeichnungspflichten. GLÖZ-5-Detail liefert die BW-spezifische Einstufungs-Methodik und gleichwertigen Maßnahmen. Gewässerrandstreifen-Merkblatt enthält die Praxisdetails für die häufigste Frage: "Was darf ich am Bach noch machen?"
@@ -215,7 +252,7 @@ Vier ergänzende Konditionalitäts-Dokumente integriert. Die soziale Konditional
 
 **Geprüfte Maßnahmen:** B1.2, C1, E6 (zufällige Auswahl aus verschiedenen Kategorien)
 
-**Methodik:** PDF-Seiten aus `raw/fakt_broschuere_3.pdf` als Bilder gerendert (pdftoppm, 200 dpi) und visuell gegen Wiki-Seiten abgeglichen.
+**Methodik:** PDF-Seiten aus `FAKT_II_Broschuere.pdf` als Bilder gerendert (pdftoppm, 200 dpi) und visuell gegen Wiki-Seiten abgeglichen.
 
 **Ergebnis:**
 - **B1.2 Extensive Grünland** (PDF S. 1–2): Alle Angaben korrekt – Fördersatz (150 €/ha), Voraussetzungen (0,3 RGV/ha), alle 6 Auflagen vollständig
@@ -228,7 +265,7 @@ Vier ergänzende Konditionalitäts-Dokumente integriert. Die soziale Konditional
 
 ## [2026-04-14] ingest | Konditionalität – Kond_Infobroschuere_2026.pdf
 
-**Quelle:** `raw/konditionalitaet/Kond_Infobroschuere_2026.pdf` (76 S.), gesplittet in 6 Kapitel-PDFs via `scripts/split_kond_info.sh`
+**Quelle:** `Kond_Infobroschuere_2026.pdf` (76 S.), gesplittet in 6 Kapitel-PDFs via `scripts/split_kond_info.sh`
 
 **Was & Warum:**
 Die Konditionalität ist das regulatorische Fundament aller GAP-Zahlungen (inkl. FAKT II). Jede FAKT-Maßnahme baut auf diesen Baseline-Anforderungen auf. Integration als Konzeptseiten, damit jede Maßnahme zeigt, welche Basisregeln sie berührt.
@@ -273,7 +310,7 @@ Die Konditionalität ist das regulatorische Fundament aller GAP-Zahlungen (inkl.
 
 ## [2026-04-13] ingest | Nutzcodeliste für FAKT II-Förderantrag 2026
 
-**Quelle:** `raw/Nutzcodeliste für FAKT II-Förderantrag_2026.pdf` (1 S.)
+**Quelle:** `Nutzcodeliste für FAKT II-Förderantrag_2026.pdf` (1 S.)
 
 **Erstellt:**
 - `wiki/Nutzcodeliste.md` – Zuordnung Nutzcode → zulässige FAKT-Maßnahmen (B1.2, B3.2, B4, B5, E7, E8, E14)
@@ -284,7 +321,7 @@ Die Konditionalität ist das regulatorische Fundament aller GAP-Zahlungen (inkl.
 
 ## [2026-04-13] refactor | Kombinations-Links angereichert + Schema erstellt
 
-**Quelle:** `raw/Kombinationstabelle FAKT II.xlsx` (Stand 24.10.2025), Fußnoten Zeilen 48–51
+**Quelle:** `Kombinationstabelle FAKT II.xlsx` (Stand 24.10.2025), Fußnoten Zeilen 48–51
 
 **Was & Warum:**
 
@@ -317,10 +354,10 @@ Symbole (X, x/a, o, (o), kR, –) aus den Matrix-Zellen der Excel-Datei, Zeilen 
 ## [2026-04-12] ingest | FAKT II Broschüren (3 PDFs) + Kombinationstabelle (Excel)
 
 **Quellen:**
-- `raw/fakt_broschuere_1.pdf` (8 S.) – Gesamtbroschüre mit Einführung, Antragstellung
-- `raw/fakt_broschuere_2.pdf` (2 S.) – Maßnahmenübersicht mit Fördersätzen
-- `raw/fakt_broschuere_3.pdf` (37 S.) – Detaillierte Kurzbeschreibungen aller Maßnahmen
-- `raw/Kombinationstabelle FAKT II.xlsx` – Kombinierbarkeitsmatrix
+- `FAKT_II_Broschuere.pdf` (8 S.) – Gesamtbroschüre mit Einführung, Antragstellung
+- `FAKT_II_Broschuere.pdf` (2 S.) – Maßnahmenübersicht mit Fördersätzen
+- `FAKT_II_Broschuere.pdf` (37 S.) – Detaillierte Kurzbeschreibungen aller Maßnahmen
+- `Kombinationstabelle FAKT II.xlsx` – Kombinierbarkeitsmatrix
 
 **Erstellt:**
 - 34 Maßnahmen-Seiten (A2–G7)

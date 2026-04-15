@@ -99,4 +99,4 @@ FAKT II-Maßnahmen bauen auf der Konditionalität auf. Die Förderung gleicht nu
 *Siehe auch: [[FAKT_II_Uebersicht]], [[Oeko-Regelungen]], [[Gemeinsamer_Antrag]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, Ministerium für Ernährung, Ländlichen Raum und Verbraucherschutz Baden-Württemberg, Stand 27.02.2026*
+*Quelle: Kond_Infobroschuere_2026.pdf, Stand 27.02.2026*

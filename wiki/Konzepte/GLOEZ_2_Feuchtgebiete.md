@@ -38,4 +38,4 @@ Landwirtschaftliche Flächen in der Feuchtgebiets-/Moorkulisse unterliegen beson
 *Siehe auch: [[Konditionalitaet]], [[GLOEZ_1_Dauergruenland]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 10–11*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 10–11*

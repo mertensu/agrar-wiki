@@ -34,4 +34,4 @@ Flache Bodenbearbeitung zur Narbenerneuerung (z.B. Direktsaat) ist möglich. Vor
 *Siehe auch: [[Konditionalitaet]], [[GLOEZ_1_Dauergruenland]], [[GAB_3_4_Naturschutz]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 19–20*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 19–20*

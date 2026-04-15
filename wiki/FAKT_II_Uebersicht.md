@@ -54,4 +54,4 @@ Siehe [[Gemeinsamer_Antrag]]
 - [[Gemeinsamer_Antrag]]
 
 ---
-*Quelle: FAKT II-Broschüre, MLR Baden-Württemberg, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*

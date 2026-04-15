@@ -141,4 +141,4 @@ A3 zahlt 70 €/ha pauschal für alle Schläge ≤0,5 ha. Wenn ein 5-ha-Feld dur
 Alle drei Strategien schlagen den Status quo (600–800 €/ha bei steigendem Erosionsrisiko) – besonders wenn man die vermiedenen Kosten (Bodenaufbau, Saatgutverluste, Bußgelder bei Gewässereinträgen) einrechnet.
 
 ---
-*Erstellt: 2026-04-13. Quellen: FAKT II-Broschüre BW (Stand 10/2025), Kombinationstabelle FAKT II.xlsx (Stand 24.10.2025), Nutzcodeliste 2026. Mais-Deckungsbeiträge sind Schätzwerte – betriebliche Kalkulation erforderlich.*
+*Erstellt: 2026-04-13. Quellen: FAKT_II_Broschuere.pdf (Stand 10/2025), Kombinationstabelle FAKT II.xlsx (Stand 24.10.2025), Nutzcodeliste 2026. Mais-Deckungsbeiträge sind Schätzwerte – betriebliche Kalkulation erforderlich.*

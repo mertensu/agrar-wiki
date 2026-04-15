@@ -264,4 +264,4 @@ Davon planbefestigt/max. 15 % Perforation (Liegeflächenanteil): min. 0,95 m²/J
 *Siehe auch: [[Konditionalitaet]], [[GAB_6_Hormonverbot]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 49–57*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 49–57*

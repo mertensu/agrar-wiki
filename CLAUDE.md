@@ -6,10 +6,14 @@ Dieses Projekt ist ein **LLM-Wiki** für das FAKT II-Förderprogramm (Baden-Wür
 
 ```
 raw/                          # Rohdaten – NIEMALS verändern
-  fakt_broschuere_1.pdf       # Allgemeine Infos, Antragstellung
-  fakt_broschuere_2.pdf       # Übersichtstabelle Maßnahmen
-  fakt_broschuere_3.pdf       # Detailbeschreibungen A2–G7
+  FAKT_II_Broschuere.pdf      # Original-Broschüre (47 S.)
+  fakt_broschuere_1.pdf       # Split: Allgemeine Infos (S. 1–8)
+  fakt_broschuere_2.pdf       # Split: Übersichtstabelle (S. 9–10)
+  fakt_broschuere_3.pdf       # Split: Detailbeschreibungen (S. 11–47)
   Kombinationstabelle FAKT II.xlsx  # Kombinationsmatrix
+
+downloads/                    # Archiv – Originaldateien vom MLR-Portal
+                              # Wird nie in Quellenverweisen referenziert
 
 wiki/                         # LLM-generiertes Wiki – Obsidian-Vault
   index.md                    # Inhaltsverzeichnis (nach Kategorien)
@@ -143,20 +147,26 @@ Jede Maßnahmen-Seite verlinkt auf ihre Antragstellung-Seite:
 
 Jede faktische Behauptung im Wiki muss ihre Quelle referenzieren. Format: `(Quelle: Dateiname)` nach der Behauptung.
 
+**Quellenreferenz-Konvention:**
+- **Immer Dateiname** verwenden, nie beschreibende Titel. Beispiel: `Kond_Infobroschuere_2026.pdf` statt `Informationsbroschüre Konditionalität 2026`.
+- **Kein `raw/`-Prefix.** Beispiel: `(Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 1)` statt `(Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 1)`.
+- **Auf Originale verweisen**, nicht auf Split-PDFs. Splits sind Implementierungsdetail. Beispiel: `FAKT_II_Broschuere.pdf, S. 35` statt `fakt_broschuere_3.pdf, S. 25`.
+- **`downloads/` nie referenzieren.** Alle zitierbaren Quellen liegen in `raw/`. `downloads/` ist ein Archiv der Originaldateien vom MLR-Portal.
+
 ```markdown
-- Betriebe ab 0,3 RGV/ha Grünland (Quelle: fakt_broschuere_3.pdf, S. 8)
+- Betriebe ab 0,3 RGV/ha Grünland (Quelle: FAKT_II_Broschuere.pdf, S. 18)
 ```
 
 - Bei mehreren Quellen: `(Quellen: datei1.pdf, datei2.xlsx)`
 - Wenn eine Behauptung **keine Quelle** hat: mit `<!-- TODO: Quelle prüfen -->` markieren
-- Die Fußzeile `*Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*` gilt als Default-Quelle für die ganze Seite. Inline-Quellenangaben nur nötig, wenn die Info aus einer **anderen** Quelle stammt oder besonders kritisch ist (z.B. Abzugsbeträge).
+- Die Fußzeile `*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*` gilt als Default-Quelle für die ganze Seite. Inline-Quellenangaben nur nötig, wenn die Info aus einer **anderen** Quelle stammt oder besonders kritisch ist (z.B. Abzugsbeträge).
 
 ### Widersprüche
 
 Wenn zwei Quellen sich widersprechen, **nie stillschweigend eine Version wählen**. Stattdessen explizit markieren:
 
 ```markdown
-> **Widerspruch:** Laut fakt_broschuere_2.pdf beträgt der Fördersatz 150 €/ha,
+> **Widerspruch:** Laut FAKT_II_Broschuere.pdf (S. 9) beträgt der Fördersatz 150 €/ha,
 > laut der aktualisierten Tabelle (Stand 03/2026) jedoch 160 €/ha.
 > → Neuere Quelle übernommen, alte Angabe hier dokumentiert.
 ```

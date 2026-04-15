@@ -105,4 +105,4 @@ Beikrautregulierung im Unterstockbereich alternativ durch:
 Für E4, E5 und E6 gilt: **Kaufbelege** sind der zentrale Nachweis. Belege von Trichogramma-Kapseln, Nützlingen bzw. Pheromondispensern sorgfältig aufbewahren.
 
 ---
-*Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*

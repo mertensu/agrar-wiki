@@ -47,4 +47,4 @@ Ersatzflächen dürfen **nicht** durch Betriebe gestellt werden, die:
 *Siehe auch: [[Konditionalitaet]], [[GLOEZ_2_Feuchtgebiete]], [[GLOEZ_9_Natura2000_Dauergruenland]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 7–10*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 7–10*

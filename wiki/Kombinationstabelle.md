@@ -66,7 +66,7 @@ Diese Tabelle zeigt, welche FAKT II-Maßnahmen auf **derselben Fläche** miteina
 
 ## Datenquelle
 
-Die Excel-Originaldatei liegt unter `raw/Kombinationstabelle FAKT II.xlsx`.
+Die Excel-Originaldatei liegt unter `Kombinationstabelle FAKT II.xlsx`.
 
 Alle Kombinationsdetails (Symbole, Abzugsbeträge, ÖR-Kompatibilität) sind direkt in den jeweiligen Maßnahmen-Seiten unter `wiki/massnahmen/` als Links mit Annotationen hinterlegt.
 

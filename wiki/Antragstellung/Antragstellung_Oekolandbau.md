@@ -105,4 +105,4 @@ Folgende Maßnahmen sind grundsätzlich **nicht** mit D2 kombinierbar:
 **Logik**: Maßnahmen, deren Auflagen durch die Öko-Verordnung bereits erfüllt werden (PSM-Verzicht, Herbizidverzicht), sind nicht zusätzlich förderfähig. Bei E7/E8 kann die Maßnahme selbst beantragt werden, aber es gibt keinen D2-Zuschlag.
 
 ---
-*Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*

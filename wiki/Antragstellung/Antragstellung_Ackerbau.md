@@ -30,7 +30,7 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die ackerbaulich
 - **Nachweislücke**: Ab 2027 reicht der Zusatzsatz allein nicht mehr – auch die Zusammensetzungstabelle muss vorliegen
 - **Zu früh eingearbeitet**: Mulchen erst ab 16.1. – auch wenn GLÖZ 6 am selben Datum endet, empfiehlt das LTZ, Zwischenfrüchte länger stehen zu lassen (Wasser- und Erosionsschutz)
 
-### Praxistipps Mischungswahl (Quelle: LTZ-Empfehlungen 2026)
+### Praxistipps Mischungswahl (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf)
 
 - In **Raps-/Kohlfruchtfolgen** keine Kreuzblütler (Senf, Ölrettich, Rübsen) → Kohlhernie-Risiko
 - In **engen Getreidefruchtfolgen** Gräser einschränken → grüne Brücke für Pilze/Schädlinge
@@ -68,7 +68,7 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die ackerbaulich
 - [ ] Nachweis Saatguteinkauf (Lieferschein/Rechnung/Etikett)
 - [ ] FAKT-Code: **70**
 
-### Praxistipps (Quelle: LTZ-Empfehlungen 2026)
+### Praxistipps (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf)
 
 - Standorte mit hohem Unkrautdruck oder Wassermangel meiden
 - PSM nur im **Vorauflauf** (nicht später als 2–3 Tage nach Saat)
@@ -135,7 +135,7 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die ackerbaulich
 - [ ] Keine insektiziden Beizmittel
 - [ ] FAKT-Code: **74**
 
-### Praxistipps (Quelle: LTZ-Empfehlungen 2026)
+### Praxistipps (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf)
 
 - Nicht auf Flächen mit starkem Druck durch Disteln, Quecken, Kamille oder Fuchsschwanz
 - Aussaatstärke des Getreides auf 70–90 % reduzieren
@@ -161,7 +161,7 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die ackerbaulich
 - [ ] Nachweis Saatguteinkauf (Etikett/Lieferschein/Rechnung)
 - [ ] FAKT-Code: **75**
 
-### Praxistipps (Quelle: LTZ-Empfehlungen 2026)
+### Praxistipps (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf)
 
 - **Etablierung der Untersaat ist entscheidend** – möglichst zeitgleich oder vor dem Getreide aussäen
 - Bei Wintergetreide bis Mitte Oktober aussäen; späte Aussaat oder Frühjahrsaussaat führt zu starker Verunkrautung
@@ -190,7 +190,7 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die ackerbaulich
 - [ ] **Nicht** auf Flächen mit SchALVO-Aufzeichnungspflichten
 - [ ] FAKT-Code: **52**
 
-### Förderfähige Verfahren (Quelle: LTZ-Empfehlungen 2026)
+### Förderfähige Verfahren (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf)
 
 | Verfahren | Erläuterung |
 |-----------|-------------|
@@ -221,7 +221,7 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die ackerbaulich
 - [ ] Nachweis über Eigenmechanisierung oder Lohnunternehmer
 - [ ] FAKT-Code: **53**
 
-### Praxistipps (Quelle: LTZ-Empfehlungen 2026)
+### Praxistipps (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf)
 
 - Zwei Varianten: (1) Streifenziehen + Einsaat gleichzeitig, (2) Streifenziehen (Herbst/Frühjahr) + absätzige Einsaat mit GPS
 - Strip Till eignet sich besonders auf Flächen mit Erosionsgefährdung
@@ -230,4 +230,4 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die ackerbaulich
 (Quelle: Empfehlungen für ackerbauliche FAKT II-Maßnahmen, LTZ Augustenberg 03/2026, Kap. 8)
 
 ---
-*Quellen: FAKT II-Broschüre Baden-Württemberg (Stand Oktober 2025); Empfehlungen für ackerbauliche FAKT II-Maßnahmen, LTZ Augustenberg (Stand März 2026)*
+*Quellen: FAKT_II_Broschuere.pdf; Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf*

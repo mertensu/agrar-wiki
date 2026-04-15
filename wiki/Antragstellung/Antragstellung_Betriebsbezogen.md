@@ -123,4 +123,4 @@ C1 + B6 Messerbalkenschnitt: Nur wenn **zusätzlich** eine GL-Maßnahme (B1.2, B
 - **Ersatzpflicht**: Ausscheidende Tiere müssen zeitnah durch Zuchttiere gleicher Rasse ersetzt werden
 
 ---
-*Quellen: FAKT II-Broschüre Baden-Württemberg (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (Stand Februar 2026)*
+*Quellen: FAKT_II_Broschuere.pdf (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (Stand Februar 2026)*

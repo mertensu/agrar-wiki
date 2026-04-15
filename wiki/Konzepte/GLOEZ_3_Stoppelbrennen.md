@@ -16,4 +16,4 @@ Betrifft grundsätzlich alle Ackerbau-Maßnahmen als Baseline.
 *Siehe auch: [[Konditionalitaet]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 11*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 11*

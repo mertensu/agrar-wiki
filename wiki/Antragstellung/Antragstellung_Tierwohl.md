@@ -19,15 +19,15 @@ Die folgenden Fragen stammen aus dem offiziellen MLR-FAQ-Dokument und klären Pr
 - Lösungen, bei denen das Tier selbst Wasser über Drucknippel o.ä. in die Schale lässt, sind zulässig
 - Die Schale muss groß genug sein, dass das Tier mit dem Maul in die Wasseroberfläche eintauchen kann
 
-(Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 1)
+(Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 1)
 
 ### Ausläufe (G2, G5, G6)
 
 **Müssen Ausläufe überdacht sein?**
-Nein, ein Auslauf muss nicht überdacht sein. (Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 1)
+Nein, ein Auslauf muss nicht überdacht sein. (Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 1)
 
 **Was ist ein Auslauf?**
-Eine genaue Definition ist nicht möglich – hier sind Einzelfallentscheidungen zu treffen. (Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 1)
+Eine genaue Definition ist nicht möglich – hier sind Einzelfallentscheidungen zu treffen. (Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 1)
 
 ### Raufutterfütterung (G5, G6)
 
@@ -39,7 +39,7 @@ Eine genaue Definition ist nicht möglich – hier sind Einzelfallentscheidungen
 - Über Raufen
 - Auch Darreichung über Festflächen auf dem Boden (ohne Raufen) ist bei **mehrmaliger täglicher Vorlage** möglich
 
-(Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 1)
+(Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 1)
 
 ### Einstreumaterial (G2, G5, G6)
 
@@ -48,22 +48,22 @@ Eine genaue Definition ist nicht möglich – hier sind Einzelfallentscheidungen
 - Premiumstufe: Stroh oder Ähnliches mit durchschnittlich >5 cm Länge
 
 **Pellets als Einstreumaterial?**
-Nein, Pellets werden nicht akzeptiert. Theoretisch möglich wäre z.B. Hanf oder Heu. (Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 1)
+Nein, Pellets werden nicht akzeptiert. Theoretisch möglich wäre z.B. Hanf oder Heu. (Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 1)
 
 **Wie viel muss eingestreut werden (bodendeckend)?**
-Die Einstreu muss nicht dauerhaft den Boden komplett bedecken. Wenn die vorhandene Einstreu bei der Kontrolle gleichmäßig verteilt wird, sollte sie als bodenbedeckend gelten. (Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 1)
+Die Einstreu muss nicht dauerhaft den Boden komplett bedecken. Wenn die vorhandene Einstreu bei der Kontrolle gleichmäßig verteilt wird, sollte sie als bodenbedeckend gelten. (Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 1)
 
 ### Beschäftigungsmaterial – G2.1 Mast Einstiegsstufe
 
 **Weichholzbalken?**
-Werden weiterhin akzeptiert. (Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 2)
+Werden weiterhin akzeptiert. (Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 2)
 
 **Knabberluzi als Beschäftigungsautomat?**
-Nein, die Knabberluzi erfüllt nicht die Vorgabe eines Beschäftigungsautomaten, kann aber als zusätzliches Beschäftigungsmaterial genutzt werden. (Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 2)
+Nein, die Knabberluzi erfüllt nicht die Vorgabe eines Beschäftigungsautomaten, kann aber als zusätzliches Beschäftigungsmaterial genutzt werden. (Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 2)
 
 ### G6 Ferkelaufzucht Premium – Einstallgewicht
 
-Das Einstallgewicht kann im Einzelfall bei längerer Säugezeit überschritten werden. (Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 2)
+Das Einstallgewicht kann im Einzelfall bei längerer Säugezeit überschritten werden. (Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 2)
 
 ## Fallstricke
 
@@ -73,4 +73,4 @@ Das Einstallgewicht kann im Einzelfall bei längerer Säugezeit überschritten w
 - **Beschäftigungsmaterial G2.1:** Ein Beschäftigungsautomat ist vorgeschrieben – einfache Beschäftigungsmaterialien wie Knabberluzi allein genügen nicht
 
 ---
-*Quelle: raw/FAKT_G_Haeufige_Fragen.pdf (MLR, Stand 21.12.2023)*
+*Quelle: FAKT_G_Haeufige_Fragen.pdf (MLR, Stand 21.12.2023)*

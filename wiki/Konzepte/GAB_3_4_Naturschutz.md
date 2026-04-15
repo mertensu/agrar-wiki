@@ -69,4 +69,4 @@ Betriebsinhabern wird empfohlen, sich bei den zuständigen unteren Naturschutzbe
 *Siehe auch: [[Konditionalitaet]], [[GLOEZ_9_Natura2000_Dauergruenland]], [[GLOEZ_8_Landschaftselemente]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 33–34*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 33–34*

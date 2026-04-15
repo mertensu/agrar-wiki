@@ -200,4 +200,4 @@ Diese Einrichtungen melden **vollstreckbare Entscheidungen** (unanfechtbare Anor
 *Siehe auch: [[Konditionalitaet]], [[Gemeinsamer_Antrag]]*
 
 ---
-*Quelle: Informationsbroschüre soziale Konditionalität 2026, MLR Baden-Württemberg, Stand 30.01.2026*
+*Quelle: Soz_Kond_Infobroschuere_2026.pdf, Stand 30.01.2026*

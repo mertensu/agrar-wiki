@@ -36,7 +36,7 @@ Die Kombinierbarkeit ist in der [[Kombinationstabelle]] detailliert dargestellt.
 
 ## ÖR 1b / ÖR 1c: Blühstreifen/-flächen
 
-Blühstreifen oder -flächen auf Ackerland (ÖR 1b) bzw. in Dauerkulturen (ÖR 1c). In den Saatgutmischungen müssen in Baden-Württemberg zulässige Arten enthalten sein. (Quelle: Ergänzende Informationen zu ÖR1b ÖR1c ÖR2 und ÖR5.pdf, Kap. 3)
+Blühstreifen oder -flächen auf Ackerland (ÖR 1b) bzw. in Dauerkulturen (ÖR 1c). In den Saatgutmischungen müssen in Baden-Württemberg zulässige Arten enthalten sein. (Quelle: Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf, Kap. 3)
 
 **Einjährige Mischungen (Typ A):** mind. 10 Arten aus der Artenliste Gruppe A (ca. 40 zugelassene Arten, u. a. Buchweizen, Sonnenblume, Phacelia, Borretsch, Lein, Ringelblume, Klatschmohn, Kornblume). Ab 2026 sind einige Arten gestrichen (z. B. Acker-Schöterich).
 
@@ -52,7 +52,7 @@ Blühstreifen oder -flächen auf Ackerland (ÖR 1b) bzw. in Dauerkulturen (ÖR 1
 
 ## ÖR 2: Anbau vielfältiger Kulturen
 
-Mind. 5 Hauptfruchtarten auf dem Ackerland, jede mit 10–30 % Anteil, davon mind. 10 % Leguminosen. Getreideanteil max. 66 %. (Quelle: Ergänzende Informationen zu ÖR1b ÖR1c ÖR2 und ÖR5.pdf, Kap. 1)
+Mind. 5 Hauptfruchtarten auf dem Ackerland, jede mit 10–30 % Anteil, davon mind. 10 % Leguminosen. Getreideanteil max. 66 %. (Quelle: Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf, Kap. 1)
 
 **Seit 2025 alternative Variante:** Mind. 40 % des Ackerlands mit beetweisem Anbau von mind. 5 Kulturen (relevant für Gemüse-/Kräuter-/Zierpflanzenbetriebe).
 
@@ -91,7 +91,7 @@ Einzelne Kulturarten, die **nicht** in dieser Tabelle stehen, bilden jeweils fü
 
 ## ÖR 5: Dauergrünland mit mind. 4 Kennarten
 
-Extensive Bewirtschaftung von Dauergrünlandflächen mit Nachweis von mind. 4 regional vorkommenden Kennarten. (Quelle: Ergänzende Informationen zu ÖR1b ÖR1c ÖR2 und ÖR5.pdf, Kap. 2)
+Extensive Bewirtschaftung von Dauergrünlandflächen mit Nachweis von mind. 4 regional vorkommenden Kennarten. (Quelle: Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf, Kap. 2)
 
 ### Dokumentationspflicht
 
@@ -151,4 +151,4 @@ LPR-Maßnahmen (Vertragsnaturschutz) können mit ÖR 4, ÖR 5 und ÖR 7 kombinie
 *Siehe auch: [[Kombinationstabelle]], [[Konditionalitaet]]*
 
 ---
-*Quellen: FAKT II-Broschüre Baden-Württemberg (Stand Oktober 2025); Ergänzende Informationen zu ÖR1b, ÖR1c, ÖR2 und ÖR5 (MLR BW, Stand 12. März 2026)*
+*Quellen: FAKT_II_Broschuere.pdf; Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf*

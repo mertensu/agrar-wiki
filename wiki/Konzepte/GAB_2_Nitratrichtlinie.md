@@ -113,4 +113,4 @@ In mit Nitrat belasteten Gebieten gelten **verschärfte Regeln**:
 *Siehe auch: [[Konditionalitaet]], [[GAB_1_Wasserrahmenrichtlinie]], [[GLOEZ_4_Pufferstreifen]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 24–32*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 24–32*

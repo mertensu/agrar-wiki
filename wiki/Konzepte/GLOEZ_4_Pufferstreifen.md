@@ -27,4 +27,4 @@ Auf landwirtschaftlichen Flächen, die an Gewässer angrenzen, dürfen Pflanzens
 *Siehe auch: [[Konditionalitaet]], [[GAB_1_Wasserrahmenrichtlinie]], [[GAB_2_Nitratrichtlinie]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 11*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 11*

@@ -41,4 +41,4 @@ Bestimmte Landschaftselemente stehen unter Beseitigungsverbot. Zusätzlich gilt 
 *Siehe auch: [[Konditionalitaet]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 17–19*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 17–19*

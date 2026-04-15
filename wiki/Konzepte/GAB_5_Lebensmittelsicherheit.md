@@ -101,4 +101,4 @@ Bei Verdacht auf nicht-sichere Lebensmittel: Meldung an zuständige Behörde. Di
 *Siehe auch: [[Konditionalitaet]], [[GAB_6_Hormonverbot]], [[Gemeinsamer_Antrag]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 35–41*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 35–41*

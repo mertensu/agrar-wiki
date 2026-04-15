@@ -74,4 +74,4 @@ Wasserentnahme aus oberirdischen Gewässern oder Grundwasser bedarf einer wasser
 *Siehe auch: [[Konditionalitaet]], [[GAB_2_Nitratrichtlinie]], [[GLOEZ_4_Pufferstreifen]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 20–24*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 20–24*

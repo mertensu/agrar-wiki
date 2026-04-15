@@ -11,10 +11,14 @@
             "id": "6700d146d951b95d",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph-Ansicht"
+              "type": "markdown",
+              "state": {
+                "file": "Nutzcodeliste.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nutzcodeliste"
             }
           }
         ]
@@ -178,7 +182,20 @@
   },
   "active": "6700d146d951b95d",
   "lastOpenFiles": [
-    "Kombinationstabelle.md",
-    "Kategorien/A_Umweltbewusstes_Betriebsmanagement.md"
+    "Antragstellung/Antragstellung_Sonderkulturen.md",
+    "Antragstellung/Antragstellung_Betriebsbezogen.md",
+    "Antragstellung/Antragstellung_Oekolandbau.md",
+    "Antragstellung/Antragstellung_Gruenland.md",
+    "Antragstellung/Antragstellung_Bluehflaechen.md",
+    "Antragstellung/Antragstellung_Ackerbau.md",
+    "Antragstellung/Antragstellung_Tierwohl.md",
+    "Antragstellung/FAKT_Codes.md",
+    "Antragstellung",
+    "FAKT_II_Uebersicht.md",
+    "massnahmen/G1_Sommerweide.md",
+    "massnahmen/B4_Biotope.md",
+    "massnahmen/B1.2_Extensive_Gruenland.md",
+    "Kategorien/A_Umweltbewusstes_Betriebsmanagement.md",
+    "Kombinationstabelle.md"
   ]
 }

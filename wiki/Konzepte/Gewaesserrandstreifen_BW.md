@@ -171,4 +171,4 @@ Träger der Gewässerunterhaltungslast haben ein **Vorkaufsrecht** (§ 29 Abs. 6
 *Siehe auch: [[GLOEZ_4_Pufferstreifen]], [[GAB_1_Wasserrahmenrichtlinie]], [[GAB_2_Nitratrichtlinie]], [[Konditionalitaet]]*
 
 ---
-*Quelle: Merkblatt Nr. 36 „Gewässerrandstreifen in Baden-Württemberg", LTZ Augustenberg / LUBW, 2. aktualisierte Auflage, Stand März 2024*
+*Quelle: Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf*

@@ -28,7 +28,7 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die Blühfläche
 Die Mischung M3+ enthält über 30 Arten (Wild- und Kulturformen). Wichtige Bestandteile: Inkarnatklee (10 %), Leindotter (6 %), Buchweizen (6 %), Esparsette (6 %), Öllein (5 %), Phacelia (5 %), Luzerne (3 %), Rotklee (3 %).
 
 - Für **Öko-Betriebe**: bis zu 5 Arten dürfen weggelassen oder durch Ersatzarten ersetzt werden
-- Vollständige Artenliste: LTZ-Empfehlungen 2026, Tabelle 3
+- Vollständige Artenliste: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, Tabelle 3
 
 (Quelle: Empfehlungen für ackerbauliche FAKT II-Maßnahmen, LTZ Augustenberg 03/2026, Kap. 3.2)
 
@@ -71,7 +71,7 @@ Alle Mischungen müssen **regionales Wildpflanzensaatgut** (Ursprungsgebiete 9�
 | Lebendiger Waldrand frisch | – | diverse |
 | Lebendiger Gewässerrand | – | diverse |
 
-Vollständige Artenlisten: LTZ-Empfehlungen 2026, Tabellen A2 und A3.
+Vollständige Artenlisten: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, Tabellen A2 und A3.
 
 - Bezugsquellen VWW Regiosaaten: www.natur-im-vww.de >Bezugsquellen
 - Bezugsquellen RegioZert: www.bdp-online.de >Branche >RegioZert
@@ -85,9 +85,9 @@ Vollständige Artenlisten: LTZ-Empfehlungen 2026, Tabellen A2 und A3.
 1. **Wildformenkomponente** (40 %): regionales Saatgut, allgemeinverfügt über oXs-Datenbank (organicXseeds.de). Wenn in oXs kein Öko-Saatgut verfügbar → konventionelles Saatgut zulässig
 2. **Kulturformenkomponente** (60 %): 100 % öko-zertifiziert
 
-Passende Komponenten müssen zusammenpassen (Artenlisten: LTZ-Empfehlungen 2026, Tabellen A4–A7).
+Passende Komponenten müssen zusammenpassen (Artenlisten: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, Tabellen A4–A7).
 
-### Pflege bei Problemen (Quelle: LTZ-Merkblatt E8)
+### Pflege bei Problemen (Quelle: Merkblatt_Pflege_Bluehmischungen_E8.pdf)
 
 Grundregeln:
 - **Immer max. 50 %** der Fläche gleichzeitig bearbeiten (Rückzugsräume!)
@@ -105,7 +105,7 @@ Grundregeln:
 
 **Wichtig:** Bei komplettem Umbruch wegen unzumutbarer Verunkrautung → Antrag für diese Fläche zurückziehen. Rückforderungen für Vorjahre möglich (Verpflichtungsbruch).
 
-(Quelle: Merkblatt Pflege mehrjähriger Blühmischungen E8, LTZ Augustenberg)
+(Quelle: Merkblatt_Pflege_Bluehmischungen_E8.pdf)
 
 ### Häufige Fehler
 
@@ -140,9 +140,9 @@ Grundregeln:
 - Biogas-Mischung Frühjahrsansaat Süd 2024 (Rieger-Hofmann)
 - Extensive Biomassepflanzen Öko (Semo Bio)
 
-Vollständige Artenlisten: LTZ-Empfehlungen 2026, Tabelle A9.
+Vollständige Artenlisten: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, Tabelle A9.
 
-### Praxistipps (Quelle: LTZ-Empfehlungen 2026)
+### Praxistipps (Quelle: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf)
 
 - **Hanf in der Mischung**: Nur EINE Sorte aus EU-Sortenkatalog (z. B. Santhica, USO 31). Meldepflichten nach § 32 KCanG an BLE beachten (Aussaatflächenerklärung, Blühbeginn, Anbauanzeige)
 - **Sudangras** ist sehr frostempfindlich
@@ -181,4 +181,4 @@ Vollständige Artenlisten: LTZ-Empfehlungen 2026, Tabelle A9.
 - Bei Kombination mit D2: Fördersatz sinkt auf **180 €/ha** (statt 260)
 
 ---
-*Quellen: FAKT II-Broschüre Baden-Württemberg (Stand Oktober 2025); Empfehlungen für ackerbauliche FAKT II-Maßnahmen, LTZ Augustenberg (Stand März 2026); Merkblatt Pflege mehrjähriger Blühmischungen E8, LTZ Augustenberg*
+*Quellen: FAKT_II_Broschuere.pdf; Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf; Merkblatt_Pflege_Bluehmischungen_E8.pdf*

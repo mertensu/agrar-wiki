@@ -52,4 +52,4 @@ Grundsätzlich **verboten** bei der Lebensmittelgewinnung dienenden Tieren:
 *Siehe auch: [[Konditionalitaet]], [[GAB_5_Lebensmittelsicherheit]], [[GAB_9_10_11_Tierschutz]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 42–43*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 42–43*

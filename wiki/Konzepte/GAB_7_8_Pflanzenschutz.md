@@ -137,4 +137,4 @@ Prüfpflichtige PSM-Geräte müssen in **Intervallen von 3 Kalenderjahren** amtl
 *Siehe auch: [[Konditionalitaet]], [[GLOEZ_4_Pufferstreifen]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 43–48*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 43–48*

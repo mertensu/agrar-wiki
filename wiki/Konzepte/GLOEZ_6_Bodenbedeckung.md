@@ -46,4 +46,4 @@ Ackerflächen mit Rüben, Kartoffeln, Rote Bete, Mangold, Möhren, Steckrüben, 
 *Siehe auch: [[Konditionalitaet]], [[GLOEZ_5_Erosionsschutz]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 13–15*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 13–15*

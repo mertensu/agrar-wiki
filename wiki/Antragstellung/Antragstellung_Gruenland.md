@@ -150,4 +150,4 @@ B1.2 ist mit ÖR 4 **nicht kombinierbar**. B7 ebenfalls nicht.
 LPR-Maßnahmen (Vertragsnaturschutz) können mit ÖR 4, ÖR 5 und ÖR 7 kombiniert werden. **LPR Teil A und FAKT II sind auf derselben Fläche jedoch nicht kombinierbar** (Ausnahme: G1 Sommerweideprämie). Siehe [[Oeko-Regelungen#Abgrenzung zur Landschaftspflegerichtlinie (LPR)|Abgrenzung LPR]].
 
 ---
-*Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*

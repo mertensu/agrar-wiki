@@ -53,4 +53,4 @@ Für das Ackerland eines Betriebes gelten Vorgaben zum Fruchtwechsel.
 *Siehe auch: [[Konditionalitaet]]*
 
 ---
-*Quelle: Informationsbroschüre Konditionalität 2026, S. 15–17*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 15–17*

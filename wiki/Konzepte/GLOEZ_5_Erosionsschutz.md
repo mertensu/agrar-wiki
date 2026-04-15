@@ -195,4 +195,4 @@ Auf Böden mit hohem Schluffanteil (Lössgebiete) mindern die gleichwertigen Ma�
 *Siehe auch: [[Konditionalitaet]], [[GLOEZ_6_Bodenbedeckung]], [[Gewaesserrandstreifen_BW]]*
 
 ---
-*Quellen: Info Mindestpraktiken Bodenbewirtschaftung zur Begrenzung von Erosion (GLÖZ 5), MLR BW, Stand 23.04.2025; Informationsbroschüre Konditionalität 2026, S. 12–13*
+*Quellen: Info_Mindestpraktiken_Bodenbewirtschaftung_zur_Begrenzung_von_Erosion_(GLÖZ_5).pdf, Stand 23.04.2025; Kond_Infobroschuere_2026.pdf, S. 12–13*

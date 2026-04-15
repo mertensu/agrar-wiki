@@ -103,4 +103,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Oekolandbau|Checkliste & Praxishinweise Ökolandbau]]
 
 ---
-*Quelle: FAKT II-Broschüre Baden-Württemberg, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
