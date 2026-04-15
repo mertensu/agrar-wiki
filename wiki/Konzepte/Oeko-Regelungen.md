@@ -195,54 +195,9 @@ Extensivierung der Bewirtschaftung **aller** Dauergrünlandflächen eines Betrie
 
 Extensive Bewirtschaftung von Dauergrünlandflächen mit Nachweis von mind. 4 regional vorkommenden Kennarten. (Quelle: Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf, Kap. 2)
 
-### Dokumentationspflicht
+### Kennarten und Dokumentation
 
-- Vorkommen der Kennarten **jährlich** nach der vorgeschriebenen Methode ermitteln
-- **Georeferenzierte Fotos** der blühenden Pflanzen über die App **profil (bw)** erstellen
-- In der App kann die Pflanzenerkennungs-Software **Flora Incognita** genutzt werden
-- Fotos der ULB als Nachweis vorlegen
-
-### Kennarten und Kennartengruppen (33 Einträge)
-
-Die gleiche Kennartenliste gilt auch für [[B3.2_Artenreiches_Gruenland|FAKT II B3.2 Artenreiches Grünland]].
-
-| Nr. | Kennart/Gruppe | Beispielarten |
-|-----|---------------|---------------|
-| 1 | Augentrost-Arten | Wiesen-Augentrost, Steifer Augentrost |
-| 2 | Baldrian-Arten | Kleiner Baldrian, Arznei-Baldrian |
-| 3 | Bärwurz | *Meum athamanticum* |
-| 4 | Zittergras | *Briza media* |
-| 5 | Kohl-Kratzdistel | *Cirsium oleraceum* |
-| 6 | Margerite-Arten | *Leucanthemum vulgare* agg. |
-| 7 | Blutwurz | *Potentilla erecta* |
-| 8 | Echtes Labkraut | *Galium verum* |
-| 9 | Flügelginster | *Genista sagittalis* |
-| 10 | Gelbblütige Kleearten | Hornklee, Sumpf-Hornklee, Hopfenklee, Wundklee, Hufeisenklee |
-| 11 | Wiesenbocksbart-Arten | *Tragopogon pratensis* agg. |
-| 12 | Klappertopf-Arten | Zottiger, Kleiner, Schmalblättriger Klappertopf |
-| 13 | Kleine Habichtskräuter | Kleines Habichtskraut, Öhrchen-Habichtskraut |
-| 14 | Milch- und Ferkelkräuter | Steifhaariges/Herbst-Milchkraut, Ferkelkraut |
-| 15 | Pippau-Arten | Grüner, Sumpf-, Wiesen-, Weichhaariger Pippau |
-| 16 | Schlüsselblumen | Große/Arznei-Schlüsselblume |
-| 17 | Sumpfdotterblume | *Caltha palustris* |
-| 18 | Bach-Nelkenwurz | *Geum rivale* |
-| 19 | Flockenblumen | Berg-, Perücken-, Wiesen-, Schwarze Flockenblume |
-| 20 | Futter-Esparsette | *Onobrychis viciifolia* |
-| 21 | Kartäuser-Nelke | *Dianthus carthusianorum* agg. |
-| 22 | Lichtnelken | Tag-Lichtnelke, Kuckucks-Lichtnelke |
-| 23 | Rotklee | *Trifolium pratense* |
-| 24 | Storchschnabel-Arten | Wiesen-, Wald-, Sumpf-, Blut-Storchschnabel |
-| 25 | Tauben-Skabiose / Witwenblume | *Scabiosa columbaria*, *Knautia arvensis* |
-| 26 | Thymian-Arten | Arznei-Thymian, Sand-Thymian |
-| 27 | Wiesen-Knöterich | *Polygonum bistorta* |
-| 28 | Wiesenknopf-Arten | Kleiner/Großer Wiesenknopf |
-| 29 | Glockenblumen | Knäuel-, Rapunzel-, Wiesen-, Rundblättrige Glockenblume |
-| 30 | Kreuzblumen | Sumpf-, Gewöhnliche, Schopf-Kreuzblümchen |
-| 31 | Sumpf-Vergissmeinnicht | *Myosotis palustris* |
-| 32 | Teufelskrallen | Schwarze, Ährige, Kugel-Teufelskralle |
-| 33 | Wiesen-Salbei | *Salvia pratensis* |
-
-Weitere Informationen: Broschüren „Kennarten des Artenreichen Grünlands im Rahmen der Öko-Regelung 5 und FAKT II" und „Artenreiches Grünland – Anleitung zur Einstufung von Flächen".
+→ [[Kennarten_Artenreiches_Gruenland|Kennarten des Artenreichen Grünlands]] (33 Kennarten/Kennartengruppen, Dokumentationspflichten, gleiche Liste wie bei FAKT II B3.2)
 
 **Nicht kombinierbar mit FAKT II:**
 - [[B3.2_Artenreiches_Gruenland|B3.2 Artenreiches Grünland]] (–) auf derselben Fläche
