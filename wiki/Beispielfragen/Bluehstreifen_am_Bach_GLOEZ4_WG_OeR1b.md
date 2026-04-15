@@ -47,6 +47,16 @@ Die Blühmischung muss im gesamten 5-m-Bereich **ohne chemische Hilfe** etablier
 
 (Quelle: Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf, S. 3, 7–8)
 
+### Spannungsfeld: Standzeit ÖR 1b vs. Gewässerrandstreifen
+
+> **Achtung:** Die allgemeine Gewässerrandstreifen-Regel (§ 29 WG BW) verlangt mind. **3 Vegetationsperioden** Standzeit für Blühstreifen im 5-m-Bereich. ÖR 1b erlaubt aber nur max. **2 Jahre** Standzeit mit anschließender Neueinsaat. Das beißt sich.
+>
+> **Möglicher Ausweg:** Die ÖR-1b-Neueinsaat erfolgt umbruchlos (nichtwendend, max. 8–10 cm Tiefe) — das könnte mit der Gewässerrandstreifen-Regel vereinbar sein, sofern der Bestand weitgehend erhalten bleibt. Eine verbindliche Klärung durch die untere Landwirtschafts- oder Wasserbehörde ist empfehlenswert.
+>
+> **Alternative ohne Spannungsfeld:** FAKT II E7, E8 oder E14 haben Standzeiten ≥3 Jahre und kollidieren nicht mit der 3-Vegetationsperioden-Regel.
+
+Details: [[Gewaesserrandstreifen_BW#Spannungsfeld ÖR 1b im 5-m-Gewässerrandstreifen]]
+
 ### Praxistipp
 
 Bei einem 6-m-Streifen am Bach liegen 5 m in der gesetzlichen Verbotszone – nur 1 m geht darüber hinaus. Der Landwirt sollte prüfen, ob ein **breiterer Streifen** (z.B. 12–15 m) wirtschaftlich sinnvoller wäre, z.B. als:
@@ -56,5 +66,19 @@ Bei einem 6-m-Streifen am Bach liegen 5 m in der gesetzlichen Verbotszone – nu
 
 Diese FAKT-Maßnahmen zahlen deutlich mehr als ÖR 1b (150 €/ha) und sind laut Nutzungstabelle ebenfalls im Gewässerrandstreifen zulässig.
 
+### Antragstellung
+
+**Vorprüfung:**
+- Im **FIONA-GIS** den Layer „Gewässernetz AWGN für Einhaltung Gewässerrandstreifen" prüfen — ist der Bach dort eingetragen? Wenn nicht, gilt er als wasserwirtschaftlich untergeordnet und die Gewässerrandstreifen-Regelungen greifen nicht. Im Zweifelsfall: untere Wasserbehörde kontaktieren.
+- Bei **Hangneigung ≥5%** zum Gewässer greift zusätzlich § 38a WHG: ganzjährig geschlossene Pflanzendecke im 5-m-Bereich erforderlich. Für einen ehemaligen Maisschlag besonders relevant.
+
+**Saatgut für ÖR 1b:**
+- **Einjährige Mischung (Typ A):** mind. 10 Arten aus der BW-Artenliste Gruppe A (u.a. Buchweizen, Sonnenblume, Phacelia, Borretsch, Lein)
+- **Mehrjährige Mischung (Typ B):** mind. 5 Arten Gruppe A + mind. 5 Arten Gruppe B
+- **Achtung:** BW hat eine eigene Artenliste — Saatgut aus anderen Bundesländern ist ggf. nicht konform. Ab 2026 sind einige Arten gestrichen (z.B. Acker-Schöterich).
+- Quelle: `Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf`
+
+Für FAKT-Alternativen (E7, E8, E14) siehe → [[Antragstellung_Bluehflaechen|Antragstellung Blühflächen & Biomasse]].
+
 ---
-*Relevante Wiki-Seiten: [[GLOEZ_4_Pufferstreifen]], [[Gewaesserrandstreifen_BW]], [[Oeko-Regelungen]], [[Konditionalitaet]]*
+*Relevante Wiki-Seiten: [[GLOEZ_4_Pufferstreifen]], [[Gewaesserrandstreifen_BW]], [[Oeko-Regelungen]], [[Konditionalitaet]], [[Antragstellung_Bluehflaechen]]*

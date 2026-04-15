@@ -120,6 +120,14 @@ Vielfältige Optionen, alle mit **Dünge-/PSM-Verbot** und **umbruchlosem Erhalt
 
 (Quelle: Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf, S. 4–7)
 
+### Spannungsfeld: ÖR 1b im 5-m-Gewässerrandstreifen
+
+> **Widerspruch Standzeit:** Die allgemeine Gewässerrandstreifen-Regel verlangt mind. **3 Vegetationsperioden** Standzeit vor umbruchlosem Erhalt (s. o.). ÖR 1b erlaubt jedoch max. **2 Jahre** Standzeit mit anschließender Neueinsaat. Ein Landwirt, der ÖR 1b im 5-m-Bereich beantragt, steht vor einem Konflikt: Nach 2 Jahren müsste er laut ÖR 1b neu einsäen, darf aber laut Gewässerrandstreifen-Regel erst nach 3 Vegetationsperioden umbruchlos erneuern.
+>
+> **Mögliche Praxislösung:** Die Neueinsaat bei ÖR 1b erfolgt umbruchlos (nichtwendend, max. 8–10 cm), was mit der Gewässerrandstreifen-Regel vereinbar sein könnte — sofern der bestehende Bestand dabei weitgehend erhalten bleibt. Eine verbindliche Klärung durch die ULB/UWB ist jedoch empfehlenswert.
+>
+> **Alternative:** FAKT II E7, E8 oder E14 im Gewässerrandstreifen haben dieses Spannungsfeld nicht, da ihre Standzeiten ≥3 Jahre betragen. <!-- TODO: Quelle prüfen – offizielle Auslegung ÖR 1b im GRS -->
+
 ### c) Kurzumtriebsplantagen (KUP) und Agroforst
 
 - **KUP (NC 841):** Nur standortgerechte Arten in Gewässernähe – **Weiden** und **Schwarzerlen** (kommen natürlich an Gewässerrändern vor). Hybrid-Pappeln sind **nicht gestattet**.

@@ -34,6 +34,8 @@ type: massnahme
 
 Auch abgestorbene Bäume sind ausgleichsberechtigt, sofern diese noch im Boden verwurzelt sind (stehende Bäume).
 
+**Alternative LPR-Förderung:** Streuobstflächen in naturschutzfachlich wertvollen Gebieten können auch über die Landschaftspflegerichtlinie (LPR) gefördert werden, ggf. in Kombination mit Öko-Regelungen. Details bei der zuständigen LPR-Bewilligungsstelle (untere Naturschutzbehörde).
+
 ## Kombinierbar mit
 
 - [[A2_Silageverzicht|A2 Silageverzicht]]

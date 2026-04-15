@@ -1,5 +1,30 @@
 # Wiki-Log
 
+## [2026-04-15] ingest | ÖR-Details aus GA-Erläuterungen + LPR-Hinweise
+
+**Quelle:** `GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf`, Kap. 5.5 (S. 38–46, Split: `ga_05_direktzahlungen_oer.pdf`)
+
+**Was & Warum:**
+Öko-Regelungen-Seite war unvollständig – ÖR 1a, ÖR 1d, ÖR 3, ÖR 6 und ÖR 7 fehlten als Detailabschnitte, ÖR 4 hatte nur Kombinations-Hinweise ohne eigene Voraussetzungen. Alle ÖR sind jetzt vollständig mit Voraussetzungen, Einheitsbeträgen und FAKT-II-Kombinierbarkeit dokumentiert. Zusätzlich LPR-Hinweise auf B4, B5, C1 ergänzt.
+
+**Änderungen mit Quellennachweis:**
+- ÖR-Übersichtstabelle: Prämien von "variabel" auf konkrete geplante Einheitsbeträge aktualisiert (GA-Erläuterungen S. 39–46)
+- ÖR 1a: Stufensystem 1.300/500/300 €/ha, Voraussetzungen, Ausnahmen ab 1.9./15.8. (S. 39)
+- ÖR 1b/1c: Korrektur Einheitsbetrag 150→200 €/ha (S. 40)
+- ÖR 1d: Stufensystem 1.000/450/200 €/ha, FFH-Mähwiesen-Ausschluss, 1–6% DGL (S. 41)
+- ÖR 3: 600 €/ha, Gehölzstreifen-Vorgaben, ULB-Bestätigung (S. 43)
+- ÖR 4: 100 €/ha, 0,3–1,4 RGV/ha, Pflugverbot, Düngeobergrenze 140 kg N/ha, Nicht kombinierbar mit B1.2/B7 (S. 43–44)
+- ÖR 5: Nicht kombinierbar mit B3.2/B4 ergänzt (S. 44–45)
+- ÖR 6: 150/50 €/ha, kulturspezifische PSM-Verbotszeiträume, Nicht kombinierbar mit D2/E3/E4/E5/E6/E10/E11/E12 (S. 45)
+- ÖR 7: 40 €/ha, Natura-2000-Kulisse, kombinierbar mit allen ÖR und FAKT (S. 45–46)
+- B4, B5, C1: LPR-Alternativhinweis ergänzt (Quelle: Broschüre_LPR-Grünlandmaßnahmen_in_Kombination_mit_Öko-Regelungen.pdf aus downloads/)
+
+**Korrekturen:**
+- ÖR 1b/1c Einheitsbetrag war mit 150 €/ha angegeben, korrekt ist 200 €/ha (GA-Erläuterungen S. 40)
+
+**Strukturelle Änderungen:**
+- Keine neuen Dateien, nur Erweiterung von `wiki/Konzepte/Oeko-Regelungen.md` und Ergänzung in `wiki/massnahmen/B4_Biotope.md`, `B5_FFH_Maehwiesen.md`, `C1_Streuobst.md`
+
 ## [2026-04-15] refactor | Quellenverweise vereinheitlichen
 
 **Was & Warum:**

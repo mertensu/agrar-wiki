@@ -37,6 +37,8 @@ Siehe auch [[Nutzcodeliste]] für zulässige Flächentypen (Nutzungscodes).
 
 Förderfähig sind ausschließlich hinterlegte Kulissenflächen. Seit 1. März 2022 werden FFH-Mähwiesen als geschützte Biotope eingestuft – deren Förderung läuft jedoch unter B5.
 
+**Alternative LPR-Förderung:** Für Biotopflächen in Natura-2000-Gebieten kann eine Förderung über die Landschaftspflegerichtlinie (LPR) in Kombination mit Öko-Regelungen (ÖR 4, ÖR 5, ÖR 7) wirtschaftlich deutlich attraktiver sein als FAKT B4 allein. Details bei der zuständigen LPR-Bewilligungsstelle (untere Naturschutzbehörde).
+
 ## Kombinierbar mit
 
 - [[A2_Silageverzicht|A2 Silageverzicht]]
