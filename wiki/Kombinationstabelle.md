@@ -51,7 +51,7 @@ Diese Tabelle zeigt, welche FAKT II-Maßnahmen auf **derselben Fläche** miteina
 - [[B1.2_Extensive_Gruenland|B1.2]] und [[B3.2_Artenreiches_Gruenland|B3.2]] sind kombinierbar
 - [[B4_Biotope|B4]] und [[B5_FFH_Maehwiesen|B5]] schließen sich gegenseitig aus
 - [[B6_Messerbalkenschnitt|B6]] ist immer eine Zusatzmaßnahme zu einer anderen GL-Maßnahme
-- [[B7_Verzicht_Chemie_Gruenland|B7]] ist nicht mit [[B1.2_Extensive_Gruenland|B1.2]], [[B4_Biotope|B4]], [[B5_FFH_Maehwiesen|B5]] kombinierbar (B4/B5 nur mit Abzug)
+- [[B7_Verzicht_Chemie_Gruenland|B7]] ist nicht mit [[B1.2_Extensive_Gruenland|B1.2]] kombinierbar; mit [[B4_Biotope|B4]] und [[B5_FFH_Maehwiesen|B5]] nur mit Abzug (220 €/ha statt 300 €/ha)
 
 ### Ökolandbau (D2)
 - [[D2_Oekolandbau_Beibehaltung|D2 Beibehaltung]] / [[D2_Oekolandbau_Einfuehrung|D2 Einführung]] ist mit den meisten Maßnahmen kombinierbar

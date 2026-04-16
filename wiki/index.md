@@ -82,6 +82,12 @@ type: index
 - [[Antragstellung_Betriebsbezogen|Antragstellung Betriebsbezogen (A2, A3, C1, C2, C3)]]
 - [[Antragstellung_Sonderkulturen|Antragstellung Sonderkulturen & Biologischer Pflanzenschutz (E4, E5, E6, E11)]]
 
+## Beispielfragen
+
+- [[B3.2_mit_OeR5_kombinieren|B3.2 mit ÖR 5 auf derselben Fläche kombinieren?]]
+- [[OeR5_als_Einstieg_vor_B3.2|ÖR 5 als Einstieg vor FAKT B3.2 – Strategie und Risiken]]
+- [[A3_Kleine_Schlaege_und_Landschaftselemente|A3: Kleine Schläge und Landschaftselemente – zählen Hecken zur Schlaggröße?]]
+
 ## Strategien
 
 - [[strategie/Erosions_Gewinner|Erosions-Gewinner: Abschüssiges Ackerland rentabel machen]]
@@ -96,6 +102,7 @@ type: index
 - [[Kennarten_Artenreiches_Gruenland|Kennarten des Artenreichen Grünlands]]
 - [[Verpflichtungszeitraum]]
 - [[Gemeinsamer_Antrag|Gemeinsamer Antrag]]
+- [[Flaechenangaben_Schlagdefinition|Flächenangaben, Schlagdefinition und Landschaftselemente]]
 - [[Gewaesserrandstreifen_BW|Gewässerrandstreifen in Baden-Württemberg]]
 
 ### GLÖZ-Standards (Konditionalität)

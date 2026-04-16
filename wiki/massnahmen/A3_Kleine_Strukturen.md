@@ -28,11 +28,13 @@ type: massnahme
 
 ## Auflagen/Verpflichtungen
 
-—
+- **Künstliche Schlagaufteilung verboten:** Zusammenhängende Teilschläge mit gleichem Nutzcode dürfen nicht durch unterschiedliche Schlagnummern aufgeteilt werden, um die 0,5-ha-Grenze zu unterschreiten (Quelle: GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, S. 52)
 
 ## Sonstiges
 
-Pauschale Antragstellung für alle förderfähigen Schläge des Betriebes (gesamtbetriebliche Maßnahme).
+Pauschale Antragstellung für alle förderfähigen Schläge des Betriebes (gesamtbetriebliche Maßnahme). Es können nicht einzelne Schläge ausgewählt werden – alle Acker- und Dauerkultur-Schläge mit 0,01–0,5 ha werden automatisch gefördert.
+
+Die Schlaggröße umfasst die im FIONA-GIS digitalisierte Fläche einschließlich einbezogener Landschaftselemente (→ [[Flaechenangaben_Schlagdefinition|Flächenangaben & Schlagdefinition]]). Eine Hecke am Schlagrand, die als K-LE oder anderes LE einbezogen ist, zählt also zur Schlaggröße dazu und kann dazu führen, dass ein Schlag die 0,5-ha-Grenze überschreitet.
 
 ## Kombinierbar mit
 
@@ -88,4 +90,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Betriebsbezogen|Checkliste & Praxishinweise Betriebsbezogen]]
 
 ---
-*Quellen: FAKT_II_Broschuere.pdf (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (Stand Februar 2026)*
+*Quellen: FAKT_II_Broschuere.pdf (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, S. 52 (Stand Februar 2026)*

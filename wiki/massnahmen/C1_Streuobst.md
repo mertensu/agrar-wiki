@@ -34,6 +34,8 @@ type: massnahme
 
 Auch abgestorbene Bäume sind ausgleichsberechtigt, sofern diese noch im Boden verwurzelt sind (stehende Bäume).
 
+**Abgrenzung Streuobst vs. Intensivobst:** Flächen mit ≤330 Bäumen/ha gelten als Streuobstwiese (Grünland), darüber als Intensivobstanlage (Dauerkultur). C1 fördert nur Streuobst. Siehe [[Flaechenangaben_Schlagdefinition|Flächenangaben & Schlagdefinition]] für Details und Ausnahmen. (Quelle: GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, S. 22)
+
 **Alternative LPR-Förderung:** Streuobstflächen in naturschutzfachlich wertvollen Gebieten können auch über die Landschaftspflegerichtlinie (LPR) gefördert werden, ggf. in Kombination mit Öko-Regelungen. Details bei der zuständigen LPR-Bewilligungsstelle (untere Naturschutzbehörde).
 
 ## Kombinierbar mit

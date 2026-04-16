@@ -1,5 +1,36 @@
 # Wiki-Log
 
+## [2026-04-16] ingest | Flächenangaben & Schlagdefinition aus GA-Erläuterungen Kap. 4
+
+**Quelle:** `GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf`, Kap. 4.1–4.3 (S. 17–24)
+
+**Was & Warum:**
+Kap. 4 der GA-Erläuterungen war beim initialen Ingest (2026-04-14) als "prozedural" übersprungen worden. Ausgelöst durch eine Beispielfrage zu A3 und Landschaftselementen zeigte sich, dass die Kapitel beratungsrelevante Grundbegriffe definieren: Was ist ein Schlag, wie zählen LE zur förderfähigen Fläche, wann ist ein Schlag >0,5 ha? Diese fehlenden Definitionen konnten aus dem Wiki heraus nicht beantwortet werden.
+
+**Änderungen mit Quellennachweis:**
+
+*Flaechenangaben_Schlagdefinition.md (neu):*
+- Schlag vs. Teilschlag: Definitionen und wann Teilschlagbildung Pflicht ist (S. 18)
+- Bruttofläche Landwirtschaft: maximal förderfähige Fläche inkl. LE (S. 18)
+- K-LE: grundsätzlich einbeziehbar in förderfähige Fläche, Ausnahme ÖR 1a/1d (S. 18, 21)
+- Andere LE: 8 Elementtypen mit Schwellenwerten, 25%-Regel (S. 21–22)
+- Bäume: je 10 m² Anrechnung, max. 250 Bäume/ha (S. 22)
+- Voraussetzungen: unmittelbarer räumlicher Zusammenhang, ldw. Charakter, isoliert von Wald (S. 22)
+- Agri-PV: DIN SPEC 91434, max. 15% Flächenreduktion, K-LE als NC 040 (S. 21)
+- Obstbaum-Abgrenzung: ≤330 Bäume/ha = Streuobst, >330 = Dauerkultur, Ausnahmeregel (S. 22)
+
+*A3_Kleine_Strukturen.md:*
+- Verbot der künstlichen Schlagaufteilung ergänzt (S. 52)
+- Klarstellung: A3 ist gesamtbetrieblich, keine Auswahl einzelner Schläge
+- Hinweis auf LE-Einbeziehung und Auswirkung auf Schlaggröße mit Link auf Konzeptseite
+
+*C1_Streuobst.md:*
+- Abgrenzung Streuobst vs. Intensivobst ergänzt (≤330 Bäume/ha) mit Link auf Konzeptseite (S. 22)
+
+**Strukturelle Änderungen:**
+- `wiki/Konzepte/Flaechenangaben_Schlagdefinition.md` neu
+- `wiki/index.md` – Konzeptseite aufgenommen
+
 ## [2026-04-15] ingest | ÖR-Details aus GA-Erläuterungen + LPR-Hinweise
 
 **Quelle:** `GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf`, Kap. 5.5 (S. 38–46, Split: `ga_05_direktzahlungen_oer.pdf`)
