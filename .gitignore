@@ -5,5 +5,28 @@
 /tmp/
 *.tmp
 
+# Downloads-Archiv (Originaldateien vom MLR-Portal, nicht referenziert)
+/downloads/
+
+# Obsidian-Einstellungen (lokale IDE-Config)
+wiki/.obsidian/
+
+# Claude Code Projektconfig (lokal)
+/.claude/
+
+# Snapshot (reproduzierbar via scripts/)
+wiki_snapshot.json
+
 # Extrahierte Daten (reproduzierbar via scripts/)
 raw/konditionalitaet/kond_extracted.json
+
+# Frühe Planungsdokumente (überholt durch CLAUDE.md + Wiki)
+llm_wiki.md
+gloez.md
+starting_point.md
+formulare_uebersicht.md
+plan_A_*.md
+plan_B_*.md
+
+# Persönliche Notizen
+/notizen/
