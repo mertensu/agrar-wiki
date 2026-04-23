@@ -54,7 +54,7 @@ Bei Ökobetrieb zusätzlich D2: +420 €/ha (x/a-Abzug, Quelle: Kombinationstabe
 - Kein PSM, kein Umbruch → minimaler Aufwand nach Etablierung
 
 **Einschränkungen:**
-- Max. 10 ha betriebliche Obergrenze (Quelle: fakt_broschuere_3.pdf)
+- Max. 10 ha betriebliche Obergrenze (Quelle: FAKT_II_Broschuere.pdf)
 - Eigenmischungen nicht zulässig – nur zugelassene LTZ-Mischungen
 - Aufwuchs nicht zur Futternutzung
 

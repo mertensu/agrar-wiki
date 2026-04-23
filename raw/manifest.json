@@ -1,0 +1,118 @@
+{
+  "Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "4d30b7def27b2b263161397b95a535246cf420c76583c7ebca8261f8527b6ff5"
+  },
+  "Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "6b4a0c515753737acb8d592790e7930337335ddb397a9a20f374ec33e9c07d9b"
+  },
+  "FAKT_Codes_2026.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "1fd1be223a47e42b14f2e184825d5360dac8396c34603c74ee426860a93df183"
+  },
+  "FAKT_G_Haeufige_Fragen.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "5383be47b34f4beeb95264e35d9984dfda5fe6f0c92e285cb5902d8e9e484cd2"
+  },
+  "FAKT_II_Broschuere.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "f52673081566cfc6bb9acf78fd0ce81ebf29eb7f8ca074046f7f7b9e7d4e216b"
+  },
+  "GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "9b9b1585df443533a4518c04245888946c471462dc9af6c0d457e287a69e0e93"
+  },
+  "GA - Wichtige Hinweise zum GA 2026.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "17f7853eed6d53811aa7917287ebf05c1caa7c8f3c9de191d152284b8a66b5f4"
+  },
+  "Kombinationstabelle FAKT II.xlsx": {
+    "ingested": "2026-04-23",
+    "sha256": "b8cf20cfbb0f63149a4254cf95855c9ba02995d86d12d67fd19e02f232801ce7"
+  },
+  "Merkblatt_Pflege_Bluehmischungen_E8.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "074d3d4267cc682290d091fa24781ba3f1e9313ca8573c9020e0828b724f9092"
+  },
+  "Nutzcodeliste für FAKT II-Förderantrag_2026.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "dac01a127ce1a874b8e019d558b48944fd209376ad3140a585b2aa5cfbda5713"
+  },
+  "ga_erlaeuterungen/ga_01-03_allgemeines.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "99b1420f7cd9c459a5ca1ff161d9657ca9997b468efa641d36a89f422059c5bf"
+  },
+  "ga_erlaeuterungen/ga_04_flaechenangaben.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "7922d2ee80ace841a6162f49cb769ff9fd20e2f56301391c031a58c4da06fb78"
+  },
+  "ga_erlaeuterungen/ga_05_direktzahlungen_oer.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "c98148dd5d53eb10f4143c86e3c471c0e74d6546cc258125c61dba0fec732d17"
+  },
+  "ga_erlaeuterungen/ga_07_fakt2.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "3424495b9f2ad6ce93b7f3e669eecc5e488ab96132c778cbb075e78e3736b187"
+  },
+  "ga_erlaeuterungen/ga_07b_azl_lpr_uzw.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "43f25b7f298c6bb95e8f4c58f07ba0ba2fd0b64e77328a4dcebc3703245e993a"
+  },
+  "ga_erlaeuterungen/ga_08-11_uuu_phw_hwb.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "60672a2c907a4a764f6b441e813d22b31893c04f85d35769cef70b8f6d1e3c58"
+  },
+  "ga_erlaeuterungen/ga_12-16_schalvo_slg_deminimis_mgv.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "504740fc1bbe6c7bec3332db5ad0e83ca311e80c1c854a98caf8f71f0411dc88"
+  },
+  "ga_erlaeuterungen/ga_17-19_fristen_konditionalitaet.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "d24709573a98621fc79f60069c50a5ab78691e674ede45cc1eb2fa1bb680858e"
+  },
+  "konditionalitaet/Info_Mindestpraktiken_Bodenbewirtschaftung_zur_Begrenzung_von_Erosion_(GLÖZ_5).pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "29f66ebf0282c604002934dddb04f05d4c5909e8bf95bcd7b33f4e59ecffc1b3"
+  },
+  "konditionalitaet/Kond_Infobroschuere_2026.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "932370511a3d1ff21350ecc101c871a89177e6f8fddb6f0076e7ed8cbb589313"
+  },
+  "konditionalitaet/Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "a0cd1666758a9d7bd47b940a532565569f3b02dd37b2ea91d8ab3322e2c7e37a"
+  },
+  "konditionalitaet/Merkblatt_Pflanzenschutzdokumentation.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "114068aabab3d7a899298b32bbd925576cc754ceb89386db9ac7302c9de0554f"
+  },
+  "konditionalitaet/Soz_Kond_Infobroschuere_2026.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "22a49bc295cd35a6930efc8acc3abacbdd50d14923a7d50bd2448f13b57e3750"
+  },
+  "konditionalitaet/kond_III_gab.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "f941b5161390d3d0b8606b3e4677769d8f555d8ace65bd0c9d622b7d99d346b9"
+  },
+  "konditionalitaet/kond_II_gloez.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "a89ed658b6c224382a10c171f1432d26b3cab6afe0bfbe52d4197f4b2c8cd697"
+  },
+  "konditionalitaet/kond_IV_kontrolle.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "f088f349b6c9ec5849b8ed3e6b001d78deacf893f3e08fac41ca8ac3d3d8ae78"
+  },
+  "konditionalitaet/kond_I_einleitung.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "406758b5815509bb66fb633eaa10651064d148f32a4479b0c8ec1d516a7d48b8"
+  },
+  "konditionalitaet/kond_VI_weitere_info.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "f198dd8437fa7e76a42ad378c15c41a424dace33f7d68453cf02c2cda406186b"
+  },
+  "konditionalitaet/kond_V_anlagen.pdf": {
+    "ingested": "2026-04-23",
+    "sha256": "71088cfbcab77f7546db7af3859041a72e75c98845b7fe6d4b1bfd06fd157dfb"
+  }
+}

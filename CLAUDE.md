@@ -7,9 +7,6 @@ Dieses Projekt ist ein **LLM-Wiki** für das FAKT II-Förderprogramm (Baden-Wür
 ```
 raw/                          # Rohdaten – NIEMALS verändern
   FAKT_II_Broschuere.pdf      # Original-Broschüre (47 S.)
-  fakt_broschuere_1.pdf       # Split: Allgemeine Infos (S. 1–8)
-  fakt_broschuere_2.pdf       # Split: Übersichtstabelle (S. 9–10)
-  fakt_broschuere_3.pdf       # Split: Detailbeschreibungen (S. 11–47)
   Kombinationstabelle FAKT II.xlsx  # Kombinationsmatrix
 
 downloads/                    # Archiv – Originaldateien vom MLR-Portal
@@ -150,7 +147,6 @@ Jede faktische Behauptung im Wiki muss ihre Quelle referenzieren. Format: `(Quel
 **Quellenreferenz-Konvention:**
 - **Immer Dateiname** verwenden, nie beschreibende Titel. Beispiel: `Kond_Infobroschuere_2026.pdf` statt `Informationsbroschüre Konditionalität 2026`.
 - **Kein `raw/`-Prefix.** Beispiel: `(Quelle: FAKT_G_Haeufige_Fragen.pdf, S. 1)` statt `(Quelle: raw/FAKT_G_Haeufige_Fragen.pdf, S. 1)`.
-- **Auf Originale verweisen**, nicht auf Split-PDFs. Splits sind Implementierungsdetail. Beispiel: `FAKT_II_Broschuere.pdf, S. 35` statt `fakt_broschuere_3.pdf, S. 25`.
 - **`downloads/` nie referenzieren.** Alle zitierbaren Quellen liegen in `raw/`. `downloads/` ist ein Archiv der Originaldateien vom MLR-Portal.
 
 ```markdown
@@ -183,6 +179,35 @@ Bevor eine Zahl aus dem Wiki an den User kommuniziert wird:
 - Bei Abzugsbeträgen (x/a): Gegenchecken ob die Angabe auf beiden Seiten der Kombination konsistent ist (z.B. steht auf B1.2 dasselbe wie auf D2?)
 - Wenn unsicher: `Kombinationstabelle FAKT II.xlsx` direkt auslesen statt sich auf Wiki-Text zu verlassen
 
+### Konfidenz-Signale (optional im Frontmatter)
+
+Für Seiten mit schwacher Belegkette oder ungelösten Widersprüchen:
+
+```yaml
+confidence: high | medium | low   # wie gut belegt die Aussagen sind
+contested: true                    # ungelöster Widerspruch auf der Seite
+contradictions: [D2_Oekolandbau]   # verweist auf Seiten mit Konfliktbezug
+```
+
+- `high` ist der Default und muss nicht gesetzt werden – Broschüre + Kombinationstabelle konsistent.
+- `medium` bei rekonstruierten Zahlen (z.B. x/a-Beträge aus Fußnoten abgeleitet) oder Einzelquelle.
+- `low` bei unsicheren Ableitungen oder indirekten Hinweisen.
+- Lint zieht gezielt `contested: true` und `confidence: low` Seiten für Review raus.
+
+### Provenance-Marker (für mehrquellige Seiten)
+
+Auf Seiten, die aus **3+ Quellen** synthetisieren (z.B. Konzept-Seiten zu Konditionalität, GLÖZ), kann pro Absatz ein Marker am Absatzende gesetzt werden, damit einzelne Aussagen rückverfolgbar sind ohne die `sources:`-Liste der ganzen Seite durchzugehen:
+
+```markdown
+Betriebe ab 10 ha Ackerland müssen 4% nicht-produktive Flächen ausweisen
+(GLÖZ 8). ^[Kond_Infobroschuere_2026.pdf]
+
+FAKT E7 Blühflächen können darauf angerechnet werden, sofern sie die GLÖZ-
+Anforderungen erfüllen. ^[FAKT_II_Broschuere.pdf]
+```
+
+Auf Maßnahmen-Seiten (typisch eine Hauptquelle) **nicht nötig** – die Default-Fußzeile reicht.
+
 ## Wikilinks
 
 - Format: `[[Dateiname_ohne_Extension|Anzeigename]]`
@@ -193,15 +218,16 @@ Bevor eine Zahl aus dem Wiki an den User kommuniziert wird:
 
 ### Ingest (neue Quelle verarbeiten)
 
-1. Neue Datei in `raw/` ablegen
-2. Text extrahieren: `uv run --with pdfplumber python3 scripts/extract_raw.py`
-3. **Erst besprechen, dann schreiben:** Schlüsselinformationen mit dem User diskutieren – was ist neu, was hat sich geändert, was widerspricht bestehenden Daten? Nicht blind losschreiben.
-4. Bestehende Wiki-Seiten aktualisieren oder neue erstellen
-5. Quellenangaben setzen: `(Quelle: dateiname.pdf)` bei neuen/geänderten Fakten
-6. Widersprüche zu bestehenden Daten explizit markieren (siehe Quellenangaben)
-7. Kombinations-Links prüfen und aktualisieren
-8. `wiki/index.md` aktualisieren
-9. `wiki/log.md` ergänzen (siehe Log-Format unten)
+1. Neue Datei in `raw/` ablegen (ggf. vorher splitten, siehe "Große PDFs aufbereiten")
+2. **Manifest aktualisieren:** `python3 scripts/update_manifest.py` – erfasst neue Datei mit SHA256. Bei Re-Ingest derselben Datei wird Drift gemeldet (Hash-Mismatch).
+3. Text extrahieren: `uv run --with pdfplumber python3 scripts/extract_raw.py`
+4. **Erst besprechen, dann schreiben:** Schlüsselinformationen mit dem User diskutieren – was ist neu, was hat sich geändert, was widerspricht bestehenden Daten? Nicht blind losschreiben.
+5. Bestehende Wiki-Seiten aktualisieren oder neue erstellen
+6. Quellenangaben setzen: `(Quelle: dateiname.pdf)` bei neuen/geänderten Fakten
+7. Widersprüche zu bestehenden Daten explizit markieren (siehe Quellenangaben)
+8. Kombinations-Links prüfen und aktualisieren
+9. `wiki/index.md` aktualisieren
+10. `wiki/log.md` ergänzen (siehe Log-Format unten)
 
 ### Query (Frage beantworten)
 
@@ -213,6 +239,7 @@ Bevor eine Zahl aus dem Wiki an den User kommuniziert wird:
 ### Lint (Gesundheitscheck)
 
 Periodisch prüfen:
+- **Quellen-Drift:** `python3 scripts/update_manifest.py --check` – meldet, wenn eine `raw/`-Datei geändert wurde (Hash-Mismatch)
 - Widersprüche zwischen Seiten
 - Veraltete Informationen
 - Orphan-Seiten (keine eingehenden Links)
@@ -221,6 +248,7 @@ Periodisch prüfen:
 - Fehlende Quellenangaben bei kritischen Zahlen (Fördersätze, Abzüge)
 - `<!-- TODO: Quelle prüfen -->`-Markierungen auflösen
 - Inkonsistente Kombinations-Angaben (A sagt kombinierbar mit B, aber B erwähnt A nicht)
+- `confidence: low` / `contested: true` Seiten reviewen
 
 ### Health Check (visueller PDF-Abgleich)
 
@@ -243,14 +271,15 @@ Stichprobenartige Prüfung, ob Wiki-Inhalte mit den Original-PDFs übereinstimme
 
 1. **Vorher-Snapshot erstellen:** `python3 scripts/snapshot_wiki.py > wiki_snapshot_vor_update.json`
 2. Neue PDFs/Excel in `raw/` ablegen (alte behalten, nie löschen)
-3. `scripts/extract_raw.py` ausführen (ggf. anpassen für neue Dateinamen)
-4. **Diff identifizieren:** Neuen Snapshot gegen alten vergleichen – was ist neu, was hat sich geändert, was entfällt?
-5. Wiki-Seiten aktualisieren (Fördersätze, Auflagen, neue/entfallene Maßnahmen)
-6. `scripts/update_kombinationen.py` Dicts anpassen und ausführen
-7. `scripts/update_konditionalitaet.py` Mapping anpassen und ausführen
-8. `wiki/log.md` ergänzen
-9. **Nachher-Snapshot erstellen** und als `wiki_snapshot.json` committen
-10. Commit mit aussagekräftiger Message, die die Quelle und Hauptänderungen benennt
+3. `python3 scripts/update_manifest.py` – neue Dateien erfassen, Drift an bestehenden Dateien flaggen
+4. `scripts/extract_raw.py` ausführen (ggf. anpassen für neue Dateinamen)
+5. **Diff identifizieren:** Neuen Snapshot gegen alten vergleichen – was ist neu, was hat sich geändert, was entfällt?
+6. Wiki-Seiten aktualisieren (Fördersätze, Auflagen, neue/entfallene Maßnahmen)
+7. `scripts/update_kombinationen.py` Dicts anpassen und ausführen
+8. `scripts/update_konditionalitaet.py` Mapping anpassen und ausführen
+9. `wiki/log.md` ergänzen
+10. **Nachher-Snapshot erstellen** und als `wiki_snapshot.json` committen
+11. Commit mit aussagekräftiger Message, die die Quelle und Hauptänderungen benennt
 
 ## Log-Format (`wiki/log.md`)
 
@@ -297,6 +326,32 @@ Bei PDFs mit mehr als 20 Seiten **vor der Extraktion splitten**, damit pdfplumbe
 4. **Benennung:** `{quellenprefix}_{kapitel}_{kurzname}.pdf` (z.B. `kond_II_gloez.pdf`)
 5. **Werkzeug:** `qpdf input.pdf --pages . {start}-{end} -- output.pdf`
 6. **Skript in `scripts/` ablegen** – damit der Split reproduzierbar ist.
+
+## Quellen-Manifest (`raw/manifest.json`)
+
+Damit Änderungen an Quelldateien nicht unbemerkt ins Wiki einsickern, wird für jede Datei in `raw/` ein SHA256-Hash in einem zentralen Manifest geführt. Grund: Das MLR veröffentlicht aktualisierte Versionen unter **gleichem Dateinamen** (z.B. `FAKT_II_Broschuere.pdf`) – ohne Hash-Check bleibt das unentdeckt und das Wiki zitiert dann veraltete Zahlen als aktuelle.
+
+**Format:**
+
+```json
+{
+  "FAKT_II_Broschuere.pdf": {
+    "sha256": "a3f...",
+    "ingested": "2026-04-14",
+    "source_url": "https://…/fakt_broschuere.pdf"
+  },
+  "Kond_Infobroschuere_2026.pdf": { "sha256": "…", "ingested": "…" }
+}
+```
+
+**Warum Manifest statt Frontmatter:** PDFs und Excel-Dateien können kein Frontmatter tragen. Ein zentrales JSON ist einfacher zu pflegen als Sidecar-Files.
+
+**Workflow:**
+- Bei jedem Ingest: Hash der neuen Datei berechnen und im Manifest ablegen.
+- Bei Re-Ingest derselben Datei: Hash vergleichen – bei Mismatch als Drift behandeln (Widerspruchs-Workflow, Log-Eintrag, betroffene Wiki-Seiten prüfen).
+- Lint prüft periodisch: stimmen die Hashes aller `raw/`-Dateien noch mit dem Manifest überein? Mismatches flaggen.
+
+**Skript:** `scripts/update_manifest.py` – aktualisiert Einträge und meldet Drift.
 
 ## Prinzipien
 

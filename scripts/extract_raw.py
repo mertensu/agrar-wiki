@@ -7,9 +7,7 @@ Verwendung:
     uv run --with pdfplumber --with openpyxl python3 scripts/extract_raw.py > /tmp/fakt_extracted.json
 
 Quellen:
-    raw/fakt_broschuere_1.pdf  – Allgemeine Infos, Antragstellung
-    raw/fakt_broschuere_2.pdf  – Übersichtstabelle aller Maßnahmen
-    raw/fakt_broschuere_3.pdf  – Detailbeschreibungen aller Maßnahmen
+    raw/FAKT_II_Broschuere.pdf           – Original-Broschüre (47 S.)
     raw/Kombinationstabelle FAKT II.xlsx – Kombinationsmatrix
 """
 
@@ -22,11 +20,11 @@ RAW = os.path.join(BASE, "raw")
 
 
 def extract_pdfs():
-    """Extrahiert Text aus allen drei PDFs."""
+    """Extrahiert Text aus der FAKT II-Broschüre."""
     import pdfplumber
 
     result = {}
-    for name in ["fakt_broschuere_1.pdf", "fakt_broschuere_2.pdf", "fakt_broschuere_3.pdf"]:
+    for name in ["FAKT_II_Broschuere.pdf"]:
         path = os.path.join(RAW, name)
         if not os.path.exists(path):
             print(f"WARNUNG: {path} nicht gefunden", file=sys.stderr)
