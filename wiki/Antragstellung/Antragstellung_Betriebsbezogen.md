@@ -23,6 +23,8 @@ tags:
 
 Diese Seite bündelt Antragstellung und Umsetzungshinweise für die betriebsbezogenen und landschaftspflegerischen FAKT II-Maßnahmen (Kategorien A und C).
 
+> Allgemeiner Antragsablauf, Termine und Korrekturfenster: siehe [[Antragstellung_Uebersicht]].
+
 ## A2 Silageverzicht (Heumilch)
 
 → [[A2_Silageverzicht|Maßnahmen-Seite A2]]

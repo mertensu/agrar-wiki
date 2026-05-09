@@ -24,6 +24,8 @@ tags:
 
 Diese Seite bündelt Antragstellung und Umsetzungshinweise für die Blühflächen- und Biomasse-Maßnahmen.
 
+> Allgemeiner Antragsablauf, Termine und Korrekturfenster: siehe [[Antragstellung_Uebersicht]].
+
 > Querschnittsregeln zu Saatgut (Eigenmischungs-Verbot, Besatz-Verbot mit Cuscuta/Ambrosia/Rumex u.a., Trachtwert-Sortenanforderungen, Öko-Erleichterungen): siehe [[Saatgut_Qualitaet]].
 
 ## E7 Blüh-, Brut- und Rückzugsflächen (Lebensräume für Niederwild)

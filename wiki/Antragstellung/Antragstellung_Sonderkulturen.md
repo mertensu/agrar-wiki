@@ -23,6 +23,8 @@ tags:
 
 Diese Seite bündelt Antragstellung und Umsetzungshinweise für die Sonderkultur- und biologischen Pflanzenschutz-Maßnahmen des FAKT II.
 
+> Allgemeiner Antragsablauf, Termine und Korrekturfenster: siehe [[Antragstellung_Uebersicht]].
+
 ## E4 Trichogramma bei Mais
 
 → [[E4_Trichogramma|Maßnahmen-Seite E4]]

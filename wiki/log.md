@@ -1,5 +1,42 @@
 # Wiki-Log
 
+## [2026-05-09] ingest | Antragsablauf-Übersicht aus GA-Erläuterungen Kap. 1–3 + 17
+
+**Quellen:**
+- `raw/ga_erlaeuterungen/ga_01-03_allgemeines.pdf` (9 S.)
+- `raw/ga_erlaeuterungen/ga_17-19_fristen_konditionalitaet.pdf` (8 S.) – Schwerpunkt Kap. 17
+
+**Was & Warum:**
+Im Wiki fehlte ein Einstieg auf den Antragsablauf selbst (FIONA, Termine, Korrekturfenster, Sanktions-Eckwerte). Der Service sollte Fragen wie „Wann muss ich was einreichen?" und „Bin ich aktiver Betriebsinhaber?" ohne Sprung in die GA-Erläuterungen beantworten können. Scope-Entscheidung 2026-04-14 unverändert: keine Feld-für-Feld-Hinweise, nur Beratungs-Ebene.
+
+**Änderungen mit Quellennachweis:**
+
+*Antragstellung/Antragstellung_Uebersicht.md (neu):*
+- Was ist FIONA, wozu wird es genutzt (Kap. 1.2, Kap. 2.1)
+- Termin-Tabelle 2026: 9.03. Freischaltung, 15.05. Hauptfrist, 16.–31.05. 1 %/Tag, 31.05. Ausschluss, 15.06. PHW, 30.09. sanktionsfreie Korrektur, 15.11. Mindesttätigkeit (Tabelle 1, Kap. 1.3, Kap. 17.1.3)
+- Antragsablauf 9 Schritte (ST → G → A → AA → AJ → FLV/GIS → Maßnahmen-Detail → Nachweise → Einreichen) (Kap. 2.1, 3.1–3.5)
+- Aktiver Betriebsinhaber: 4 Kriterien AA1–AA4 mit Nachweispflicht (Kap. 3.5)
+- App profil(bw) und AMS-Konzept (Kap. 1.1)
+- 2-stufiges Nachweis-Verfahren, 30.09. als Wendepunkt (Kap. 1.1, 2.1)
+- Korrekturfenster: bis 31.05. kürzungsfrei, 01.06.–30.09. sanktionsfreie Flächenkorrektur, höhere Gewalt 15-Werktage-Regel (Kap. 17.1.3.1)
+- Sanktionen Über-/Untererklärung: Flächen (≤3%/2ha, 3–20%, >20%), Tiere (≤3%/3T, 3–20%, 20–30%, >30%); Bagatelle 0,1 ha bzw. 0,02 ha bei einzelflächenbezogenen FAKT-Maßnahmen (Kap. 17.1.4.2/3)
+- Konditionalitäts-Sanktionen: 10 % / 20 % / 100 %; Ausnahme ≤10 ha LF (Kap. 18)
+- Soziale Konditionalität: 10 % / mind. 15 % (Kap. 19)
+- Verlinkung auf alle 7 themenspezifischen Antragstellung-Seiten + Bezugskonzepte
+
+*Antragstellung_Ackerbau/Bluehflaechen/Gruenland/Oekolandbau/Tierwohl/Sonderkulturen/Betriebsbezogen.md:*
+- Einleitungs-Hinweis "Allgemeiner Antragsablauf, Termine und Korrekturfenster: siehe [[Antragstellung_Uebersicht]]" ergänzt – Übersichtsseite als Eingangstür für die Themen-Checklisten
+
+**Strukturelle Änderungen:**
+- 1 neue Antragstellung-Seite
+- `wiki/index.md`: Antragstellung_Uebersicht als erster Eintrag im Antragstellung-Block
+
+**Status `project_ga_erlaeuterungen_offen`:**
+- Kap. 1–3, 4, 5.5, 7.1, 17, 18, 19 (GLÖZ): fertig
+- Offen: 6, 7.2 (AZL/LPR/UZW Detail), 8–11 (UuU/PHW/HWB), 12–16 (SchALVO/SLG/De-minimis/MGV inhaltlich, 16 teilweise abgedeckt)
+
+---
+
 ## [2026-05-09] ingest | 5 Dokumente aus downloads/formulare_2026
 
 **Quellen:**

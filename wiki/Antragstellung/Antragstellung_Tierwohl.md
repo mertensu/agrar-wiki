@@ -27,6 +27,8 @@ tags:
 
 Checkliste, häufige Fragen und Fallstricke für die G-Maßnahmen des FAKT II.
 
+> Allgemeiner Antragsablauf, Termine und Korrekturfenster: siehe [[Antragstellung_Uebersicht]].
+
 ## Häufige Fragen (FAQ)
 
 Die folgenden Fragen stammen aus dem offiziellen MLR-FAQ-Dokument und klären Praxisfragen, die bei der Umsetzung der G-Maßnahmen regelmäßig auftreten.

@@ -19,6 +19,8 @@ tags:
 
 Diese Seite bündelt Antragstellung und Umsetzungshinweise für die D2-Maßnahmen des FAKT II (Ökologischer Landbau).
 
+> Allgemeiner Antragsablauf, Termine und Korrekturfenster: siehe [[Antragstellung_Uebersicht]].
+
 ## D2 Einführung
 
 → [[D2_Oekolandbau_Einfuehrung|Maßnahmen-Seite D2 Einführung]]

@@ -27,6 +27,8 @@ tags:
 
 Diese Seite bündelt Antragstellung und Umsetzungshinweise für die ackerbaulichen FAKT II-Maßnahmen.
 
+> Allgemeiner Antragsablauf, Termine und Korrekturfenster: siehe [[Antragstellung_Uebersicht]].
+
 ## E1.2 Begrünungsmischungen
 
 → [[E1.2_Begruenungsmischungen|Maßnahmen-Seite E1.2]]

@@ -27,6 +27,8 @@ tags:
 
 Diese Seite bündelt Antragstellung und Umsetzungshinweise für die Grünland-Maßnahmen des FAKT II (Kategorie B).
 
+> Allgemeiner Antragsablauf, Termine und Korrekturfenster: siehe [[Antragstellung_Uebersicht]].
+
 ## B1.2 Extensive Grünlandbewirtschaftung
 
 → [[B1.2_Extensive_Gruenland|Maßnahmen-Seite B1.2]]
