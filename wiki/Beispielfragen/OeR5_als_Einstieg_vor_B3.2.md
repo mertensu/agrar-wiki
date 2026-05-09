@@ -1,6 +1,13 @@
 ---
 type: beispielfrage
-titel: "ÖR 5 als Einstieg vor FAKT B3.2 – Strategie und Risiken"
+titel: ÖR 5 als Einstieg vor FAKT B3.2 – Strategie und Risiken
+created: '2026-04-16'
+updated: '2026-04-16'
+tags:
+- konditionalitaet
+- oekoregelung
+- kombination
+- nachweis
 ---
 
 # ÖR 5 als Einstieg vor FAKT B3.2 – Strategie und Risiken

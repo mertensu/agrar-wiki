@@ -1,6 +1,16 @@
 ---
 type: konzept
-titel: "Flächenangaben, Schlagdefinition und Landschaftselemente"
+titel: Flächenangaben, Schlagdefinition und Landschaftselemente
+created: '2026-04-16'
+updated: '2026-04-16'
+sources:
+- GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf
+tags:
+- wasserschutz
+- biodiversitaet
+- landschaftselement
+- konditionalitaet
+- oekoregelung
 ---
 
 # Flächenangaben, Schlagdefinition und Landschaftselemente

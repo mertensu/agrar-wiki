@@ -1,6 +1,14 @@
 ---
 type: konzept
-titel: "GLÖZ 1 – Erhaltung von Dauergrünland"
+titel: GLÖZ 1 – Erhaltung von Dauergrünland
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- biodiversitaet
+- oekolandbau
+- konditionalitaet
 ---
 
 # GLÖZ 1: Erhaltung von Dauergrünland

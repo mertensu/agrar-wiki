@@ -1,6 +1,12 @@
 ---
 type: konzept
-titel: "GLÖZ 9 – Umweltsensibles Dauergrünland in Natura 2000"
+titel: GLÖZ 9 – Umweltsensibles Dauergrünland in Natura 2000
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- konditionalitaet
 ---
 
 # GLÖZ 9: Umweltsensibles Dauergrünland in Natura 2000

@@ -1,6 +1,15 @@
 ---
 type: konzept
-titel: "GLÖZ 6 – Mindestbodenbedeckung"
+titel: GLÖZ 6 – Mindestbodenbedeckung
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- bodenschutz
+- biodiversitaet
+- konditionalitaet
+- oekoregelung
 ---
 
 # GLÖZ 6: Mindestbodenbedeckung

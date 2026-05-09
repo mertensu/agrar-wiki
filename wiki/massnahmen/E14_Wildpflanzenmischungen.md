@@ -1,12 +1,22 @@
 ---
-code: "E14"
-titel: "Extensive Biomassepflanzen: Mehrjährige artenreiche Wildpflanzenmischungen"
-kategorie: "E – Umweltschonende Pflanzenerzeugung"
-foerdersatz: "500 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig (5 Jahre)"
-fakt_code: "76"
+code: E14
+titel: 'Extensive Biomassepflanzen: Mehrjährige artenreiche Wildpflanzenmischungen'
+kategorie: E – Umweltschonende Pflanzenerzeugung
+foerdersatz: 500 €/ha
+einheit: ha
+verpflichtung: mehrjährig (5 Jahre)
+fakt_code: '76'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- bodenschutz
+- landschaftselement
+- pflanzenschutz
 ---
 
 # E14: Extensive Biomassepflanzen: Mehrjährige artenreiche Wildpflanzenmischungen
@@ -79,4 +89,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Bluehflaechen|Checkliste & Praxishinweise Blühflächen]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. E / S. 28–29, Stand Oktober 2025*

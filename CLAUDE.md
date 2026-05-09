@@ -216,6 +216,18 @@ Auf Maßnahmen-Seiten (typisch eine Hauptquelle) **nicht nötig** – die Defaul
 
 ## Operationen
 
+### Session-Orientierung (vor jeder Operation)
+
+Bevor irgendetwas geschrieben, geändert oder beantwortet wird, muss der Zustand des Wikis bekannt sein. Sonst entstehen Duplikate, verpasste Rücklinks oder Widersprüche zu bereits dokumentierten Entscheidungen.
+
+Pflicht-Reihenfolge beim Session-Start:
+1. `CLAUDE.md` (dieses Dokument) – operative Workflows
+2. `wiki/SCHEMA.md` – Wiki-Verfassung (Seitentypen, Frontmatter, Tag-Taxonomie)
+3. `wiki/index.md` – welche Seiten existieren
+4. `wiki/log.md` – letzte 20–30 Einträge scannen, um jüngste Aktivität zu kennen
+
+Erst danach folgt Ingest, Query oder Lint. Bei gezielten Suchen nach Begriffen zusätzlich `Grep` über `wiki/` laufen lassen, bevor eine neue Seite angelegt wird – ein ähnlicher Begriff kann schon unter anderem Namen existieren.
+
 ### Ingest (neue Quelle verarbeiten)
 
 1. Neue Datei in `raw/` ablegen (ggf. vorher splitten, siehe "Große PDFs aufbereiten")
@@ -238,17 +250,26 @@ Auf Maßnahmen-Seiten (typisch eine Hauptquelle) **nicht nötig** – die Defaul
 
 ### Lint (Gesundheitscheck)
 
-Periodisch prüfen:
-- **Quellen-Drift:** `python3 scripts/update_manifest.py --check` – meldet, wenn eine `raw/`-Datei geändert wurde (Hash-Mismatch)
+**Vor jedem Commit verpflichtend:**
+```
+uv run --with pyyaml python3 scripts/lint_wiki.py
+```
+Prüft Broken Wikilinks, Frontmatter-Pflichtfelder, Tag-Taxonomie, `sources:`-
+Existenz in `raw/`, Page-Size > 200 Zeilen, TODO-Marker, `confidence: low` /
+`contested: true`. Exit-Code 1 bei kritischen Problemen (Broken Links,
+Frontmatter-Fehler, fehlende Quellen, unbekannte Tags) – diese **müssen** vor
+dem Commit behoben werden. Warnungen (Orphans, Größe, TODOs) sind tolerierbar,
+sollten aber begründet sein.
+
+**Periodisch zusätzlich prüfen:**
+- **Quellen-Drift:** `python3 scripts/update_manifest.py --check` – meldet, wenn eine `raw/`-Datei geändert wurde (Hash-Mismatch). Nicht im Lint enthalten, da es Hash-Berechnung über alle PDFs erfordert.
 - Widersprüche zwischen Seiten
-- Veraltete Informationen
-- Orphan-Seiten (keine eingehenden Links)
+- Veraltete Informationen (`updated:` älter als jüngste Quelle)
 - Fehlende Konzeptseiten für häufig erwähnte Begriffe
 - Kombinations-Links ohne Euro-Betrag bei x/a
 - Fehlende Quellenangaben bei kritischen Zahlen (Fördersätze, Abzüge)
 - `<!-- TODO: Quelle prüfen -->`-Markierungen auflösen
 - Inkonsistente Kombinations-Angaben (A sagt kombinierbar mit B, aber B erwähnt A nicht)
-- `confidence: low` / `contested: true` Seiten reviewen
 
 ### Health Check (visueller PDF-Abgleich)
 
@@ -280,6 +301,20 @@ Stichprobenartige Prüfung, ob Wiki-Inhalte mit den Original-PDFs übereinstimme
 9. `wiki/log.md` ergänzen
 10. **Nachher-Snapshot erstellen** und als `wiki_snapshot.json` committen
 11. Commit mit aussagekräftiger Message, die die Quelle und Hauptänderungen benennt
+
+### Archivieren (statt löschen)
+
+Wenn eine Wiki-Seite vollständig überholt ist (z.B. entfallene Maßnahme beim FAKT II → FAKT III Wechsel) oder aus dem Scope fällt, wird sie **nicht gelöscht**, sondern verschoben. Grund: Querverweise aus Log-Einträgen oder alten Commits bleiben dadurch auflösbar, und die Nachvollziehbarkeit der Wiki-Historie bleibt erhalten.
+
+Ablauf:
+1. Ordner `wiki/_archive/` anlegen, falls noch nicht vorhanden
+2. Seite unter Beibehaltung der Unterordner-Struktur verschieben (z.B. `wiki/massnahmen/X1_Alt.md` → `wiki/_archive/massnahmen/X1_Alt.md`)
+3. Im Frontmatter der archivierten Seite ergänzen: `archived: YYYY-MM-DD` und `archived_reason: "..."` (z.B. `"entfallen mit FAKT III"`)
+4. Eintrag aus `wiki/index.md` entfernen
+5. Alle Seiten, die auf die archivierte Seite verlinkt haben, finden (`Grep` auf Dateinamen) und die Wikilinks durch Plaintext + `(archiviert)` ersetzen – z.B. aus `[[X1_Alt|X1 Alte Maßnahme]]` wird `X1 Alte Maßnahme (archiviert)`
+6. `wiki/log.md` ergänzen: `## [YYYY-MM-DD] archive | X1_Alt` mit Grund
+
+`raw/`-Dateien werden nie archiviert – sie bleiben immutable am Ursprungsort, auch wenn die zugehörige Maßnahme entfallen ist. Das Archiv betrifft nur die `wiki/`-Seiten.
 
 ## Log-Format (`wiki/log.md`)
 

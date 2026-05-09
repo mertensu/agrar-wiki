@@ -1,12 +1,22 @@
 ---
-code: "B5"
-titel: "Extensive Nutzung der FFH-Lebensraumtypen Flachland- und Bergmähwiesen"
-kategorie: "B – Erhaltung und Pflege der Kulturlandschaft"
-foerdersatz: "300 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
-fakt_code: "25"
+code: B5
+titel: Extensive Nutzung der FFH-Lebensraumtypen Flachland- und Bergmähwiesen
+kategorie: B – Erhaltung und Pflege der Kulturlandschaft
+foerdersatz: 300 €/ha
+einheit: ha
+verpflichtung: mehrjährig
+fakt_code: '25'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- gruenland
+- biodiversitaet
+- pflanzenschutz
+- oekolandbau
+- konditionalitaet
 ---
 
 # B5: Extensive Nutzung der FFH-Lebensraumtypen Flachland- und Bergmähwiesen
@@ -77,4 +87,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Gruenland|Checkliste & Praxishinweise Grünland]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. B / S. 13–14, Stand Oktober 2025*

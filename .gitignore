@@ -30,3 +30,11 @@ plan_B_*.md
 
 # Persönliche Notizen
 /notizen/
+
+service/.env
+
+# Lokale Artefakte
+**/__pycache__/
+**/.Rhistory
+gist_draft.md
+Gemini_Generated_Image_*.png

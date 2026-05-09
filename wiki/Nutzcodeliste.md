@@ -1,6 +1,13 @@
 ---
 type: uebersicht
-titel: "Nutzcodeliste für FAKT II-Förderantrag 2026"
+titel: Nutzcodeliste für FAKT II-Förderantrag 2026
+created: '2026-04-14'
+updated: '2026-04-14'
+sources:
+- Nutzcodeliste für FAKT II-Förderantrag_2026.pdf
+tags:
+- biodiversitaet
+- antragstellung
 ---
 
 # Nutzcodeliste FAKT II – Förderantrag 2026

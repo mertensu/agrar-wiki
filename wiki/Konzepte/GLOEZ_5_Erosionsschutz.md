@@ -1,6 +1,14 @@
 ---
 type: konzept
-titel: "GLÖZ 5 – Mindestpraktiken Erosionsschutz"
+titel: GLÖZ 5 – Mindestpraktiken Erosionsschutz
+created: '2026-04-14'
+updated: '2026-04-15'
+tags:
+- wasserschutz
+- bodenschutz
+- oekolandbau
+- konditionalitaet
+- antragstellung
 ---
 
 # GLÖZ 5: Mindestpraktiken der Bodenbewirtschaftung zur Begrenzung von Erosion

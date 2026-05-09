@@ -1,7 +1,19 @@
 ---
 type: beispielfrage
-betrifft: ["A3"]
-frage: "Ich habe viele kleine Schläge unter 0,5 ha. Muss ich A3 für alle beantragen, oder kann ich einzelne auswählen? Zählen Hecken am Rand zur Schlaggröße?"
+titel: "A3 bei vielen kleinen Schlägen – Auswahl & Landschaftselemente"
+betrifft:
+- A3
+frage: Ich habe viele kleine Schläge unter 0,5 ha. Muss ich A3 für alle beantragen,
+  oder kann ich einzelne auswählen? Zählen Hecken am Rand zur Schlaggröße?
+created: '2026-04-16'
+updated: '2026-04-16'
+sources:
+- FAKT_II_Broschuere.pdf
+- GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf
+tags:
+- landschaftselement
+- konditionalitaet
+- antragstellung
 ---
 
 # A3: Kleine Schläge und Landschaftselemente

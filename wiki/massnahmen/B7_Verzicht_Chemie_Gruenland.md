@@ -1,11 +1,21 @@
 ---
-code: "B7"
-titel: "Verzicht auf chemisch-synthetische Produktionsmittel auf Grünland"
-kategorie: "B – Erhaltung und Pflege der Kulturlandschaft"
-foerdersatz: "80 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
+code: B7
+titel: Verzicht auf chemisch-synthetische Produktionsmittel auf Grünland
+kategorie: B – Erhaltung und Pflege der Kulturlandschaft
+foerdersatz: 80 €/ha
+einheit: ha
+verpflichtung: mehrjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- gruenland
+- biodiversitaet
+- pflanzenschutz
+- duengung
+- oekolandbau
 ---
 
 # B7: Verzicht auf chemisch-synthetische Produktionsmittel auf Grünland
@@ -73,4 +83,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Gruenland|Checkliste & Praxishinweise Grünland]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. B / S. 14–15, Stand Oktober 2025*

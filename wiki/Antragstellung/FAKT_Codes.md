@@ -1,6 +1,57 @@
 ---
 type: antragstellung
-betrifft: ["A2", "A3", "B1.2", "B3.2", "B4", "B5", "B6", "B7", "C1", "C2", "C3", "D2", "E1.2", "E3", "E4", "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12", "E13.1", "E13.2", "E14", "E15", "F3", "F4", "G1", "G2.1", "G2.2", "G3.1", "G3.2", "G3.3", "G4.1", "G4.2", "G5", "G6", "G7"]
+titel: "FAKT-Codes 2026 – Maßnahmen-zu-Code-Zuordnung"
+betrifft:
+- A2
+- A3
+- B1.2
+- B3.2
+- B4
+- B5
+- B6
+- B7
+- C1
+- C2
+- C3
+- D2
+- E1.2
+- E3
+- E4
+- E5
+- E6
+- E7
+- E8
+- E9
+- E10
+- E11
+- E12
+- E13.1
+- E13.2
+- E14
+- E15
+- F3
+- F4
+- G1
+- G2.1
+- G2.2
+- G3.1
+- G3.2
+- G3.3
+- G4.1
+- G4.2
+- G5
+- G6
+- G7
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_Codes_2026.pdf
+tags:
+- antragstellung
+- biodiversitaet
+- pflanzenschutz
+- tierwohl
+- oekolandbau
 ---
 
 # FAKT II – Maßnahmen und FAKT-Codes 2026

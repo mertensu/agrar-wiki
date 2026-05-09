@@ -1,6 +1,16 @@
 ---
 type: konzept
-titel: "GLÖZ 4 – Pufferstreifen entlang von Gewässern"
+titel: GLÖZ 4 – Pufferstreifen entlang von Gewässern
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+- Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf
+tags:
+- wasserschutz
+- biodiversitaet
+- pflanzenschutz
+- konditionalitaet
 ---
 
 # GLÖZ 4: Pufferstreifen entlang von Gewässern

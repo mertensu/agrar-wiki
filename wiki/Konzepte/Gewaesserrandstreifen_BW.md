@@ -1,6 +1,16 @@
 ---
 type: konzept
-titel: "Gewässerrandstreifen in Baden-Württemberg"
+titel: Gewässerrandstreifen in Baden-Württemberg
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf
+tags:
+- wasserschutz
+- bodenschutz
+- biodiversitaet
+- landschaftselement
+- pflanzenschutz
 ---
 
 # Gewässerrandstreifen in Baden-Württemberg

@@ -1,6 +1,10 @@
 ---
 type: kategorie
-titel: "A – Umweltbewusstes Betriebsmanagement"
+titel: A – Umweltbewusstes Betriebsmanagement
+created: '2026-04-14'
+updated: '2026-04-14'
+tags:
+- kombination
 ---
 
 # A – Umweltbewusstes Betriebsmanagement

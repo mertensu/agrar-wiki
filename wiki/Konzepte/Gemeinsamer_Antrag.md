@@ -1,6 +1,15 @@
 ---
 type: konzept
-titel: "Gemeinsamer Antrag"
+titel: Gemeinsamer Antrag
+created: '2026-04-14'
+updated: '2026-04-14'
+sources:
+- GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf
+- GA - Wichtige Hinweise zum GA 2026.pdf
+tags:
+- foerderhoehe
+- nachweis
+- antragstellung
 ---
 
 # Gemeinsamer Antrag
@@ -46,3 +55,6 @@ Mit Einführung des Flächenüberwachungssystems **AMS** werden Vor-Ort-Kontroll
 (Quelle: GA - Wichtige Hinweise zum GA 2026.pdf, S. 1)
 
 *Siehe auch: [[FAKT_II_Uebersicht]], [[Verpflichtungszeitraum]], [[Neuerungen_2026]]*
+
+---
+*Quellen: GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, Kap. 1–3 / S. 9–16 (Stand Februar 2026); GA - Wichtige Hinweise zum GA 2026.pdf, S. 1–2 (Stand 19. Februar 2026)*

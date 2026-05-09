@@ -1,0 +1,14 @@
+raw/
+downloads/
+notizen/
+.obsidian/
+.git/
+.venv/
+**/__pycache__/
+**/.pytest_cache/
+*.pyc
+*.log
+gist_draft.md
+plan_*.md
+wiki_snapshot*.json
+service/tests/

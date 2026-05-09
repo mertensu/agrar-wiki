@@ -1,11 +1,22 @@
 ---
-code: "C3"
-titel: "Erhaltung gefährdeter Nutztierrassen"
-kategorie: "C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und Tierrassen"
-foerdersatz: "Rasseabhängig (90–600 €/Tier)"
-einheit: "Tier"
-verpflichtung: "mehrjährig"
+code: C3
+titel: Erhaltung gefährdeter Nutztierrassen
+kategorie: C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und
+  Tierrassen
+foerdersatz: Rasseabhängig (90–600 €/Tier)
+einheit: Tier
+verpflichtung: mehrjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf
+tags:
+- dauerkultur
+- tierwohl
+- konditionalitaet
+- kombination
+- foerderhoehe
 ---
 
 # C3: Erhaltung gefährdeter Nutztierrassen
@@ -143,4 +154,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Betriebsbezogen|Checkliste & Praxishinweise Betriebsbezogen]]
 
 ---
-*Quellen: FAKT_II_Broschuere.pdf (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, S. 55–60 (Stand Februar 2026)*
+*Quellen: FAKT_II_Broschuere.pdf, Kap. C / S. 15–16 (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, S. 55–60 (Stand Februar 2026)*

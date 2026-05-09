@@ -1,6 +1,14 @@
 ---
 type: konzept
-titel: "GLÖZ 8 – Landschaftselemente"
+titel: GLÖZ 8 – Landschaftselemente
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- biodiversitaet
+- landschaftselement
+- konditionalitaet
 ---
 
 # GLÖZ 8: Landschaftselemente

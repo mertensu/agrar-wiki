@@ -1,6 +1,17 @@
 ---
 type: konzept
-titel: "Konditionalität"
+titel: Konditionalität
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+- Soz_Kond_Infobroschuere_2026.pdf
+tags:
+- wasserschutz
+- bodenschutz
+- biodiversitaet
+- landschaftselement
+- pflanzenschutz
 ---
 
 # Konditionalität
@@ -99,4 +110,4 @@ FAKT II-Maßnahmen bauen auf der Konditionalität auf. Die Förderung gleicht nu
 *Siehe auch: [[FAKT_II_Uebersicht]], [[Oeko-Regelungen]], [[Gemeinsamer_Antrag]]*
 
 ---
-*Quelle: Kond_Infobroschuere_2026.pdf, Stand 27.02.2026*
+*Quelle: Kond_Infobroschuere_2026.pdf, S. 1–6 (Übersicht & Neuerungen 2026), Stand 27.02.2026 — Detailseiten zu GLÖZ/GAB/Soz. Kond. siehe verlinkte Konzept-Seiten*

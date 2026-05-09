@@ -1,6 +1,11 @@
 ---
 type: kategorie
-titel: "G – Besonders tiergerechte Haltungsverfahren"
+titel: G – Besonders tiergerechte Haltungsverfahren
+created: '2026-04-14'
+updated: '2026-04-14'
+tags:
+- tierwohl
+- kombination
 ---
 
 # G – Besonders tiergerechte Haltungsverfahren

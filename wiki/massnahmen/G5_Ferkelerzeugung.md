@@ -1,11 +1,22 @@
 ---
-code: "G5"
-titel: "Tiergerechte Ferkelerzeugung – Premiumstufe"
-kategorie: "G – Besonders tiergerechte Haltungsverfahren"
-foerdersatz: "Abferkelung: 110 €/Bestandssau, Deckzentrum: 45 €/Bestandssau, Wartestall: 125 €/Bestandssau"
-einheit: "Bestandssau"
-verpflichtung: "einjährig"
+code: G5
+titel: Tiergerechte Ferkelerzeugung – Premiumstufe
+kategorie: G – Besonders tiergerechte Haltungsverfahren
+foerdersatz: 'Abferkelung: 110 €/Bestandssau, Deckzentrum: 45 €/Bestandssau, Wartestall:
+  125 €/Bestandssau'
+einheit: Bestandssau
+verpflichtung: einjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- tierhaltung
+- tierwohl
+- konditionalitaet
+- kombination
+- foerderhoehe
 ---
 
 # G5: Tiergerechte Ferkelerzeugung – Premiumstufe
@@ -52,4 +63,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Tierwohl|Checkliste & Fallstricke]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. G / S. 41–43, Stand Oktober 2025*

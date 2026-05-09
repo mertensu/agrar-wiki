@@ -1,6 +1,15 @@
 ---
 type: konzept
-titel: "GAB 5 – Lebensmittel- und Futtermittelsicherheit"
+titel: GAB 5 – Lebensmittel- und Futtermittelsicherheit
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- pflanzenschutz
+- duengung
+- konditionalitaet
+- nachweis
 ---
 
 # GAB 5 – Lebensmittel- und Futtermittelsicherheit

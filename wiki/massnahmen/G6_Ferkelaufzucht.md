@@ -1,11 +1,21 @@
 ---
-code: "G6"
-titel: "Tiergerechte Ferkelaufzucht – Premiumstufe"
-kategorie: "G – Besonders tiergerechte Haltungsverfahren"
-foerdersatz: "8 €/erzeugtes Tier"
-einheit: "Tier"
-verpflichtung: "einjährig"
+code: G6
+titel: Tiergerechte Ferkelaufzucht – Premiumstufe
+kategorie: G – Besonders tiergerechte Haltungsverfahren
+foerdersatz: 8 €/erzeugtes Tier
+einheit: Tier
+verpflichtung: einjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- tierhaltung
+- tierwohl
+- konditionalitaet
+- kombination
+- foerderhoehe
 ---
 
 # G6: Tiergerechte Ferkelaufzucht – Premiumstufe
@@ -50,4 +60,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Tierwohl|Checkliste & Fallstricke]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. G / S. 43–44, Stand Oktober 2025*

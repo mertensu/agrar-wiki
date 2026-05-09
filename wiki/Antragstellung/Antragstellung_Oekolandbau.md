@@ -1,7 +1,18 @@
 ---
 type: antragstellung
-titel: "Antragstellung Ökolandbau – Checklisten & Praxishinweise"
-betrifft: ["D2"]
+titel: Antragstellung Ökolandbau – Checklisten & Praxishinweise
+betrifft:
+- D2
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- antragstellung
+- biodiversitaet
+- pflanzenschutz
+- oekolandbau
+- oekoregelung
 ---
 
 # Antragstellung Ökolandbau – Checklisten & Praxishinweise
@@ -105,4 +116,4 @@ Folgende Maßnahmen sind grundsätzlich **nicht** mit D2 kombinierbar:
 **Logik**: Maßnahmen, deren Auflagen durch die Öko-Verordnung bereits erfüllt werden (PSM-Verzicht, Herbizidverzicht), sind nicht zusätzlich förderfähig. Bei E7/E8 kann die Maßnahme selbst beantragt werden, aber es gibt keinen D2-Zuschlag.
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. D / S. 17–19, Stand Oktober 2025*

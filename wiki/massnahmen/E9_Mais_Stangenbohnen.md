@@ -1,12 +1,22 @@
 ---
-code: "E9"
-titel: "Anbau von Mais mit Gemengepartnern (Stangenbohnen)"
-kategorie: "E – Umweltschonende Pflanzenerzeugung"
-foerdersatz: "130 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
-fakt_code: "70"
+code: E9
+titel: Anbau von Mais mit Gemengepartnern (Stangenbohnen)
+kategorie: E – Umweltschonende Pflanzenerzeugung
+foerdersatz: 130 €/ha
+einheit: ha
+verpflichtung: mehrjährig
+fakt_code: '70'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- bodenschutz
+- pflanzenschutz
+- oekolandbau
 ---
 
 # E9: Anbau von Mais mit Gemengepartnern (Stangenbohnen)
@@ -71,4 +81,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Ackerbau|Checkliste & Praxishinweise Ackerbau]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. E / S. 24–25, Stand Oktober 2025*

@@ -1,6 +1,15 @@
 ---
 type: beispielfrage
-titel: "Brache auf Ackerland: GLÖZ 8, ÖR 1a und FAKT A3"
+titel: 'Brache auf Ackerland: GLÖZ 8, ÖR 1a und FAKT A3'
+created: '2026-04-14'
+updated: '2026-04-14'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- landschaftselement
+- konditionalitaet
+- oekoregelung
+- kombination
 ---
 
 # Brache auf Ackerland: GLÖZ 8, ÖR 1a und FAKT A3

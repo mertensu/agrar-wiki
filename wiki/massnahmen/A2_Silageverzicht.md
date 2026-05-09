@@ -1,11 +1,21 @@
 ---
-code: "A2"
-titel: "Silageverzicht im gesamten Betrieb (Heumilch)"
-kategorie: "A – Umweltbewusstes Betriebsmanagement"
-foerdersatz: "80 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
+code: A2
+titel: Silageverzicht im gesamten Betrieb (Heumilch)
+kategorie: A – Umweltbewusstes Betriebsmanagement
+foerdersatz: 80 €/ha
+einheit: ha
+verpflichtung: mehrjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- pflanzenschutz
+- oekolandbau
+- konditionalitaet
 ---
 
 # A2: Silageverzicht im gesamten Betrieb (Heumilch)
@@ -75,4 +85,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Betriebsbezogen|Checkliste & Praxishinweise Betriebsbezogen]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. A / S. 11, Stand Oktober 2025*

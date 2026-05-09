@@ -1,12 +1,23 @@
 ---
-code: "E15"
-titel: "Extensive Biomassepflanzen: Streifenanbau aus mehrjährigen Biomassepflanzen und Wildpflanzenmischungen"
-kategorie: "E – Umweltschonende Pflanzenerzeugung"
-foerdersatz: "260 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
-fakt_code: "77"
+code: E15
+titel: 'Extensive Biomassepflanzen: Streifenanbau aus mehrjährigen Biomassepflanzen
+  und Wildpflanzenmischungen'
+kategorie: E – Umweltschonende Pflanzenerzeugung
+foerdersatz: 260 €/ha
+einheit: ha
+verpflichtung: mehrjährig
+fakt_code: '77'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- bodenschutz
+- landschaftselement
+- pflanzenschutz
 ---
 
 # E15: Extensive Biomassepflanzen: Streifenanbau aus mehrjährigen Biomassepflanzen und Wildpflanzenmischungen
@@ -78,4 +89,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Bluehflaechen|Checkliste & Praxishinweise Blühflächen]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. E / S. 29, Stand Oktober 2025*

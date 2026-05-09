@@ -1,7 +1,22 @@
 ---
 type: antragstellung
-titel: "Antragstellung Betriebsbezogene Maßnahmen – Checklisten & Praxishinweise"
-betrifft: ["A2", "A3", "C1", "C2", "C3"]
+titel: Antragstellung Betriebsbezogene Maßnahmen – Checklisten & Praxishinweise
+betrifft:
+- A2
+- A3
+- C1
+- C2
+- C3
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf
+tags:
+- antragstellung
+- oekolandbau
+- oekoregelung
+- kombination
+- nachweis
 ---
 
 # Antragstellung Betriebsbezogene Maßnahmen – Checklisten & Praxishinweise
@@ -123,4 +138,4 @@ C1 + B6 Messerbalkenschnitt: Nur wenn **zusätzlich** eine GL-Maßnahme (B1.2, B
 - **Ersatzpflicht**: Ausscheidende Tiere müssen zeitnah durch Zuchttiere gleicher Rasse ersetzt werden
 
 ---
-*Quellen: FAKT_II_Broschuere.pdf (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (Stand Februar 2026)*
+*Quellen: FAKT_II_Broschuere.pdf, Kap. A / S. 11 (Stand Oktober 2025); GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, Kap. 7 / S. 48–84 (Stand Februar 2026)*

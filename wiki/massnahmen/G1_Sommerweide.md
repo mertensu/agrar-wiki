@@ -1,11 +1,21 @@
 ---
-code: "G1.1/G1.2"
-titel: "Sommerweideprämie"
-kategorie: "G – Besonders tiergerechte Haltungsverfahren"
-foerdersatz: "50 €/GV"
-einheit: "GV"
-verpflichtung: "einjährig"
+code: G1.1/G1.2
+titel: Sommerweideprämie
+kategorie: G – Besonders tiergerechte Haltungsverfahren
+foerdersatz: 50 €/GV
+einheit: GV
+verpflichtung: einjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- tierhaltung
+- tierwohl
+- konditionalitaet
+- kombination
+- foerderhoehe
 ---
 
 # G1.1/G1.2: Sommerweideprämie
@@ -53,4 +63,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Tierwohl|Checkliste & Fallstricke]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. G / S. 32, Stand Oktober 2025*

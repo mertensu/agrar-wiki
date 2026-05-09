@@ -1,7 +1,22 @@
 ---
 type: beispielfrage
-titel: "Blühstreifen auf Acker anlegen – was beachten?"
-themen: [E7, E8, ÖR 1b, Blühstreifen, GLÖZ 6, GLÖZ 7, Dauergrünland]
+titel: Blühstreifen auf Acker anlegen – was beachten?
+themen:
+- E7
+- E8
+- ÖR 1b
+- Blühstreifen
+- GLÖZ 6
+- GLÖZ 7
+- Dauergrünland
+created: '2026-04-14'
+updated: '2026-04-14'
+tags:
+- wasserschutz
+- bodenschutz
+- biodiversitaet
+- landschaftselement
+- pflanzenschutz
 ---
 
 # Blühstreifen auf Acker anlegen – was beachten?

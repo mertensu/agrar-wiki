@@ -1,7 +1,26 @@
 ---
 type: antragstellung
-titel: "Antragstellung Ackerbau – Checklisten & Praxishinweise"
-betrifft: ["E1.2", "E3", "E9", "E10", "E12", "E13.1", "E13.2", "F3", "F4"]
+titel: Antragstellung Ackerbau – Checklisten & Praxishinweise
+betrifft:
+- E1.2
+- E3
+- E9
+- E10
+- E12
+- E13.1
+- E13.2
+- F3
+- F4
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf
+tags:
+- antragstellung
+- bodenschutz
+- pflanzenschutz
+- duengung
+- tierwohl
 ---
 
 # Antragstellung Ackerbau – Checklisten & Praxishinweise
@@ -230,4 +249,4 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die ackerbaulich
 (Quelle: Empfehlungen für ackerbauliche FAKT II-Maßnahmen, LTZ Augustenberg 03/2026, Kap. 8)
 
 ---
-*Quellen: FAKT_II_Broschuere.pdf; Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf*
+*Quellen: FAKT_II_Broschuere.pdf, Kap. A / S. 11, Kap. E / S. 19–29, Kap. F / S. 30–31 (Stand Oktober 2025); Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf (LTZ Augustenberg, Stand 03/2026)*

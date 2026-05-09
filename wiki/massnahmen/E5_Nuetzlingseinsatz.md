@@ -1,12 +1,22 @@
 ---
-code: "E5"
-titel: "Nützlingseinsatz im Gewächshaus oder Folientunnel"
-kategorie: "E – Umweltschonende Pflanzenerzeugung"
-foerdersatz: "2.700 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
-fakt_code: "46"
+code: E5
+titel: Nützlingseinsatz im Gewächshaus oder Folientunnel
+kategorie: E – Umweltschonende Pflanzenerzeugung
+foerdersatz: 2.700 €/ha
+einheit: ha
+verpflichtung: mehrjährig
+fakt_code: '46'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- pflanzenschutz
+- oekolandbau
+- konditionalitaet
 ---
 
 # E5: Nützlingseinsatz im Gewächshaus oder Folientunnel
@@ -64,4 +74,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Sonderkulturen|Checkliste & Praxishinweise Sonderkulturen]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. E / S. 21–22, Stand Oktober 2025*

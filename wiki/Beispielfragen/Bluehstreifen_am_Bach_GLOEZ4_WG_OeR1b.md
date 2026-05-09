@@ -1,7 +1,21 @@
 ---
 type: beispielfrage
-titel: "Blühstreifen am Bach – Zusammenspiel GLÖZ 4, § 29 WG BW und ÖR 1b"
-themen: [GLÖZ 4, Gewässerrandstreifen, ÖR 1b, Konditionalität]
+titel: Blühstreifen am Bach – Zusammenspiel GLÖZ 4, § 29 WG BW und ÖR 1b
+themen:
+- GLÖZ 4
+- Gewässerrandstreifen
+- ÖR 1b
+- Konditionalität
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Merkblatt 36_Gewässerrandstreifen in Baden-Württemberg_2024.pdf
+tags:
+- wasserschutz
+- bodenschutz
+- biodiversitaet
+- pflanzenschutz
+- konditionalitaet
 ---
 
 # Blühstreifen am Bach – Zusammenspiel GLÖZ 4, § 29 WG BW und ÖR 1b

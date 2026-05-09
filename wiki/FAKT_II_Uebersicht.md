@@ -1,6 +1,16 @@
 ---
 type: uebersicht
-titel: "FAKT II – Förderprogramm für Agrarumwelt, Klimaschutz und Tierwohl"
+titel: FAKT II – Förderprogramm für Agrarumwelt, Klimaschutz und Tierwohl
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- wasserschutz
+- bodenschutz
+- tierwohl
+- konditionalitaet
+- oekoregelung
 ---
 
 # FAKT II – Förderprogramm für Agrarumwelt, Klimaschutz und Tierwohl

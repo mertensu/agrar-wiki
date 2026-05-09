@@ -1,12 +1,22 @@
 ---
-code: "E11"
-titel: "Herbizidfreie Bewirtschaftungssysteme in Dauerkulturen"
-kategorie: "E – Umweltschonende Pflanzenerzeugung"
-foerdersatz: "300 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
-fakt_code: "72"
+code: E11
+titel: Herbizidfreie Bewirtschaftungssysteme in Dauerkulturen
+kategorie: E – Umweltschonende Pflanzenerzeugung
+foerdersatz: 300 €/ha
+einheit: ha
+verpflichtung: mehrjährig
+fakt_code: '72'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- bodenschutz
+- pflanzenschutz
+- oekolandbau
 ---
 
 # E11: Herbizidfreie Bewirtschaftungssysteme in Dauerkulturen
@@ -66,4 +76,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Sonderkulturen|Checkliste & Praxishinweise Sonderkulturen]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. E / S. 25–26, Stand Oktober 2025*

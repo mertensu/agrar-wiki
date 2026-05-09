@@ -1,6 +1,26 @@
 ---
 type: antragstellung
-betrifft: ["G1", "G2.1", "G2.2", "G3.1", "G3.2", "G3.3", "G4.1", "G4.2", "G5", "G6", "G7"]
+titel: "Antragstellung Tierwohl-Maßnahmen (G) – Checklisten & Praxishinweise"
+betrifft:
+- G1
+- G2.1
+- G2.2
+- G3.1
+- G3.2
+- G3.3
+- G4.1
+- G4.2
+- G5
+- G6
+- G7
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_G_Haeufige_Fragen.pdf
+- FAKT_II_Broschuere.pdf
+tags:
+- antragstellung
+- tierwohl
 ---
 
 # Antragstellung Tierwohl (G-Maßnahmen)
@@ -73,4 +93,4 @@ Das Einstallgewicht kann im Einzelfall bei längerer Säugezeit überschritten w
 - **Beschäftigungsmaterial G2.1:** Ein Beschäftigungsautomat ist vorgeschrieben – einfache Beschäftigungsmaterialien wie Knabberluzi allein genügen nicht
 
 ---
-*Quelle: FAKT_G_Haeufige_Fragen.pdf (MLR, Stand 21.12.2023)*
+*Quellen: FAKT_G_Haeufige_Fragen.pdf (MLR, Stand 21.12.2023, FAQ-Antworten); FAKT_II_Broschuere.pdf, Kap. G / S. 32–45 (Stand Oktober 2025, Maßnahmen-Definitionen)*

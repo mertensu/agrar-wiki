@@ -1,6 +1,12 @@
 ---
 type: kategorie
-titel: "E – Umweltschonende Pflanzenerzeugung und Anwendung biologischer/biotechnischer Maßnahmen"
+titel: E – Umweltschonende Pflanzenerzeugung und Anwendung biologischer/biotechnischer
+  Maßnahmen
+created: '2026-04-14'
+updated: '2026-04-14'
+tags:
+- biodiversitaet
+- kombination
 ---
 
 # E – Umweltschonende Pflanzenerzeugung und Anwendung biologischer/biotechnischer Maßnahmen

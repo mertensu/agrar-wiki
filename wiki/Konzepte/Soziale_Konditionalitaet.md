@@ -1,6 +1,14 @@
 ---
 type: konzept
-titel: "Soziale Konditionalität"
+titel: Soziale Konditionalität
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Soz_Kond_Infobroschuere_2026.pdf
+tags:
+- konditionalitaet
+- foerderhoehe
+- nachweis
 ---
 
 # Soziale Konditionalität

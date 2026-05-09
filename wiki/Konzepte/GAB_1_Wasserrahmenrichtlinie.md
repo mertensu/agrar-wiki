@@ -1,6 +1,16 @@
 ---
 type: konzept
-titel: "GAB 1 – Wasserrahmenrichtlinie"
+titel: GAB 1 – Wasserrahmenrichtlinie
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- wasserschutz
+- pflanzenschutz
+- duengung
+- oekolandbau
+- konditionalitaet
 ---
 
 # GAB 1 – Wasserrahmenrichtlinie (Phosphat-Düngung)

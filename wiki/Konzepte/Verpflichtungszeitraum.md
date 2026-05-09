@@ -1,6 +1,13 @@
 ---
 type: konzept
-titel: "Verpflichtungszeitraum"
+titel: Verpflichtungszeitraum
+created: '2026-04-14'
+updated: '2026-04-14'
+sources:
+- GA - Wichtige Hinweise zum GA 2026.pdf
+- GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf
+tags:
+- tierwohl
 ---
 
 # Verpflichtungszeitraum
@@ -45,3 +52,6 @@ Ausnahmen:
 (Quelle: GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, S. 50–51)
 
 *Siehe auch: [[FAKT_II_Uebersicht]], [[Neuerungen_2026]]*
+
+---
+*Quellen: GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, Kap. 7 / S. 50–51 (Stand Februar 2026); GA - Wichtige Hinweise zum GA 2026.pdf, S. 2 (Stand 19. Februar 2026)*

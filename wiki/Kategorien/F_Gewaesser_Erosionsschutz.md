@@ -1,6 +1,13 @@
 ---
 type: kategorie
-titel: "F – Freiwillige Maßnahmen zum Gewässer- und Erosionsschutz"
+titel: F – Freiwillige Maßnahmen zum Gewässer- und Erosionsschutz
+created: '2026-04-14'
+updated: '2026-04-14'
+tags:
+- wasserschutz
+- bodenschutz
+- duengung
+- kombination
 ---
 
 # F – Freiwillige Maßnahmen zum Gewässer- und Erosionsschutz

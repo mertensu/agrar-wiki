@@ -1,6 +1,16 @@
 ---
 type: konzept
-titel: "Neuerungen im Antragsjahr 2026"
+titel: Neuerungen im Antragsjahr 2026
+created: '2026-04-14'
+updated: '2026-04-14'
+sources:
+- GA - Wichtige Hinweise zum GA 2026.pdf
+tags:
+- bodenschutz
+- konditionalitaet
+- oekoregelung
+- kombination
+- nachweis
 ---
 
 # Neuerungen im Antragsjahr 2026

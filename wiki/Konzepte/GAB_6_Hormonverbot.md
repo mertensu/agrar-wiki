@@ -1,6 +1,14 @@
 ---
 type: konzept
-titel: "GAB 6 – Verbot bestimmter Stoffe in der tierischen Erzeugung"
+titel: GAB 6 – Verbot bestimmter Stoffe in der tierischen Erzeugung
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- oekolandbau
+- konditionalitaet
+- nachweis
 ---
 
 # GAB 6 – Verbot bestimmter Stoffe in der tierischen Erzeugung

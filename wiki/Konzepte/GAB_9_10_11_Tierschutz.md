@@ -1,6 +1,13 @@
 ---
 type: konzept
-titel: "GAB 9/10/11 – Tierschutz (Kälber, Schweine, Nutztiere)"
+titel: GAB 9/10/11 – Tierschutz (Kälber, Schweine, Nutztiere)
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- tierwohl
+- konditionalitaet
 ---
 
 # GAB 9/10/11 – Tierschutz

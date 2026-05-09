@@ -1,6 +1,11 @@
 ---
 type: kategorie
-titel: "D – Ökologischer Landbau"
+titel: D – Ökologischer Landbau
+created: '2026-04-14'
+updated: '2026-04-14'
+tags:
+- oekolandbau
+- kombination
 ---
 
 # D – Ökologischer Landbau

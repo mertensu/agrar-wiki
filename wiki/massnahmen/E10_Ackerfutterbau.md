@@ -1,12 +1,22 @@
 ---
-code: "E10"
-titel: "Mehrjähriger leguminosenbetonter Ackerfutterbau"
-kategorie: "E – Umweltschonende Pflanzenerzeugung"
-foerdersatz: "100 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
-fakt_code: "71"
+code: E10
+titel: Mehrjähriger leguminosenbetonter Ackerfutterbau
+kategorie: E – Umweltschonende Pflanzenerzeugung
+foerdersatz: 100 €/ha
+einheit: ha
+verpflichtung: mehrjährig
+fakt_code: '71'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- bodenschutz
+- pflanzenschutz
+- duengung
 ---
 
 # E10: Mehrjähriger leguminosenbetonter Ackerfutterbau
@@ -79,4 +89,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Ackerbau|Checkliste & Praxishinweise Ackerbau]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. E / S. 25, Stand Oktober 2025*

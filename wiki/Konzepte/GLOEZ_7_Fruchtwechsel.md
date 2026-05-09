@@ -1,6 +1,14 @@
 ---
 type: konzept
-titel: "GLÖZ 7 – Fruchtwechsel"
+titel: GLÖZ 7 – Fruchtwechsel
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- bodenschutz
+- oekolandbau
+- konditionalitaet
 ---
 
 # GLÖZ 7: Fruchtwechsel

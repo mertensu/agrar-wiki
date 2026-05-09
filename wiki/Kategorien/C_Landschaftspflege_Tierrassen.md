@@ -1,6 +1,10 @@
 ---
 type: kategorie
-titel: "C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und Tierrassen"
+titel: C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und Tierrassen
+created: '2026-04-14'
+updated: '2026-04-14'
+tags:
+- kombination
 ---
 
 # C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und Tierrassen

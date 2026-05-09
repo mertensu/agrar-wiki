@@ -1,6 +1,12 @@
 ---
 type: kategorie
-titel: "B – Erhaltung und Pflege der Kulturlandschaft und besonders geschützter Lebensräume im Grünland"
+titel: B – Erhaltung und Pflege der Kulturlandschaft und besonders geschützter Lebensräume
+  im Grünland
+created: '2026-04-14'
+updated: '2026-04-14'
+tags:
+- biodiversitaet
+- kombination
 ---
 
 # B – Erhaltung und Pflege der Kulturlandschaft und besonders geschützter Lebensräume im Grünland

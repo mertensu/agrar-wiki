@@ -1,12 +1,22 @@
 ---
-code: "E8"
-titel: "Brachebegrünung mit mehrjährigen Blühmischungen"
-kategorie: "E – Umweltschonende Pflanzenerzeugung"
-foerdersatz: "730 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig (mind. 5 Jahre)"
-fakt_code: "49"
+code: E8
+titel: Brachebegrünung mit mehrjährigen Blühmischungen
+kategorie: E – Umweltschonende Pflanzenerzeugung
+foerdersatz: 730 €/ha
+einheit: ha
+verpflichtung: mehrjährig (mind. 5 Jahre)
+fakt_code: '49'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- bodenschutz
+- landschaftselement
+- pflanzenschutz
 ---
 
 # E8: Brachebegrünung mit mehrjährigen Blühmischungen
@@ -77,4 +87,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Bluehflaechen|Checkliste & Praxishinweise Blühflächen]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. E / S. 23–24, Stand Oktober 2025*

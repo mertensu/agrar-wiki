@@ -1,6 +1,13 @@
 ---
 type: uebersicht
-titel: "Kombinationstabelle FAKT II"
+titel: Kombinationstabelle FAKT II
+created: '2026-04-14'
+updated: '2026-04-16'
+tags:
+- oekolandbau
+- oekoregelung
+- kombination
+- foerderhoehe
 ---
 
 # Kombinationstabelle FAKT II

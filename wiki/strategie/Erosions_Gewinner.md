@@ -1,6 +1,17 @@
 ---
 type: strategie
-titel: "Erosions-Gewinner: Abschüssiges Ackerland rentabel machen"
+titel: 'Erosions-Gewinner: Abschüssiges Ackerland rentabel machen'
+created: '2026-04-14'
+updated: '2026-04-23'
+sources:
+- FAKT_II_Broschuere.pdf
+- Kombinationstabelle FAKT II.xlsx
+tags:
+- wasserschutz
+- bodenschutz
+- landschaftselement
+- pflanzenschutz
+- oekolandbau
 ---
 
 # Erosions-Gewinner: Abschüssiges Ackerland rentabel machen

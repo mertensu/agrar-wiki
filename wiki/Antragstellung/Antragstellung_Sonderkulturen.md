@@ -1,7 +1,22 @@
 ---
 type: antragstellung
-titel: "Antragstellung Sonderkulturen & Biologischer Pflanzenschutz – Checklisten & Praxishinweise"
-betrifft: ["E4", "E5", "E6", "E11"]
+titel: Antragstellung Sonderkulturen & Biologischer Pflanzenschutz – Checklisten &
+  Praxishinweise
+betrifft:
+- E4
+- E5
+- E6
+- E11
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- antragstellung
+- pflanzenschutz
+- oekolandbau
+- oekoregelung
+- kombination
 ---
 
 # Antragstellung Sonderkulturen & Biologischer Pflanzenschutz – Checklisten & Praxishinweise
@@ -105,4 +120,4 @@ Beikrautregulierung im Unterstockbereich alternativ durch:
 Für E4, E5 und E6 gilt: **Kaufbelege** sind der zentrale Nachweis. Belege von Trichogramma-Kapseln, Nützlingen bzw. Pheromondispensern sorgfältig aufbewahren.
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. C / S. 15–16, Kap. E (E5/E6/E11) / S. 21–26, Stand Oktober 2025*

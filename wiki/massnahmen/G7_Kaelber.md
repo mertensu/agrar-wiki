@@ -1,11 +1,21 @@
 ---
-code: "G7"
-titel: "Tiergerechte Haltung von Kälbern"
-kategorie: "G – Besonders tiergerechte Haltungsverfahren"
-foerdersatz: "35 €/Aufzuchtkalb"
-einheit: "Tier"
-verpflichtung: "einjährig"
+code: G7
+titel: Tiergerechte Haltung von Kälbern
+kategorie: G – Besonders tiergerechte Haltungsverfahren
+foerdersatz: 35 €/Aufzuchtkalb
+einheit: Tier
+verpflichtung: einjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- tierhaltung
+- tierwohl
+- konditionalitaet
+- kombination
+- foerderhoehe
 ---
 
 # G7: Tiergerechte Haltung von Kälbern
@@ -53,4 +63,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Tierwohl|Checkliste & Fallstricke]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. G / S. 44–45, Stand Oktober 2025*

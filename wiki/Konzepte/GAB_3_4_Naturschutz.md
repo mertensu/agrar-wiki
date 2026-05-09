@@ -1,6 +1,15 @@
 ---
 type: konzept
-titel: "GAB 3/4 – Vogelschutz- und FFH-Richtlinie"
+titel: GAB 3/4 – Vogelschutz- und FFH-Richtlinie
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Kond_Infobroschuere_2026.pdf
+tags:
+- wasserschutz
+- biodiversitaet
+- pflanzenschutz
+- konditionalitaet
 ---
 
 # GAB 3/4 – Vogelschutz- und FFH-Richtlinie

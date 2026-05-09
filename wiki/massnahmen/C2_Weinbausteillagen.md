@@ -1,12 +1,21 @@
 ---
-code: "C2"
-titel: "Bewirtschaftung von Weinbausteillagen"
-kategorie: "C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und Tierrassen"
-foerdersatz: "1.000 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
-fakt_code: "30"
+code: C2
+titel: Bewirtschaftung von Weinbausteillagen
+kategorie: C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und
+  Tierrassen
+foerdersatz: 1.000 €/ha
+einheit: ha
+verpflichtung: mehrjährig
+fakt_code: '30'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+tags:
+- dauerkultur
+- bodenschutz
+- pflanzenschutz
+- oekolandbau
+- konditionalitaet
 ---
 
 # C2: Bewirtschaftung von Weinbausteillagen
@@ -63,4 +72,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Betriebsbezogen|Checkliste & Praxishinweise Betriebsbezogen]]
 
 ---
-*Quellen: FAKT_II_Broschuere.pdf (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (Stand Februar 2026)*
+*Quellen: FAKT_II_Broschuere.pdf, Kap. C / S. 15 (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (Stand Februar 2026)*

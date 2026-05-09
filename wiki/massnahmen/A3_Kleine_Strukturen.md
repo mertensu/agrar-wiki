@@ -1,11 +1,21 @@
 ---
-code: "A3"
-titel: "Förderung kleiner Strukturen"
-kategorie: "A – Umweltbewusstes Betriebsmanagement"
-foerdersatz: "70 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
+code: A3
+titel: Förderung kleiner Strukturen
+kategorie: A – Umweltbewusstes Betriebsmanagement
+foerdersatz: 70 €/ha
+einheit: ha
+verpflichtung: mehrjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-16'
+sources:
+- GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- landschaftselement
+- pflanzenschutz
+- oekolandbau
 ---
 
 # A3: Förderung kleiner Strukturen
@@ -90,4 +100,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Betriebsbezogen|Checkliste & Praxishinweise Betriebsbezogen]]
 
 ---
-*Quellen: FAKT_II_Broschuere.pdf (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, S. 52 (Stand Februar 2026)*
+*Quellen: FAKT_II_Broschuere.pdf, Kap. A / S. 11 (Stand Oktober 2025), GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, S. 52 (Stand Februar 2026)*

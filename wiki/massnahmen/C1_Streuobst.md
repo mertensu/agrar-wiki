@@ -1,11 +1,23 @@
 ---
-code: "C1"
-titel: "Bewirtschaftung von Streuobstflächen"
-kategorie: "C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und Tierrassen"
-foerdersatz: "5,00 €/Baum"
-einheit: "Baum"
-verpflichtung: "mehrjährig"
+code: C1
+titel: Bewirtschaftung von Streuobstflächen
+kategorie: C – Sicherung besonders landschaftspflegender gefährdeter Nutzungen und
+  Tierrassen
+foerdersatz: 5,00 €/Baum
+einheit: Baum
+verpflichtung: mehrjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-16'
+sources:
+- GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf
+- FAKT_II_Broschuere.pdf
+tags:
+- dauerkultur
+- biodiversitaet
+- landschaftselement
+- pflanzenschutz
+- oekolandbau
 ---
 
 # C1: Bewirtschaftung von Streuobstflächen
@@ -97,4 +109,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Betriebsbezogen|Checkliste & Praxishinweise Betriebsbezogen]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. C / S. 15, Stand Oktober 2025*

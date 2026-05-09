@@ -1,11 +1,20 @@
 ---
-code: "D2"
-titel: "Ökolandbau – Ausgleich Transaktionskosten"
-kategorie: "D – Ökologischer Landbau"
-foerdersatz: "40 €/ha, max. 600 €/Betrieb/Jahr"
-einheit: "ha"
-verpflichtung: "mehrjährig"
+code: D2
+titel: Ökolandbau – Ausgleich Transaktionskosten
+kategorie: D – Ökologischer Landbau
+foerdersatz: 40 €/ha, max. 600 €/Betrieb/Jahr
+einheit: ha
+verpflichtung: mehrjährig
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- oekolandbau
+- konditionalitaet
+- kombination
+- foerderhoehe
 ---
 
 # D2: Ökolandbau – Ausgleich Transaktionskosten
@@ -49,4 +58,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Oekolandbau|Checkliste & Praxishinweise Ökolandbau]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. D / S. 19, Stand Oktober 2025*

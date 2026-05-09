@@ -1,12 +1,22 @@
 ---
-code: "E3"
-titel: "Herbizidverzicht im Ackerbau"
-kategorie: "E – Umweltschonende Pflanzenerzeugung"
-foerdersatz: "80 €/ha"
-einheit: "ha"
-verpflichtung: "mehrjährig"
-fakt_code: "44"
+code: E3
+titel: Herbizidverzicht im Ackerbau
+kategorie: E – Umweltschonende Pflanzenerzeugung
+foerdersatz: 80 €/ha
+einheit: ha
+verpflichtung: mehrjährig
+fakt_code: '44'
 type: massnahme
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+tags:
+- ackerbau
+- biodiversitaet
+- bodenschutz
+- pflanzenschutz
+- oekolandbau
 ---
 
 # E3: Herbizidverzicht im Ackerbau
@@ -79,4 +89,4 @@ Die Maßnahme baut auf folgenden Konditionalitäts-Anforderungen auf (siehe [[Ko
 → [[Antragstellung_Ackerbau|Checkliste & Praxishinweise Ackerbau]]
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. E / S. 20–21, Stand Oktober 2025*
