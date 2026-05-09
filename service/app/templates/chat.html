@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>FAKT-II Wiki-Agent</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@500;600&display=swap">
+  <link rel="stylesheet" href="/static/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js" defer></script>
+</head>
+<body class="chat">
+  <header>
+    <h1>FAKT-II Wiki-Agent</h1>
+    <div class="meta">
+      <span>angemeldet: {{ label }}</span>
+      <form method="post" action="/logout"><button type="submit">Abmelden</button></form>
+    </div>
+  </header>
+
+  <main>
+    <form id="ask">
+      <textarea name="question" rows="3" required
+                placeholder="Frage zum FAKT-II Programm… (Enter zum Senden, Shift+Enter für Zeilenumbruch)"></textarea>
+    </form>
+    <section id="answer" aria-live="polite"></section>
+  </main>
+
+  <script>
+    const form = document.getElementById('ask');
+    const out  = document.getElementById('answer');
+    const textarea = form.elements.question;
+
+    // Enter sendet, Shift+Enter macht Zeilenumbruch.
+    textarea.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' && !event.shiftKey && !event.isComposing) {
+        event.preventDefault();
+        form.requestSubmit();
+      }
+    });
+
+    form.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      const q = textarea.value.trim();
+      if (!q) return;
+      textarea.disabled = true;
+      out.classList.add('streaming');
+      out.textContent = '';
+      out.dataset.raw = '';
+
+      try {
+        const body = new FormData();
+        body.append('question', q);
+        const resp = await fetch('/chat', { method: 'POST', body });
+        if (!resp.ok) {
+          out.textContent = `Fehler ${resp.status}: ${await resp.text()}`;
+          return;
+        }
+        const reader = resp.body.getReader();
+        const decoder = new TextDecoder();
+        let acc = '';
+        while (true) {
+          const { value, done } = await reader.read();
+          if (done) break;
+          acc += decoder.decode(value, { stream: true });
+          // Während des Streams Plain-Text rendern; nach Abschluss Markdown.
+          out.textContent = acc;
+        }
+        // Final: Markdown rendern (Quellen werden so klickbar / formatiert).
+        out.classList.remove('streaming');
+        if (window.marked) {
+          out.innerHTML = marked.parse(acc);
+        }
+      } catch (err) {
+        out.textContent = 'Netzwerkfehler: ' + err.message;
+      } finally {
+        textarea.disabled = false;
+        textarea.focus();
+      }
+    });
+  </script>
+</body>
+</html>

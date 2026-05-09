@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>FAKT-II Wiki-Agent · Login</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@500;600&display=swap">
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body class="login">
+  <main>
+    <h1>FAKT-II Wiki</h1>
+    <p>Bitte Zugangscode eingeben.</p>
+    <form method="post" action="/login">
+      <input type="password" name="code" autofocus required placeholder="Zugangscode">
+      <button type="submit">Anmelden</button>
+    </form>
+    {% if error %}<p class="error">{{ error }}</p>{% endif %}
+  </main>
+</body>
+</html>
