@@ -1,7 +1,26 @@
 ---
 type: antragstellung
-titel: "Antragstellung Grünland – Checklisten & Praxishinweise"
-betrifft: ["B1.2", "B3.2", "B4", "B5", "B6", "B7"]
+titel: Antragstellung Grünland – Checklisten & Praxishinweise
+betrifft:
+- B1.2
+- B3.2
+- B4
+- B5
+- B6
+- B7
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- FAKT_II_Broschuere.pdf
+- FAKT_B1.2_Aufzeichnung_Gruenland.pdf
+- FAKT_B3.2_Aufzeichnung_Gruenland.pdf
+- Anleitung_Einstufung_Flaechen_OeR5_FAKT.pdf
+tags:
+- antragstellung
+- biodiversitaet
+- pflanzenschutz
+- duengung
+- oekolandbau
 ---
 
 # Antragstellung Grünland – Checklisten & Praxishinweise
@@ -20,7 +39,7 @@ Diese Seite bündelt Antragstellung und Umsetzungshinweise für die Grünland-Ma
 - [ ] Kein flächiger Pflanzenschutzmitteleinsatz
 - [ ] Keine Meliorationsmaßnahmen und keine Beregnung
 - [ ] Grünlanderneuerung nur umbruchlos über Nachsaat
-- [ ] Schlagbezogene Aufzeichnungen zu Düngung und PSM auf **allen** Grünlandflächen
+- [ ] Schlagbezogene Aufzeichnungen zu Düngung und PSM auf **allen** Grünlandflächen über das **Musterformblatt B1.2** (`raw/FAKT_B1.2_Aufzeichnung_Gruenland.pdf`) – getrennt für B1.2-Schläge und übrige GL-Schläge
 - [ ] FAKT-Code: **21**
 
 ### Häufige Fehler
@@ -45,7 +64,8 @@ Bei Kombination mit [[D2_Oekolandbau_Beibehaltung|D2 Beibehaltung]] oder [[D2_Oe
 - [ ] Fläche liegt auf zulässigem Nutzungscode (siehe [[Nutzcodeliste]])
 - [ ] Keine Bodenbearbeitung außer Pflegemaßnahmen (Walzen, Schleppen)
 - [ ] Grünlanderneuerung nur umbruchlos über Nachsaat
-- [ ] Schlagbezogene Aufzeichnungen über Düngung und Schnittzeitpunkte
+- [ ] Schlagbezogene Aufzeichnungen über Düngung und Schnittzeitpunkte über das **Musterformblatt B3.2** (`raw/FAKT_B3.2_Aufzeichnung_Gruenland.pdf`)
+- [ ] Begehung Mai/Juni nach Verfahren auf [[Begehung_Kennarten]] (Diagonale, 3 Drittel, je ≥6 Kennarten); Foto-Doku per App profil (bw)
 - [ ] FAKT-Code: **23**
 
 ### Häufige Fehler
@@ -150,4 +170,4 @@ B1.2 ist mit ÖR 4 **nicht kombinierbar**. B7 ebenfalls nicht.
 LPR-Maßnahmen (Vertragsnaturschutz) können mit ÖR 4, ÖR 5 und ÖR 7 kombiniert werden. **LPR Teil A und FAKT II sind auf derselben Fläche jedoch nicht kombinierbar** (Ausnahme: G1 Sommerweideprämie). Siehe [[Oeko-Regelungen#Abgrenzung zur Landschaftspflegerichtlinie (LPR)|Abgrenzung LPR]].
 
 ---
-*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*
+*Quelle: FAKT_II_Broschuere.pdf, Kap. B / S. 11–15, Stand Oktober 2025*

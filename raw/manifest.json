@@ -1,4 +1,8 @@
 {
+  "Anleitung_Einstufung_Flaechen_OeR5_FAKT.pdf": {
+    "ingested": "2026-05-09",
+    "sha256": "10bbd4ab37061f7bce85cd4d5a94cfd803e86b86c2c184a09262c8a9a7134232"
+  },
   "Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf": {
     "ingested": "2026-04-23",
     "sha256": "4d30b7def27b2b263161397b95a535246cf420c76583c7ebca8261f8527b6ff5"
@@ -6,6 +10,14 @@
   "Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf": {
     "ingested": "2026-04-23",
     "sha256": "6b4a0c515753737acb8d592790e7930337335ddb397a9a20f374ec33e9c07d9b"
+  },
+  "FAKT_B1.2_Aufzeichnung_Gruenland.pdf": {
+    "ingested": "2026-05-09",
+    "sha256": "2511953b01417223a6c1f660888e70635a0951e1283dc56a270e8b4caf3b3f48"
+  },
+  "FAKT_B3.2_Aufzeichnung_Gruenland.pdf": {
+    "ingested": "2026-05-09",
+    "sha256": "c1d845e8677bfee519aaa5b2e8626d3aaeee0ef769e925ec86f74e00286d8830"
   },
   "FAKT_Codes_2026.pdf": {
     "ingested": "2026-04-23",
@@ -31,6 +43,10 @@
     "ingested": "2026-04-23",
     "sha256": "b8cf20cfbb0f63149a4254cf95855c9ba02995d86d12d67fd19e02f232801ce7"
   },
+  "Merkblatt_PSM_Dokumentation_2026.pdf": {
+    "ingested": "2026-05-09",
+    "sha256": "114068aabab3d7a899298b32bbd925576cc754ceb89386db9ac7302c9de0554f"
+  },
   "Merkblatt_Pflege_Bluehmischungen_E8.pdf": {
     "ingested": "2026-04-23",
     "sha256": "074d3d4267cc682290d091fa24781ba3f1e9313ca8573c9020e0828b724f9092"
@@ -38,6 +54,10 @@
   "Nutzcodeliste für FAKT II-Förderantrag_2026.pdf": {
     "ingested": "2026-04-23",
     "sha256": "dac01a127ce1a874b8e019d558b48944fd209376ad3140a585b2aa5cfbda5713"
+  },
+  "Saatgut_Qualitaetsvorgaben_FAKT_OeR1b.pdf": {
+    "ingested": "2026-05-09",
+    "sha256": "4f03abbb56ad8ad623f4f1efbef88a23f39bb2c8e8f8c1234111b878f990bf74"
   },
   "ga_erlaeuterungen/ga_01-03_allgemeines.pdf": {
     "ingested": "2026-04-23",

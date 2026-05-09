@@ -1,6 +1,16 @@
 ---
 type: konzept
-titel: "Kennarten des Artenreichen Grünlands"
+titel: Kennarten des Artenreichen Grünlands
+created: '2026-04-15'
+updated: '2026-04-15'
+sources:
+- Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf
+- Anleitung_Einstufung_Flaechen_OeR5_FAKT.pdf
+tags:
+- wasserschutz
+- biodiversitaet
+- oekoregelung
+- nachweis
 ---
 
 # Kennarten des Artenreichen Grünlands
@@ -52,7 +62,7 @@ Die folgende Liste mit 33 Kennarten bzw. Kennartengruppen gilt sowohl für [[Oek
 - In der App kann die Pflanzenerkennungs-Software **Flora Incognita** genutzt werden
 - Fotos der ULB als Nachweis vorlegen
 
-Weitere Informationen: Broschüren „Kennarten des Artenreichen Grünlands im Rahmen der Öko-Regelung 5 und FAKT II" und „Artenreiches Grünland – Anleitung zur Einstufung von Flächen".
+Konkretes Begehungsverfahren (Diagonale, 3 Drittel à beidseitig 80 cm, 3-m-Randstreifen aussparen, Termin Mitte Mai bis Mitte Juni): siehe [[Begehung_Kennarten]].
 
 ---
 *Quelle: Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf, Kap. 2*

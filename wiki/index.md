@@ -1,5 +1,13 @@
 ---
 type: index
+created: '2026-04-14'
+updated: '2026-05-09'
+tags:
+- wasserschutz
+- bodenschutz
+- biodiversitaet
+- landschaftselement
+- duengung
 ---
 
 # FAKT II Wiki – Inhaltsverzeichnis
@@ -104,6 +112,8 @@ type: index
 - [[Gemeinsamer_Antrag|Gemeinsamer Antrag]]
 - [[Flaechenangaben_Schlagdefinition|Flächenangaben, Schlagdefinition und Landschaftselemente]]
 - [[Gewaesserrandstreifen_BW|Gewässerrandstreifen in Baden-Württemberg]]
+- [[Begehung_Kennarten|Begehung und Kennarten-Nachweis (ÖR 5 / B3.2)]]
+- [[Saatgut_Qualitaet|Saatgut-Qualitätsanforderungen FAKT II]]
 
 ### GLÖZ-Standards (Konditionalität)
 
@@ -128,6 +138,6 @@ type: index
 - [[GAB_9_10_11_Tierschutz|GAB 9/10/11 – Tierschutz (Kälber, Schweine, Nutztiere)]]
 
 ---
-*Letzte Aktualisierung: 2026-04-14*
+*Letzte Aktualisierung: 2026-05-09*
 
 

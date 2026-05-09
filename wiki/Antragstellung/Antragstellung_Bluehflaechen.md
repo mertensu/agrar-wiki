@@ -1,12 +1,30 @@
 ---
 type: antragstellung
-titel: "Antragstellung Blühflächen & Biomasse – Checklisten & Praxishinweise"
-betrifft: ["E7", "E8", "E14", "E15"]
+titel: Antragstellung Blühflächen & Biomasse – Checklisten & Praxishinweise
+betrifft:
+- E7
+- E8
+- E14
+- E15
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- Merkblatt_Pflege_Bluehmischungen_E8.pdf
+- Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf
+- Saatgut_Qualitaetsvorgaben_FAKT_OeR1b.pdf
+tags:
+- antragstellung
+- wasserschutz
+- biodiversitaet
+- pflanzenschutz
+- duengung
 ---
 
 # Antragstellung Blühflächen & Biomasse – Checklisten & Praxishinweise
 
 Diese Seite bündelt Antragstellung und Umsetzungshinweise für die Blühflächen- und Biomasse-Maßnahmen.
+
+> Querschnittsregeln zu Saatgut (Eigenmischungs-Verbot, Besatz-Verbot mit Cuscuta/Ambrosia/Rumex u.a., Trachtwert-Sortenanforderungen, Öko-Erleichterungen): siehe [[Saatgut_Qualitaet]].
 
 ## E7 Blüh-, Brut- und Rückzugsflächen (Lebensräume für Niederwild)
 
@@ -181,4 +199,4 @@ Vollständige Artenlisten: Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf, Ta
 - Bei Kombination mit D2: Fördersatz sinkt auf **180 €/ha** (statt 260)
 
 ---
-*Quellen: FAKT_II_Broschuere.pdf; Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf; Merkblatt_Pflege_Bluehmischungen_E8.pdf*
+*Quellen: FAKT_II_Broschuere.pdf, Kap. E / S. 22–29 (Stand Oktober 2025); Empfehlungen_ackerbauliche_FAKT_II-Massnahmen.pdf (LTZ Augustenberg, Stand 03/2026); Merkblatt_Pflege_Bluehmischungen_E8.pdf*

@@ -1,5 +1,76 @@
 # Wiki-Log
 
+## [2026-05-09] ingest | 5 Dokumente aus downloads/formulare_2026
+
+**Quellen:**
+- `raw/FAKT_B1.2_Aufzeichnung_Gruenland.pdf` (1 S., MLR Ref. 25)
+- `raw/FAKT_B3.2_Aufzeichnung_Gruenland.pdf` (1 S., MLR Ref. 25)
+- `raw/Merkblatt_PSM_Dokumentation_2026.pdf` (4 S., LTZ Augustenberg, Stand 02/2026)
+- `raw/Anleitung_Einstufung_Flaechen_OeR5_FAKT.pdf` (8 S., MLR/LTZ)
+- `raw/Saatgut_Qualitaetsvorgaben_FAKT_OeR1b.pdf` (40 S., LTZ Augustenberg, Stand 03/2026)
+
+**Was & Warum:**
+Im Wiki fehlten konkrete Aufzeichnungs-Pflichten (Musterformblätter B1.2/B3.2), das Begehungsverfahren für Kennarten (Diagonale, 3 Drittel) und Querschnitts-Saatgutregeln (Besatz-Verbot, Trachtwert, E1.2-Übergang Samen-→Gewichtsanteil 2027). Außerdem referenzierte `GAB_7_8_Pflanzenschutz.md` eine PSM-Doku-Datei, die unter dem zitierten Namen nicht in `raw/` lag – jetzt gefixt.
+
+**Änderungen mit Quellennachweis:**
+
+*Konzepte/Begehung_Kennarten.md (neu):*
+- Begehungstermin Mitte Mai – Mitte Juni (S. 3)
+- Diagonale, 3-m-Randstreifen, 3 Drittel, beidseitig 80 cm Armweite (S. 3)
+- Mindestzahl Kennarten **je Drittel**: ÖR5=4, B3.2=6 (S. 3)
+- Teilschlagbildung entlang markanter Grenzen (Hecken, Wege, Raine) (S. 3)
+- Foto-Doku per App profil(bw) / Flora Incognita
+
+*Konzepte/Saatgut_Qualitaet.md (neu):*
+- Eigenmischungs-Verbot, Etikett-Zusätze (Kap. 2, 4, 8)
+- Besatz-Verbot: Rumex (außer R. acetosa/acetosella), Flughafer, Tauber Hafer, Ackerfuchsschwanz, Senecio, Bunias orientalis, Heracleum mantegazzianum, Cuscuta, Orobanche, Ambrosia (S. 22)
+- Regionalitäts-Tabelle: E8 verpflichtend (BW-Ursprungsgebiete 9–13, 17, 21; VWW Regiosaaten®/RegioZert®)
+- Trachtwert-Sortenvorgaben: Calendula nicht gefüllt, Centaurea cyanus ungefüllt+blau, Buchweizen nur Echter, Sonnenblume Trachtsorten (S. 23)
+- Arten außerhalb Artenverzeichnis: ≥60 % Keimfähigkeit, ≥90 % Reinheit (S. 23)
+- Öko-Erleichterungen pro Maßnahme (S. 23, Kap. 3.2/6.3/7.2)
+- E1.2-Übergang: bis 2026 Samenanteil (TKM), ab Verschlussdatum 1.1.2027 Gewichtsanteil; Gräser-Obergrenze 60 % → 40 % (S. 4–6)
+
+*GAB_7_8_Pflanzenschutz.md:*
+- Source-Referenz `Merkblatt_Pflanzenschutzdokumentation.pdf` → `Merkblatt_PSM_Dokumentation_2026.pdf` (Datei lag bisher nicht in `raw/`, Inhalte waren bereits dokumentiert)
+
+*B1.2_Extensive_Gruenland.md:*
+- Aufzeichnungspflicht-Abschnitt mit Verweis auf Musterformblatt (`FAKT_B1.2_Aufzeichnung_Gruenland.pdf`)
+- Trennung Aufzeichnungen B1.2-Schläge vs. übrige GL-Schläge des Betriebs
+- Frontmatter: `nachweis`-Tag, neue Source
+
+*B3.2_Artenreiches_Gruenland.md:*
+- Aufzeichnungspflicht-Abschnitt mit Verweis auf Musterformblatt B3.2 (Schnittzeitpunkt-Pflichtfeld)
+- Verweis auf Begehungsverfahren (Begehung_Kennarten)
+- Frontmatter: `nachweis`-Tag, neue Sources
+
+*Kennarten_Artenreiches_Gruenland.md:*
+- Verweis auf Begehung_Kennarten für konkretes Verfahren
+- Source `Anleitung_Einstufung_Flaechen_OeR5_FAKT.pdf` ergänzt
+
+*Antragstellung_Gruenland.md:*
+- B1.2-Checkliste: Musterformblatt-Verweis ergänzt
+- B3.2-Checkliste: Musterformblatt + Begehungs-Verweis ergänzt
+- Frontmatter: 3 neue Sources
+
+*Antragstellung_Bluehflaechen.md:*
+- Eingangshinweis auf Saatgut_Qualitaet.md (Querschnittsregeln)
+- Source `Saatgut_Qualitaetsvorgaben_FAKT_OeR1b.pdf` ergänzt
+
+*E1.2_Begruenungsmischungen.md:*
+- Mischungs-Kriterien-Block: 5 Arten/≥5 %, max 50 %, Gräser 60 %→40 %, Etikett-Zusatz
+- Übergang Samenanteil → Gewichtsanteil 2027
+
+*Oeko-Regelungen.md:*
+- ÖR1b: Hinweis auf bundesweite Artenlisten-Kürzung 2026 mit Verweis auf raw-PDF
+- Source `Saatgut_Qualitaetsvorgaben_FAKT_OeR1b.pdf` ergänzt
+
+**Strukturelle Änderungen:**
+- 2 neue Konzeptseiten in `wiki/Konzepte/`
+- 5 neue Dateien in `raw/` (Manifest aktualisiert)
+- `wiki/index.md`: 2 neue Konzept-Einträge
+
+---
+
 ## [2026-04-16] ingest | Flächenangaben & Schlagdefinition aus GA-Erläuterungen Kap. 4
 
 **Quelle:** `GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf`, Kap. 4.1–4.3 (S. 17–24)
@@ -423,3 +494,91 @@ Symbole (X, x/a, o, (o), kR, –) aus den Matrix-Zellen der Excel-Datei, Zeilen 
 - 1 Kombinationstabelle (Zusammenfassung)
 - 1 Index
 - Vernetzung über Wikilinks zwischen Maßnahmen, Kategorien und Konzepten
+
+## [2026-05-07] update | Schema-Migration: SCHEMA.md, Frontmatter-Felder, Lint
+
+**Was & Warum:**
+LLM-Wiki-Skill-Konventionen angeglichen: separate Schema-Datei, strukturierte Quellen, datierte Seiten, Tag-Taxonomie, automatisierter Lint. Ziel: Drift früher erkennen (stale Seiten, fehlende Quellen, Broken Wikilinks), Obsidian-Dataview-Queries ermöglichen.
+
+**Strukturelle Änderungen:**
+- `wiki/SCHEMA.md` neu — Wiki-Verfassung (Domain, Seitentypen, Frontmatter-Format, 19-Tag-Taxonomie, Page-Schwellwerte). Operative Workflows bleiben in `CLAUDE.md`.
+- `scripts/migrate_frontmatter.py` neu — einmalige Migration: ergänzt `created`, `updated`, `sources`, `tags` per Heuristik (Git-Log + Inline-/Footer-Quellen + Pfad/Code/Inhalts-Keywords).
+- `scripts/lint_wiki.py` neu — prüft Broken Wikilinks, Frontmatter-Pflichtfelder, Tag-Taxonomie, Quellen-Existenz in `raw/`, Page-Size, TODO-Marker, `confidence: low` / `contested: true`.
+
+**Frontmatter-Migration:**
+- 94 Seiten um `created` (aus Git-First-Commit), `updated` (aus Git-Last-Commit), `sources` (aus zitierten PDF/XLSX in `raw/`), `tags` (Heuristik, max. 5) ergänzt.
+- 2 Seiten skipped (kein Frontmatter): `index.md`, `log.md`.
+- 17 Seiten ohne `sources` — primär Kategorie- und Übersichtsseiten ohne primäre Quellenzuordnung. Acceptable, da sie aus den verlinkten Maßnahmen-Seiten zusammengefasst sind.
+
+**Korrekturen:**
+- `titel:` ergänzt in `Antragstellung/FAKT_Codes.md`, `Antragstellung/Antragstellung_Tierwohl.md`, `Beispielfragen/A3_Kleine_Schlaege_und_Landschaftselemente.md`.
+- Neuer `type: uebersicht` in SCHEMA.md ergänzt (für `FAKT_II_Uebersicht`, `Nutzcodeliste`, `Kombinationstabelle`).
+
+**Lint-Status nach Migration:**
+- 0 kritisch (Broken Links / Frontmatter / Quellen / Tags)
+- 2 Orphan-Beispielfragen (akzeptabel — sind szenariobezogen)
+- 5 Seiten > 200 Zeilen (Split-Kandidaten, nicht blockierend)
+- 2 vorbestehende TODO-Quellen-Prüfungen (ÖR-1a-Stufen, ÖR-1b-im-GRS)
+
+## [2026-05-07] update | Maßnahmen-Quellen mit Kapitel + Seitenzahl angereichert
+
+**Was & Warum:**
+Footer-Quelle `*Quelle: FAKT_II_Broschuere.pdf, Stand Oktober 2025*` war zu unspezifisch — die Broschüre hat 47 Seiten. Jetzt enthält jede Maßnahmen-Seite den präzisen Bereich (`Kap. E / S. 22–23`).
+
+**Quelle:** Inhaltsverzeichnis `FAKT_II_Broschuere.pdf` S. 3–4, geprüft 2026-05-07.
+
+**Änderungen:**
+- Alle 42 Maßnahmen-Seiten gepatcht (39 Standard-Footer, 3 Mehrquellen-Footer A3/C2/C3)
+- Stichprobe-Verifikation über pdfplumber-Suche: E7→p22, B5→p13, G7→p44, A3→p11, D2→p17 — passt zum Mapping
+- Mapping als hardgekodierte Konstante in `scripts/update_quellen_seiten.py` (idempotent, bei Broschüren-Update neu erzeugen)
+
+**Strukturelle Änderungen:**
+- `scripts/update_quellen_seiten.py` neu
+
+**Noch offen für nächste Iteration:**
+- Konzept-Seiten (GLÖZ/GAB): Inline-Zitate mit fehlenden Seitenzahlen identifizieren
+- Antragstellung-Seiten: Kapitel der `GA - Erlaeuterungen…` ergänzen
+- Beispielfragen: 6 Seiten ohne `sources:`-Frontmatter
+
+## [2026-05-07] update | Antragstellung-Quellen mit Kapitel + Seitenzahl angereichert
+
+**Was & Warum:**
+Antragstellung-Seiten zitierten bisher nur die Dateinamen (`FAKT_II_Broschuere.pdf`, `GA - Erlaeuterungen…`) ohne Kapitel/Seite. Bei der GA-Erläuterungen (102 Seiten) und der Broschüre (47 Seiten) zu unspezifisch. Jetzt mit thematisch passenden Bereichen.
+
+**Quellen:**
+- FAKT-Broschüre TOC S. 3–4 (Kap. A/B/C/D/E/F/G mit Seitenbereichen)
+- GA-Erläuterungen TOC S. 3–5 (Kap. 7 = FAKT II → S. 48–84)
+
+**Änderungen:**
+- `Antragstellung_Ackerbau.md`: Kap. A / S. 11, Kap. E / S. 19–29, Kap. F / S. 30–31
+- `Antragstellung_Betriebsbezogen.md`: Broschüre Kap. A / S. 11 + GA Kap. 7 / S. 48–84
+- `Antragstellung_Bluehflaechen.md`: Kap. E / S. 22–29
+- `Antragstellung_Gruenland.md`: Kap. B / S. 11–15
+- `Antragstellung_Oekolandbau.md`: Kap. D / S. 17–19
+- `Antragstellung_Sonderkulturen.md`: Kap. C / S. 15–16, Kap. E (E5/E6/E11) / S. 21–26
+- `Antragstellung_Tierwohl.md`: zusätzlich Broschüre Kap. G / S. 32–45 als Maßnahmen-Definition (FAQ bleibt primär); `sources:`-Frontmatter um `FAKT_II_Broschuere.pdf` ergänzt
+- `FAKT_Codes.md`: unverändert (eigenständige Quelldatei `FAKT_Codes_2026.pdf` ist schon spezifisch)
+
+**Lint-Status:** unverändert clean (0 kritisch).
+
+## [2026-05-07] update | Konzept-Quellen mit Kapitel + Seitenzahl angereichert / Lücken geflaggt
+
+**Was & Warum:**
+Die meisten Konzept-Seiten (GLÖZ_*, GAB_*) hatten bereits präzise Seitenzahlen. Aufgeräumt wurden die wenigen Übersichts- und Querschnittsseiten, denen Seiten/Kapitel fehlten.
+
+**Änderungen:**
+- `Konditionalitaet.md`: Footer ergänzt um `S. 1–6 (Übersicht & Neuerungen)` — Detailseiten verweisen weiterhin auf die GLÖZ/GAB-Konzept-Seiten.
+- `Oeko-Regelungen.md`: Footer bereinigt — `FAKT_II_Broschuere.pdf` entfernt (FAKT-Broschüre erwähnt ÖR nur als Querverweise pro Maßnahme, ist nicht Primärquelle), GA-Erläuterungen mit `Kap. 5 / S. 38–46` versehen.
+- `Gemeinsamer_Antrag.md`: Footer neu — `GA-Erläuterungen Kap. 1–3 / S. 9–16` plus `GA-Wichtige-Hinweise S. 1–2`.
+- `Verpflichtungszeitraum.md`: Footer neu — `GA-Erläuterungen Kap. 7 / S. 50–51` plus `GA-Wichtige-Hinweise S. 2`.
+- `RGV.md`: Verwendungs-Quellen ergänzt (FAKT-Broschüre Kap. A/B). Umrechnungsschlüssel-Tabelle mit `<!-- TODO: Quelle prüfen -->` geflaggt — keine eindeutige Belegquelle in raw/, vermutlich aus GAP-Direktzahlungs-Verordnung. `confidence: medium` gesetzt.
+- `sources:`-Frontmatter von `RGV.md` neu (FAKT_II_Broschuere.pdf).
+
+**Lint-Korrektur:**
+- `TODO_RE` in `scripts/lint_wiki.py` greift jetzt auch auf TODO-Kommentare mit Bindestrichen im Text (vorher: `[^-]*` brach bei jedem `-` ab; jetzt: `.*?` mit DOTALL).
+
+**Lint-Status nach allen Änderungen:**
+- 0 kritisch
+- 2 Orphan-Beispielfragen (unverändert, akzeptabel)
+- 5 Seiten > 200 Zeilen (Split-Kandidaten)
+- 3 TODO-Marker (zwei vorbestehend, einer neu in RGV.md mit fachlicher Begründung)

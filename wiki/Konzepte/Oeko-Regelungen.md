@@ -1,6 +1,18 @@
 ---
 type: konzept
-titel: "Öko-Regelungen (1. Säule)"
+titel: Öko-Regelungen (1. Säule)
+created: '2026-04-14'
+updated: '2026-04-15'
+sources:
+- GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf
+- Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf
+- Saatgut_Qualitaetsvorgaben_FAKT_OeR1b.pdf
+tags:
+- wasserschutz
+- biodiversitaet
+- landschaftselement
+- pflanzenschutz
+- duengung
 ---
 
 # Öko-Regelungen (1. Säule)
@@ -77,6 +89,8 @@ Blühstreifen oder -flächen auf Ackerland (ÖR 1b) bzw. in Dauerkulturen (ÖR 1
 **Einjährige Mischungen (Typ A):** mind. 10 Arten aus der Artenliste Gruppe A (ca. 40 zugelassene Arten, u. a. Buchweizen, Sonnenblume, Phacelia, Borretsch, Lein, Ringelblume, Klatschmohn, Kornblume). Ab 2026 sind einige Arten gestrichen (z. B. Acker-Schöterich).
 
 **Mehrjährige Mischungen (Typ B):** mind. 5 Arten aus Gruppe A + mind. 5 Arten aus Gruppe B (über 100 zugelassene mehrjährige Arten, u. a. Schafgarbe, Wilde Möhre, Natternkopf, Wegwarte, Margerite, Wiesen-Salbei, Esparsette, Hornklee, Lichtnelken, Malven).
+
+**2026:** Bundesweit weitere Kürzungen der Artenlisten gegenüber 2024 (Quelle: Saatgut_Qualitaetsvorgaben_FAKT_OeR1b.pdf, Kap. 9). Für die aktuelle BW-Artenliste siehe Tabelle A6 in `raw/Saatgut_Qualitaetsvorgaben_FAKT_OeR1b.pdf`.
 
 > **Achtung bei Saatgut aus anderen Bundesländern:** Dort gelten ggf. andere Artenlisten.
 
@@ -269,4 +283,4 @@ LPR-Maßnahmen (Vertragsnaturschutz) können mit ÖR 4, ÖR 5 und ÖR 7 kombinie
 *Siehe auch: [[Kombinationstabelle]], [[Konditionalitaet]]*
 
 ---
-*Quellen: FAKT_II_Broschuere.pdf; Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf; GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf (S. 38–46)*
+*Quellen: GA - Erlaeuterungen und Ausfuellhinweise 2026.pdf, Kap. 5 / S. 38–46 (Stand Februar 2026); Ergaenzende_Informationen_OeR1b_OeR1c_OeR2_OeR5.pdf (15 S., MLR 2026)*
