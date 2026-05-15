@@ -91,6 +91,16 @@ async def healthz() -> dict[str, str]:
     return {"status": "ok"}
 
 
+@app.get("/budget")
+async def budget_status(request: Request):
+    session = _current_session(request)
+    if session is None:
+        raise HTTPException(status_code=401, detail="Nicht angemeldet")
+    b = _budget(request)
+    used = await b.used(session.label)
+    return {"used": used, "cap": b._budget.cap}
+
+
 @app.get("/", response_class=HTMLResponse)
 async def index(request: Request):
     session = _current_session(request)

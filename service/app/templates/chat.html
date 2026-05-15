@@ -17,6 +17,9 @@
     <h1>FAKT-II Wiki-Agent</h1>
     <div class="meta">
       <span>angemeldet: {{ label }}</span>
+      <span class="budget" title="Verbrauchte Tokens (Lifetime). Bei Erreichen des Limits wird der Code gesperrt.">
+        {{ "{:,}".format(tokens_used).replace(",", ".") }} / {{ "{:,}".format(tokens_cap).replace(",", ".") }} Tokens
+      </span>
       <form method="post" action="/logout"><button type="submit">Abmelden</button></form>
     </div>
   </header>
@@ -26,12 +29,19 @@
       <textarea name="question" rows="3" required
                 placeholder="Frage zum FAKT-II Programm… (Enter zum Senden, Shift+Enter für Zeilenumbruch)"></textarea>
     </form>
+    <div id="status" hidden>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="label">Ich durchforste die Unterlagen, bitte noch einen Moment Geduld…</span>
+    </div>
     <section id="answer" aria-live="polite"></section>
   </main>
 
   <script>
     const form = document.getElementById('ask');
     const out  = document.getElementById('answer');
+    const status = document.getElementById('status');
     const textarea = form.elements.question;
 
     // Enter sendet, Shift+Enter macht Zeilenumbruch.
@@ -50,37 +60,59 @@
       out.classList.add('streaming');
       out.textContent = '';
       out.dataset.raw = '';
+      status.hidden = false;
 
       try {
         const body = new FormData();
         body.append('question', q);
         const resp = await fetch('/chat', { method: 'POST', body });
         if (!resp.ok) {
+          status.hidden = true;
           out.textContent = `Fehler ${resp.status}: ${await resp.text()}`;
           return;
         }
         const reader = resp.body.getReader();
         const decoder = new TextDecoder();
         let acc = '';
+        let firstChunk = true;
         while (true) {
           const { value, done } = await reader.read();
           if (done) break;
+          if (firstChunk) {
+            // Sobald das erste Token kommt, Loading-Indicator weg.
+            status.hidden = true;
+            firstChunk = false;
+          }
           acc += decoder.decode(value, { stream: true });
-          // Während des Streams Plain-Text rendern; nach Abschluss Markdown.
           out.textContent = acc;
         }
-        // Final: Markdown rendern (Quellen werden so klickbar / formatiert).
         out.classList.remove('streaming');
         if (window.marked) {
           out.innerHTML = marked.parse(acc);
         }
+        // Token-Anzeige im Header nach der Antwort neu laden.
+        refreshBudget();
       } catch (err) {
+        status.hidden = true;
         out.textContent = 'Netzwerkfehler: ' + err.message;
       } finally {
         textarea.disabled = false;
         textarea.focus();
       }
     });
+
+    async function refreshBudget() {
+      try {
+        const r = await fetch('/budget');
+        if (!r.ok) return;
+        const data = await r.json();
+        const el = document.querySelector('.meta .budget');
+        if (el) {
+          const fmt = (n) => n.toLocaleString('de-DE');
+          el.textContent = `${fmt(data.used)} / ${fmt(data.cap)} Tokens`;
+        }
+      } catch (_) { /* ignore */ }
+    }
   </script>
 </body>
 </html>
