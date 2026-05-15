@@ -26,7 +26,7 @@ from pydantic_ai.messages import ModelMessagesTypeAdapter
 
 from app.agent import WikiDeps, build_agent
 from app.auth import COOKIE_MAX_AGE, COOKIE_NAME, AuthService, auth_from_env
-from app.ratelimit import RateLimiter, limiter_from_env
+from app.ratelimit import BudgetTracker, tracker_from_env
 from app.traces import write_trace
 
 
@@ -45,7 +45,7 @@ async def lifespan(app: FastAPI):
 
     app.state.agent = build_agent(WIKI_ROOT)
     app.state.auth = auth_from_env()
-    app.state.limiter = limiter_from_env(redis_client)
+    app.state.budget = tracker_from_env(redis_client)
     app.state.redis = redis_client
 
     log.info("Agent bereit. Wiki: %s", WIKI_ROOT)
@@ -72,8 +72,8 @@ def _auth(request: Request) -> AuthService:
     return request.app.state.auth
 
 
-def _limiter(request: Request) -> RateLimiter:
-    return request.app.state.limiter
+def _budget(request: Request) -> BudgetTracker:
+    return request.app.state.budget
 
 
 def _current_session(request: Request):
@@ -96,7 +96,13 @@ async def index(request: Request):
     session = _current_session(request)
     if session is None:
         return templates.TemplateResponse(request, "login.html", {"error": None})
-    return templates.TemplateResponse(request, "chat.html", {"label": session.label})
+    used = await _budget(request).used(session.label)
+    cap = _budget(request)._budget.cap
+    return templates.TemplateResponse(
+        request,
+        "chat.html",
+        {"label": session.label, "tokens_used": used, "tokens_cap": cap},
+    )
 
 
 @app.post("/login")
@@ -138,10 +144,10 @@ async def chat(request: Request, question: str = Form(...)):
     if len(question) > 2000:
         raise HTTPException(status_code=400, detail="Frage zu lang (max 2000 Zeichen)")
 
-    allowed, reason = await _limiter(request).check_and_record(session.label)
+    budget = _budget(request)
+    allowed, reason, _used, _cap = await budget.check(session.label)
     if not allowed:
-        # 429 mit lesbarem Text, damit das Frontend ihn anzeigen kann.
-        return Response(content=reason or "Limit erreicht", status_code=429)
+        return Response(content=reason or "Token-Budget aufgebraucht", status_code=429)
 
     agent = request.app.state.agent
     deps = WikiDeps(wiki_root=WIKI_ROOT)
@@ -149,30 +155,40 @@ async def chat(request: Request, question: str = Form(...)):
     log.info("chat label=%s len=%d", session.label, len(question))
 
     async def token_stream():
-        # PydanticAI: run_stream öffnet einen Stream-Context.
-        # `stream_text(delta=True)` liefert die Tokens als Deltas, sodass wir
-        # wirklich tokenweise senden, nicht erst die ganze Antwort sammeln.
-        # Nach Stream-Ende: result.all_messages() enthält den kompletten
-        # Run inkl. aller Tool-Calls und -Results → schreiben wir als Trace.
         async with agent.run_stream(question, deps=deps) as result:
             async for delta in result.stream_text(delta=True):
                 yield delta.encode("utf-8")
-            # WICHTIG: in PydanticAI sind Messages erst NACH Stream-Ende
-            # vollständig (sonst fehlt der finale Assistant-Text). Deshalb
-            # erst hier persistieren.
             try:
                 msgs = result.all_messages()
                 msgs_json = ModelMessagesTypeAdapter.dump_json(msgs)
                 usage = {}
+                total_tokens = 0
                 try:
                     u = result.usage()
+                    req_t = getattr(u, "request_tokens", None)
+                    resp_t = getattr(u, "response_tokens", None)
+                    tot_t = getattr(u, "total_tokens", None)
                     usage = {
-                        "request_tokens": getattr(u, "request_tokens", None),
-                        "response_tokens": getattr(u, "response_tokens", None),
-                        "total_tokens": getattr(u, "total_tokens", None),
+                        "request_tokens": req_t,
+                        "response_tokens": resp_t,
+                        "total_tokens": tot_t,
                     }
+                    if tot_t:
+                        total_tokens = int(tot_t)
+                    elif req_t or resp_t:
+                        total_tokens = int(req_t or 0) + int(resp_t or 0)
                 except Exception:
-                    pass
+                    log.exception("usage() lesen fehlgeschlagen")
+
+                if total_tokens > 0:
+                    new_total = await budget.add(session.label, total_tokens)
+                    log.info(
+                        "tokens label=%s call=%d total=%d",
+                        session.label,
+                        total_tokens,
+                        new_total,
+                    )
+
                 model_name = getattr(agent.model, "model_name", str(agent.model))
                 write_trace(
                     label=session.label,
