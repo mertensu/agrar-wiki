@@ -174,7 +174,7 @@ async def chat(request: Request, question: str = Form(...)):
                 usage = {}
                 total_tokens = 0
                 try:
-                    u = result.usage()
+                    u = result.usage
                     req_t = getattr(u, "request_tokens", None)
                     resp_t = getattr(u, "response_tokens", None)
                     tot_t = getattr(u, "total_tokens", None)
