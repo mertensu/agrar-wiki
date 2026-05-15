@@ -26,6 +26,7 @@ from pydantic_ai.messages import ModelMessagesTypeAdapter
 
 from app.agent import WikiDeps, build_agent
 from app.auth import COOKIE_MAX_AGE, COOKIE_NAME, AuthService, auth_from_env
+from app.observability import setup as setup_observability
 from app.ratelimit import BudgetTracker, tracker_from_env
 from app.traces import write_trace
 
@@ -38,6 +39,7 @@ WIKI_ROOT = Path(os.environ.get("WIKI_ROOT", "/app/wiki")).resolve()
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     """Build-once-Setup für Agent + Redis + Auth."""
+    setup_observability(app)
     if not WIKI_ROOT.is_dir():
         raise RuntimeError(f"WIKI_ROOT nicht gefunden: {WIKI_ROOT}")
     redis_url = os.environ.get("REDIS_URL", "redis://localhost:6379/0")
