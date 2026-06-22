@@ -106,13 +106,16 @@ def build_agent(wiki_root: Path, model_id: str | None = None) -> Agent[WikiDeps,
     Args:
         wiki_root: Wurzelverzeichnis des Wikis.
         model_id: Optional Override des Modells. Default = ENV `MODEL_ID`
-            oder `google-gla:gemini-3-pro-preview` als Standard.
+            oder `google-gla:gemini-3.1-pro-preview` als Standard.
+            Hinweis: Gemini-Preview-Modelle werden regelmäßig abgekündigt
+            (gemini-3-pro-preview → 404 ab 03/2026). MODEL_ID per ENV pinnen
+            und bei 404 auf das aktuelle Preview/GA-Modell heben.
 
     Der Prefix `google-gla:` heißt "Google Generative Language API" – das
     ist der einfache Weg über einen API-Key aus Google AI Studio. Für
     Vertex-AI-Deployments wäre der Prefix `google-vertex:`.
     """
-    model = model_id or os.environ.get("MODEL_ID", "google-gla:gemini-3-pro-preview")
+    model = model_id or os.environ.get("MODEL_ID", "google-gla:gemini-3.1-pro-preview")
     system_prompt = build_system_prompt(wiki_root)
 
     # ---- Agent-Konstruktion -------------------------------------------------
